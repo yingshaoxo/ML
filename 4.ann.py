@@ -1,4 +1,3 @@
-import numpy as np
 from sklearn.neural_network import MLPClassifier
 
 x = [[-1, 6], [3, 34], [1, 0], [20, 9], [-5, 2],
