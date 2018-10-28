@@ -47,6 +47,7 @@ for i in range(eps):
                 Q[s_] = np.ones(env.action_space.n) * r # set Q table for the last state, in terminal(last) state, Q value equals the reward
             else:
                 r = -1 # to give negative rewards to avoid long routes
+                #Q[s_] = np.ones(env.action_space.n) * r # set Q table for the last state, in terminal(last) state, Q value equals the reward
         elif (r == 1): # got reward
             r = 100
             Q[s_] = np.ones(env.action_space.n) * r # set Q table for the last state, in terminal(last) state, Q value equals the reward
