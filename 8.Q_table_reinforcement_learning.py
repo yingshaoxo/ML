@@ -38,11 +38,12 @@ eps = 10000 #total episodes being 10000
 for i in range(eps):
     s = env.reset() # update states
     t = False
+    ii = 0
     while (True): 
         a = epsilon_greedy(Q, s, env.action_space.n)
-        s_, r, t, _ = env.step(a) # take that action, get new states, reward
+        s_, r, done, _ = env.step(a) # take that action, get new states, reward
         if (r == 0): # no reward has been got
-            if t == True:
+            if done == True:
                 r = -5 # to give negative rewards when holes turn up
                 Q[s_] = np.ones(env.action_space.n) * r # set Q table for the last state, in terminal(last) state, Q value equals the reward
             else:
@@ -51,9 +52,21 @@ for i in range(eps):
         elif (r == 1): # got reward
             r = 100
             Q[s_] = np.ones(env.action_space.n) * r # set Q table for the last state, in terminal(last) state, Q value equals the reward
+        if ii == 3:
+            print()
+            print(a)
+            print(Q[s, a])
+            print(Q[s_, a])
+        if ii == 4:
+            print()
+            print(a)
+            print(Q[s, a])
+            print(Q[s_, a])
+            exit()
+        ii += 1
         Q[s, a] = Q[s, a] + lr * (r + y*np.max(Q[s_, a]) - Q[s, a]) # use formula to change the old state according to the new state
         s = s_
-        if (t == True):  # it will run until it fall into hole, so t represent `hole`
+        if (done == True):  # it will run until it fall into hole, so t represent `hole`
             break
 
 print("Q-table")
