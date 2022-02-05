@@ -30,12 +30,12 @@ class Monitor:
 
 def process_frame(frame):
     if frame is not None:
-        # frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
-        # frame = cv2.resize(frame, (84, 84))[None, :, :] / 255.
-        # return frame
-        frame = cv2.resize(frame, (84, 84))
-        b, g, r = frame[:, :, 0], frame[:, :, 1], frame[:, :, 2]
-        return np.array([r, g, b])
+        frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
+        frame = cv2.resize(frame, (84, 84))[None, :, :] / 255.
+        return frame
+        # frame = cv2.resize(frame, (84, 84))
+        # b, g, r = frame[:, :, 0], frame[:, :, 1], frame[:, :, 2]
+        # return np.array([r, g, b])
     else:
         return np.zeros((3, 84, 84))
 
