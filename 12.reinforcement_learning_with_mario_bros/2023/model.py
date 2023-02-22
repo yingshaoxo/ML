@@ -21,56 +21,39 @@ class MarioNeuralNetwork(torch.nn.Module):
         print(self.device)
         self.device = torch.device(self.device)
 
-        self.the_action_numbers = 7
-
-        square_screen_one_side_length = 84
-
-        kernel_size_of_first_convolutional_layer = int(square_screen_one_side_length / 4 / 2)
-
-        image_input_channel_for_grayscale_image = 1
-        category_number_for_the_first_layer_output = 7 * int(square_screen_one_side_length/kernel_size_of_first_convolutional_layer) * int(square_screen_one_side_length/kernel_size_of_first_convolutional_layer)
-        # (7 categories) * (10 vertical positions) * (10 horizontal positions) 
-
-        self.two_dimension_mario_position_for_one_single_image_linear_relu_stack = torch.nn.Sequential(
-            torch.nn.Conv2d(
-                in_channels=image_input_channel_for_grayscale_image, 
-                out_channels=category_number_for_the_first_layer_output // 2, 
-                kernel_size=kernel_size_of_first_convolutional_layer
-            ),
-            torch.nn.ReLU(),
-            torch.nn.Flatten(),
-            # for grb image, the input channel is 3, for greyscale, the input channel is 1
-            # output_channel here: how many final neural nodes you want to output, in other words, how many numbers you want to get from the input; or you can think it as how many categories you want to learn from the input
-            torch.nn.Linear(5625, 960),
-            torch.nn.ReLU(),
-            torch.nn.Linear(960, 512),
-            torch.nn.ReLU(),
-            torch.nn.Linear(512, 128),
-            torch.nn.ReLU(),
-        )
+        self.the_action_numbers = 3
 
         self.output_layer = torch.nn.Sequential(
-            torch.nn.Linear(28674, 512),
+            torch.nn.Linear(513, 360),
+            torch.nn.Tanh(),
+            torch.nn.Dropout(0.2),
+            torch.nn.Linear(360, 128),
+            torch.nn.Tanh(),
+            torch.nn.Dropout(0.2),
+            torch.nn.Linear(128, 128),
+            torch.nn.Tanh(),
+            torch.nn.Dropout(0.2),
+            torch.nn.Linear(128, 128),
+            torch.nn.Tanh(),
+            torch.nn.Dropout(0.2),
+            torch.nn.Linear(128, 128),
             torch.nn.ReLU(),
-            torch.nn.Linear(512, 128),
-            torch.nn.ReLU(),
-            torch.nn.Linear(128, 64),
-            torch.nn.ReLU(),
-            torch.nn.Linear(64, self.the_action_numbers),
+            torch.nn.Linear(128, self.the_action_numbers),
             torch.nn.LogSoftmax(dim=0)
         )
 
-    def forward(self, picture, speed, game_level):
-        graph_data = self.two_dimension_mario_position_for_one_single_image_linear_relu_stack(picture.to(self.device))
-        graph_data = graph_data.reshape(-1)
+    def forward(self, picture, game_level):
+        #graph_data = self.two_dimension_mario_position_for_one_single_image_linear_relu_stack(picture.to(self.device))
+        #graph_data = graph_data.reshape(-1)
         # graph_data = self.flatten_layer(graph_data) # not work compared to keras, maybe it's not flatten function
+        graph_data = picture.to(self.device)
 
         # you'll need to add speed(positive means go right, negative means go left), and position to the next layer, so it can produce the final predicted action
         # for this game, you should also input the level number (1 to 8)
-        speed = torch.tensor([speed]).to(self.device)
+        # x_position = torch.tensor([x_position]).to(self.device)
         game_level = torch.tensor([game_level]).to(self.device)
 
-        merge_array = torch.cat((graph_data, speed, game_level), 0)
+        merge_array = torch.cat((graph_data, game_level), 0)
         # merge_array = self.combined_features(merge_array)
 
         data_for_output = self.output_layer(merge_array)
