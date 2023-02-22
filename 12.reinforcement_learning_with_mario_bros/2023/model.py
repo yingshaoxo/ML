@@ -34,32 +34,29 @@ class MarioNeuralNetwork(torch.nn.Module):
         self.two_dimension_mario_position_for_one_single_image_linear_relu_stack = torch.nn.Sequential(
             torch.nn.Conv2d(
                 in_channels=image_input_channel_for_grayscale_image, 
-                out_channels=category_number_for_the_first_layer_output, 
+                out_channels=category_number_for_the_first_layer_output // 2, 
                 kernel_size=kernel_size_of_first_convolutional_layer
             ),
             torch.nn.ReLU(),
+            torch.nn.Flatten(),
             # for grb image, the input channel is 3, for greyscale, the input channel is 1
             # output_channel here: how many final neural nodes you want to output, in other words, how many numbers you want to get from the input; or you can think it as how many categories you want to learn from the input
-            torch.nn.Flatten(),
-            torch.nn.Linear(5625, 540),
+            torch.nn.Linear(5625, 960),
             torch.nn.ReLU(),
-            torch.nn.Linear(540, 32),
+            torch.nn.Linear(960, 512),
+            torch.nn.ReLU(),
+            torch.nn.Linear(512, 128),
             torch.nn.ReLU(),
         )
 
-        # you'll need to add speed(positive means go right, negative means go left), and position to the next layer, so it can produce the final predicted action
-        # for this game, you should also input the level number (1 to 8)
-        # self.combined_features = torch.nn.Sequential(
-        #     # change this input nodes
-        #     torch.nn.Linear(3048, 512),
-        #     torch.nn.ReLU(),
-        #     torch.nn.Linear(512, 32),
-        #     torch.nn.ReLU(),
-        #     torch.nn.Linear(32,1))
-
         self.output_layer = torch.nn.Sequential(
-            torch.nn.Linear(14338, 100),
-            torch.nn.Linear(100, self.the_action_numbers),
+            torch.nn.Linear(28674, 512),
+            torch.nn.ReLU(),
+            torch.nn.Linear(512, 128),
+            torch.nn.ReLU(),
+            torch.nn.Linear(128, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, self.the_action_numbers),
             torch.nn.LogSoftmax(dim=0)
         )
 
@@ -68,6 +65,8 @@ class MarioNeuralNetwork(torch.nn.Module):
         graph_data = graph_data.reshape(-1)
         # graph_data = self.flatten_layer(graph_data) # not work compared to keras, maybe it's not flatten function
 
+        # you'll need to add speed(positive means go right, negative means go left), and position to the next layer, so it can produce the final predicted action
+        # for this game, you should also input the level number (1 to 8)
         speed = torch.tensor([speed]).to(self.device)
         game_level = torch.tensor([game_level]).to(self.device)
 
@@ -81,7 +80,6 @@ class MarioNeuralNetwork(torch.nn.Module):
 class Trainer():
     def __init__(self):
         from sys import platform
-        import os
 
         self.mario_model = MarioNeuralNetwork()
         self.criterion = torch.nn.CrossEntropyLoss()

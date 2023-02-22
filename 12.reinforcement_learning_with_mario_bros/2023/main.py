@@ -1,5 +1,6 @@
 from datetime import datetime
 import cv2
+import time
 
 from nes_py.wrappers import JoypadSpace
 import gym_super_mario_bros
@@ -12,8 +13,11 @@ from random import randint
 import numpy as np
 import torch
 
+from collections import deque
 from model import Trainer
 
+def get_broken_timestamp():
+    return str(time.time()).split(".")[1]
 
 def image_process(frame):
     if frame is not None:
@@ -40,6 +44,9 @@ def image_process(frame):
 
 trainer = Trainer()
 epoch_index = 0
+max_experience_length = 300 #slowly go up
+experience_list = deque(maxlen=max_experience_length)
+minimum_speed = 2
 
 
 """
@@ -57,19 +64,47 @@ last_y_position = 0
 
 last_observe_data_as_input = None
 
+the_farest_x_position = 0 #slowly go down
+
 jump_height = 0
 speed = 0
+
+stay_in_same_position_count = 0
 while 1:
-    for step in range(100000):
+    for step_count in range(10000):
         if done:
             state = env.reset()
+            # experience_list.clear()
             done = False
 
-        if last_observe_data_as_input != None and last_observe_data_as_input[0] != None and randint(0, 10) != 0:
-            action = trainer.predict(last_observe_data_as_input)
-        else:
+            last_state = None
+            # last_time = datetime.now()
+            last_x_position = 0
+            last_y_position = 0
+            last_observe_data_as_input = None
+
+            # print(the_farest_x_position)
+            the_farest_x_position *= 0.9
+            if the_farest_x_position < 0:
+                the_farest_x_position = 0
+        
+        # if last_observe_data_as_input != None and last_observe_data_as_input[0] != None:
+        #     action = trainer.predict(last_observe_data_as_input)
+        # else:
+        #     action = env.action_space.sample() # this is an integer between [1, 7]
+        #     # print(len(SIMPLE_MOVEMENT))
+
+        is_random_action = True
+        if len(experience_list) < max_experience_length or speed < minimum_speed:
             action = env.action_space.sample() # this is an integer between [1, 7]
             # print(len(SIMPLE_MOVEMENT))
+        else:
+            if last_observe_data_as_input != None and last_observe_data_as_input[0] != None:
+                action = trainer.predict(last_observe_data_as_input)
+                print(f"                                , go by prediction")
+                is_random_action = False
+            else:
+                action = env.action_space.sample() # this is an integer between [1, 7]
 
         state, reward, terminated, truncated, info = env.step(action) # type: ignore
         state, state_for_pytorch = image_process(state)
@@ -79,15 +114,24 @@ while 1:
         y_position = info.get("y_pos")
         y_position = 0 if y_position == None else int(y_position)
         game_level = info.get("world")
+        if (game_level == 2):
+            exit()
 
         now = datetime.now()
         time_difference_in_milliseconds = (now - last_time).microseconds / 1000
-        if time_difference_in_milliseconds >= 500:
+        if time_difference_in_milliseconds >= 100:
             x_position_distance = x_position - last_x_position  
             speed = x_position_distance
 
             y_position_distance = y_position - last_y_position 
             jump_height = y_position_distance
+
+            if speed == 0:
+                stay_in_same_position_count += 1
+                second_has_passed = stay_in_same_position_count // 10
+                if second_has_passed >= 3:
+                    stay_in_same_position_count = 0
+                    done = True
 
             last_time = now
 
@@ -97,10 +141,25 @@ while 1:
         last_y_position = y_position
         # print(f"reward: {reward}; info: {info}")
 
-        if reward > 0:
-            trainer.train(data=last_observe_data_as_input, target_data=action)
-        if speed > 0 and jump_height > 0:
-            trainer.train(data=last_observe_data_as_input, target_data=action)
+        # if reward > 0:
+        #     trainer.train(data=last_observe_data_as_input, target_data=action)
+        # if (speed > 0 and jump_height > 0):
+        #     trainer.train(data=last_observe_data_as_input, target_data=action)
+        # print(len(experience_list))
+        # print(speed, jump_height)
+
+        experience_list.append((last_observe_data_as_input, action)) # type: ignore
+        if speed >= minimum_speed:
+            if x_position > the_farest_x_position:
+                the_farest_x_position = x_position
+                if len(experience_list) == max_experience_length:
+                    print(f"learn from data where ai still alive, {get_broken_timestamp()}")
+                    one_item = experience_list.popleft()
+                    trainer.train(data=one_item[0], target_data=one_item[1])
+            else:
+                if len(experience_list) < max_experience_length:
+                    print(f"learn after fail, {get_broken_timestamp()}")
+                    trainer.train(data=last_observe_data_as_input, target_data=action)
 
         env.render()
         cv2.imshow('graycsale mario', state)
