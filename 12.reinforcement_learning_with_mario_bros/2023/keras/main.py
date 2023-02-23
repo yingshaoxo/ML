@@ -36,7 +36,7 @@ def make_sure_a_number_is_in_a_range(number, range):
 
 
 class Trainer:
-    image_one_side_length = 225
+    image_one_side_length = 224
 
     # env = gym_super_mario_bros.make("SuperMarioBros-v2", apply_api_compatibility=True, render_mode="rgb_array") #just the data
     env = gym_super_mario_bros.make("SuperMarioBros-v2", apply_api_compatibility=True, render_mode="human") #include the graph
@@ -108,17 +108,16 @@ class Trainer:
         return tensorflow.reshape(tf_tensor, [1, -1])
 
     def image_process(self, frame: numpy.ndarray):
-        side_length = 225
         if frame is not None:
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            frame = cv2.resize(frame, (side_length, side_length)).astype(numpy.uint8)
+            width, height = frame.shape[1], frame.shape[0]
+            frame = frame[40:height, 0:width]
+            frame = cv2.resize(frame, (self.image_one_side_length, self.image_one_side_length)).astype(numpy.uint8)
         else:
-            frame = numpy.zeros((3, side_length, side_length)) #may it is not a good idea to put 0 here, may cause other weights get into 0 quickly
+            frame = numpy.zeros((3, self.image_one_side_length, self.image_one_side_length)) #may it is not a good idea to put 0 here, may cause other weights get into 0 quickly
         
-        width, height = frame.shape[1], frame.shape[0]
-        frame = frame[40:height, 0:width]
-        
-        return self.get_image_vector(frame)
+        # return self.get_image_vector(frame)
+        return frame
     
     def get_mario_model(self):
         # handle image part
@@ -126,9 +125,15 @@ class Trainer:
         # x = keras.layers.Conv2D(32, 3, strides=(2,2), padding="same", activation="relu")(image_input)
         # x = keras.layers.Conv2D(32, 3, strides=(2,2), padding="same", activation="relu")(x)
         # x = keras.layers.Flatten()(x)
-        action_image_input = keras.Input(shape=(1280), name="action_image_input")
-        x = keras.layers.Dense(64, activation='relu')(action_image_input)
-        # x = keras.layers.Dense(512, activation="relu")(x)
+
+        action_image_input = keras.Input(shape=(self.image_one_side_length, self.image_one_side_length, 3), name="action_image_input")
+        # action_image_input = keras.Input(shape=(1280), name="action_image_input")
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(action_image_input)
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(x)
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(x)
+        x = keras.layers.Dense(32, activation='relu')(x)
+        x = keras.layers.Flatten()(x)
+        x = keras.layers.Dense(32, activation='relu')(x)
         action_image_output = keras.layers.Dense(64, activation='relu')(x)
 
         history_action_input = keras.Input(shape=(self.history_action_length), name="history_action")
@@ -142,16 +147,19 @@ class Trainer:
         x = keras.layers.Dense(32, activation="relu")(x)
         action_output = keras.layers.Dense(self.the_action_numbers, activation="relu", name="action_output")(x)
 
-        steps_image_input = keras.Input(shape=(1280), name="steps_image_input")
-        x = keras.layers.Dense(32, activation='relu')(action_image_input)
+        steps_image_input = keras.Input(shape=(self.image_one_side_length, self.image_one_side_length, 3), name="steps_image_input")
+        #steps_image_input = keras.Input(shape=(1280), name="steps_image_input")
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(steps_image_input)
+        x = keras.layers.Dense(32, activation='relu')(x)
         x = keras.layers.Dense(32, activation="relu")(x)
+        x = keras.layers.Flatten()(x)
         steps_image_output = keras.layers.Dense(16, activation='relu')(x)
 
         # handle the prediction of `how many steps for one action` part
         x = keras.layers.concatenate([steps_image_output, history_action_output, action_output])
         x = keras.layers.Dense(128, activation="relu")(x)
         x = keras.layers.Dense(64, activation="relu")(x)
-        step_output = keras.layers.Dense(1, activation="relu", name="steps_output")(x)
+        steps_output = keras.layers.Dense(1, activation="relu", name="steps_output")(x)
 
         # # handle the prediction of `how many reward we'll get` part
         # x = keras.layers.concatenate([image_output, action_output, step_output])
@@ -159,7 +167,7 @@ class Trainer:
         # x = keras.layers.Dense(64, activation="relu")(x)
         # reward_output = keras.layers.Dense(1, activation="relu", name="reward_output")(x)
 
-        model = keras.Model([action_image_input, steps_image_input, history_action_input], [action_output, step_output], name="yingshaoxo_and_mario")
+        model = keras.Model([action_image_input, steps_image_input, history_action_input], [action_output, steps_output], name="yingshaoxo_and_mario")
         #print(model.summary())
 
         model.compile(
@@ -283,8 +291,8 @@ class Trainer:
 
                 result = self.mario_model.predict(
                             {
-                                "action_image_input": self.last_state, 
-                                "steps_image_input": self.last_state, 
+                                "action_image_input": tensorflow.expand_dims(self.last_state, axis=0), 
+                                "steps_image_input": tensorflow.expand_dims(self.last_state, axis=0), 
                                 "history_action":  tensorflow.convert_to_tensor([self.action_history], dtype=tensorflow.float32)
                             }
                         )
@@ -307,8 +315,8 @@ class Trainer:
             # add data to database
             if self.it_is_not_none(self.last_state):
                 the_x = {
-                        "action_image_input": self.last_state, 
-                        "steps_image_input": self.last_state, 
+                        "action_image_input": tensorflow.expand_dims(self.last_state, axis=0), 
+                        "steps_image_input": tensorflow.expand_dims(self.last_state, axis=0), 
                         "history_action": tensorflow.convert_to_tensor([self.action_history], dtype=tensorflow.float32) 
                     } 
                 the_y = {
