@@ -1,0 +1,7 @@
+gym-super-mario-bros
+torch
+torchvision
+torchaudio
+numpy
+Pillow
+opencv-python

@@ -1,4 +1,0 @@
-torch
-torchvision
-torchaudio
-gym-super-mario-bros
