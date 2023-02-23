@@ -3,6 +3,7 @@
 
 from collections import deque
 from datetime import datetime
+from operator import mod
 import time
 import random
 
@@ -41,14 +42,14 @@ class Trainer:
     env = gym_super_mario_bros.make("SuperMarioBros-v2", apply_api_compatibility=True, render_mode="human") #include the graph
     MY_MARIO_MOVEMENT = [
         ['NOOP'],
-        ['right', 'B'],
-        ['A'],
-        ['left'],
+        ['A', 'right', 'B'],
+        # ['B', 'left', 'A'],
     ]
     the_action_numbers = len(MY_MARIO_MOVEMENT)
     # actions_by_using_matrix_representation = numpy.identity(the_action_numbers) # for quickly get a hot vector, like 0001000000000000
 
     mario_model = None
+    action_score_model = None
 
     mobilenet_v3_small_image_model =  tensorflow_hub.KerasLayer("https://tfhub.dev/google/imagenet/mobilenet_v2_075_224/feature_vector/5", trainable=False)
 
@@ -58,8 +59,8 @@ class Trainer:
     steps_range = (10, 70)
 
     last_state = None
-    last_reward = 0
     last_life = 2
+    reward_sum_before_dying = 0
 
     x_diff = 0
 
@@ -72,6 +73,7 @@ class Trainer:
 
     def __init__(self) -> None:
         self.mario_model = self.get_mario_model()
+        self.action_score_model = self.get_action_score_model()
     
     def numpy_to_tf_tensor(self, array, add_one_dimention=False):
         result = tensorflow.convert_to_tensor(array, dtype=tensorflow.float32)
@@ -119,38 +121,31 @@ class Trainer:
         return self.get_image_vector(frame)
     
     def get_mario_model(self):
-        # keras.Sequential([
-        #         keras.layers.Conv2D(input_shape=(32, 5, 5, 1280), filters=32, kernel_size=3, strides=(2,2), padding="same", activation='relu'),
-        #         keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu'),
-        #         keras.layers.Flatten(),
-        #         keras.layers.Dense(512, activation='relu'),
-        #     ])
-
         # handle image part
         # image_input = keras.Input(shape=(32, 5, 5, 1280), name="img")
         # x = keras.layers.Conv2D(32, 3, strides=(2,2), padding="same", activation="relu")(image_input)
         # x = keras.layers.Conv2D(32, 3, strides=(2,2), padding="same", activation="relu")(x)
         # x = keras.layers.Flatten()(x)
         action_image_input = keras.Input(shape=(1280), name="action_image_input")
-        x = keras.layers.Dense(512, activation='relu')(action_image_input)
+        x = keras.layers.Dense(64, activation='relu')(action_image_input)
         # x = keras.layers.Dense(512, activation="relu")(x)
-        action_image_output = keras.layers.Dense(128, activation='relu')(x)
+        action_image_output = keras.layers.Dense(64, activation='relu')(x)
 
         history_action_input = keras.Input(shape=(self.history_action_length), name="history_action")
-        x = keras.layers.Dense(128, activation='relu')(history_action_input)
-        x = keras.layers.Dense(64, activation='relu')(x)
+        x = keras.layers.Dense(32, activation='relu')(history_action_input)
+        x = keras.layers.Dense(32, activation='relu')(x)
         history_action_output = keras.layers.Dense(32, activation='relu')(x)
 
         # handle the prediction of `which action to use` part
         x = keras.layers.concatenate([action_image_output, history_action_output])
-        x = keras.layers.Dense(512, activation="relu")(x)
-        x = keras.layers.Dense(64, activation="relu")(x)
+        x = keras.layers.Dense(32, activation="relu")(x)
+        x = keras.layers.Dense(32, activation="relu")(x)
         action_output = keras.layers.Dense(self.the_action_numbers, activation="relu", name="action_output")(x)
 
         steps_image_input = keras.Input(shape=(1280), name="steps_image_input")
-        x = keras.layers.Dense(256, activation='relu')(action_image_input)
-        x = keras.layers.Dense(128, activation="relu")(x)
-        steps_image_output = keras.layers.Dense(128, activation='relu')(x)
+        x = keras.layers.Dense(32, activation='relu')(action_image_input)
+        x = keras.layers.Dense(32, activation="relu")(x)
+        steps_image_output = keras.layers.Dense(16, activation='relu')(x)
 
         # handle the prediction of `how many steps for one action` part
         x = keras.layers.concatenate([steps_image_output, history_action_output, action_output])
@@ -184,6 +179,33 @@ class Trainer:
 
         return model
     
+    def get_action_score_model(self):
+        # model = keras.Sequential([
+        #         keras.layers.Conv2D(input_shape=(32, 5, 5, 1280), filters=32, kernel_size=3, strides=(2,2), padding="same", activation='relu'),
+        #         keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu'),
+        #         keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu'),
+        #         keras.layers.Flatten(),
+        #         keras.layers.Dense(512, activation='relu'),
+        #         keras.layers.Dense(1, activation='relu'),
+        # ])
+
+        image_input = keras.Input(shape=(1280), name="image_input")
+        x = keras.layers.Dense(512, activation='relu')(image_input)
+        x = keras.layers.Dense(64, activation='relu')(x)
+        image_output = keras.layers.Dense(16, activation='relu')(x)
+
+        action_input = keras.Input(shape=(1), name="action_input")
+
+        merged_layout = keras.layers.concatenate([image_output, action_input])
+        x = keras.layers.Dense(16, activation='relu')(merged_layout)
+        reward_output = keras.layers.Dense(1, activation='relu', name="reward_output")(x)
+
+        model = keras.Model([image_input, action_input], [reward_output], name="guess_mario_reward_model")
+
+        model.compile(optimizer='sgd', loss='mse')
+
+        return model
+    
     def perform_n_steps_with_one_action(self, n, action):
         state, reward, done, info = numpy.array([]), 0, False, {}
         old_info = None
@@ -208,7 +230,7 @@ class Trainer:
                 done = True
 
             if done:
-                self.last_reward = 0
+                self.reward_sum_before_dying = 0
                 self.last_life = 3
                 self.last_state = None
                 self.last_x_position = 0
@@ -239,6 +261,26 @@ class Trainer:
                 steps = random.randint(self.steps_range[0], self.steps_range[1])
                 print(f"{get_broken_timestamp()},                                       , {steps} by random choose...")
             else:
+                # result1 = self.action_score_model.predict(
+                #     {
+                #         "image_input": self.last_state,
+                #         "action_input": tensorflow.expand_dims(0, axis=0),
+                #     }
+                # )
+                # result1 = result1[0][0]
+                # result2 = self.action_score_model.predict(
+                #     {
+                #         "image_input": self.last_state,
+                #         "action_input": tensorflow.expand_dims(1, axis=0),
+                #     }
+                # )
+                # result2 = result2[0][0]
+
+                # if result1 > result2:
+                #     action = 0
+                # else:
+                #     action = 1
+
                 result = self.mario_model.predict(
                             {
                                 "action_image_input": self.last_state, 
@@ -276,10 +318,20 @@ class Trainer:
                 }
                 self.temp_life_experience.append((info['x_pos'], the_x, the_y))
 
+                # self.action_score_model.fit(
+                #     x={
+                #         "image_input": self.last_state,
+                #         "action_input": tensorflow.expand_dims(action, axis=0),
+                #     },
+                #     y={
+                #         "reward_output": tensorflow.expand_dims(reward+15, axis=0)
+                #     }
+                # )
+
             self.env.render()
 
             self.last_state = state
-            self.last_reward = reward
+            self.reward_sum_before_dying += reward
             self.last_life = life
                 
 
