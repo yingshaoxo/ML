@@ -1,6 +1,7 @@
 # I would recommand you to use tf.keras, because it is easyer to understand
 import torch
 import numpy
+import os
 
 class MarioNeuralNetwork(torch.nn.Module):
     def __init__(self):
@@ -16,42 +17,50 @@ class MarioNeuralNetwork(torch.nn.Module):
             self.device = "mps"
         elif platform == "win32":
             # Windows...
-            self.device = "cpu"
+            self.device = "cuda:0"
         
         print(self.device)
         self.device = torch.device(self.device)
 
         self.the_action_numbers = 3
 
+        self.graph_layer = torch.nn.Sequential(
+            torch.nn.Conv2d(185, 128, 1),
+            torch.nn.Conv2d(128, 64, 1),
+            torch.nn.Conv2d(64, 32, 2),
+            torch.nn.Conv2d(32, 32, 2),
+            # torch.nn.Linear(1, 7136),
+            # torch.nn.Tanh(),
+            # torch.nn.Dropout(0.2),
+            # torch.nn.Linear(7136, 32),
+            # torch.nn.ReLU(),
+            # torch.nn.Dropout(0.2),
+            # torch.nn.Linear(32, 32),
+            # torch.nn.Tanh(),
+            # torch.nn.Dropout(0.2),
+        )
+
         self.output_layer = torch.nn.Sequential(
-            torch.nn.Linear(513, 360),
-            torch.nn.Tanh(),
-            torch.nn.Dropout(0.2),
-            torch.nn.Linear(360, 128),
-            torch.nn.Tanh(),
-            torch.nn.Dropout(0.2),
-            torch.nn.Linear(128, 128),
-            torch.nn.Tanh(),
-            torch.nn.Dropout(0.2),
-            torch.nn.Linear(128, 128),
-            torch.nn.Tanh(),
-            torch.nn.Dropout(0.2),
-            torch.nn.Linear(128, 128),
+            torch.nn.Linear(7137, 32),
             torch.nn.ReLU(),
-            torch.nn.Linear(128, self.the_action_numbers),
+            torch.nn.Linear(32, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, self.the_action_numbers),
             torch.nn.LogSoftmax(dim=0)
         )
 
     def forward(self, picture, game_level):
         #graph_data = self.two_dimension_mario_position_for_one_single_image_linear_relu_stack(picture.to(self.device))
-        #graph_data = graph_data.reshape(-1)
+        graph_data = torch.from_numpy(picture).to(self.device).type(torch.float)
+        graph_data = self.graph_layer(graph_data)
+        graph_data = graph_data.reshape(-1)
         # graph_data = self.flatten_layer(graph_data) # not work compared to keras, maybe it's not flatten function
-        graph_data = picture.to(self.device)
+        # graph_data = picture.to(self.device)
 
         # you'll need to add speed(positive means go right, negative means go left), and position to the next layer, so it can produce the final predicted action
         # for this game, you should also input the level number (1 to 8)
         # x_position = torch.tensor([x_position]).to(self.device)
-        game_level = torch.tensor([game_level]).to(self.device)
+        game_level = torch.tensor([game_level]).to(self.device).type(torch.float)
 
         merge_array = torch.cat((graph_data, game_level), 0)
         # merge_array = self.combined_features(merge_array)
@@ -61,8 +70,10 @@ class MarioNeuralNetwork(torch.nn.Module):
     
 
 class Trainer():
-    def __init__(self):
+    def __init__(self, model_saving_path: str="./mario_model_made_by_yingshaoxo.pt"):
         from sys import platform
+
+        self.model_saving_path = model_saving_path
 
         self.mario_model = MarioNeuralNetwork()
         self.criterion = torch.nn.CrossEntropyLoss()
@@ -76,7 +87,7 @@ class Trainer():
             self.device = "mps"
         elif platform == "win32":
             # Windows...
-            self.device = "cpu"
+            self.device = "cuda:0"
         
         print(self.device)
         self.device = torch.device(self.device)
@@ -101,7 +112,7 @@ class Trainer():
         target_data: 
             action: int
         """
-        if (data[0] == None):
+        if ("NoneType" in str(type(data[0]))):
             return
 
         self.optimizer.zero_grad()
@@ -122,7 +133,11 @@ class Trainer():
         self.need_to_update_lose = True
     
     def save_model(self):
-        torch.save(self.mario_model.state_dict(), "mario_model_made_by_yingshaoxo.pt") # pt == pytorch here
+        torch.save(self.mario_model.state_dict(), self.model_saving_path) # pt == pytorch here
+
+    def load_model(self):
+        if os.path.exists(self.model_saving_path):
+            self.mario_model.load_state_dict(torch.load(self.model_saving_path))
 
     def predict(self, data) -> int:
         """

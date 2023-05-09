@@ -1,6 +1,7 @@
 from datetime import datetime
 import cv2
 import time
+import os
 
 from nes_py.wrappers import JoypadSpace
 import gym_super_mario_bros
@@ -28,41 +29,41 @@ from model import Trainer
 def get_broken_timestamp():
     return str(time.time()).split(".")[1]
 
-transforms = torchvision.transforms.Compose([
-    torchvision.transforms.Resize(256),
-    torchvision.transforms.CenterCrop(224),
-    torchvision.transforms.ToTensor(),
-    torchvision.transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
-])
-# Load the pretrained model
-model = models.resnet18(pretrained=True)
-# Use the model object to select the desired layer
-layer = model._modules.get('avgpool')
-# Set model to evaluation mode
-model.eval()
+# transforms = torchvision.transforms.Compose([
+#     torchvision.transforms.Resize(256),
+#     torchvision.transforms.CenterCrop(224),
+#     torchvision.transforms.ToTensor(),
+#     torchvision.transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+# ])
+# # Load the pretrained model
+# model = models.resnet18(pretrained=True)
+# # Use the model object to select the desired layer
+# layer = model._modules.get('avgpool')
+# # Set model to evaluation mode
+# model.eval()
 
-def get_image_vector(image):
-    image = Image.fromarray(image)
+# def get_image_vector(image):
+#     image = Image.fromarray(image)
 
-    # Create a PyTorch tensor with the transformed image
-    t_img = transforms(image)
-    # Create a vector of zeros that will hold our feature vector
-    # The 'avgpool' layer has an output size of 512
-    my_embedding = torch.zeros(512)
+#     # Create a PyTorch tensor with the transformed image
+#     t_img = transforms(image)
+#     # Create a vector of zeros that will hold our feature vector
+#     # The 'avgpool' layer has an output size of 512
+#     my_embedding = torch.zeros(512)
 
-    # Define a function that will copy the output of a layer
-    def copy_data(m, i, o):
-        my_embedding.copy_(o.flatten())                 # <-- flatten
+#     # Define a function that will copy the output of a layer
+#     def copy_data(m, i, o):
+#         my_embedding.copy_(o.flatten())                 # <-- flatten
 
-    # Attach that function to our selected layer
-    h = layer.register_forward_hook(copy_data)  # type: ignore
-    # Run the model on our transformed image
-    with torch.no_grad():                               # <-- no_grad context
-        model(t_img.unsqueeze(0))                       # <-- unsqueeze
-    # Detach our copy function from the layer
-    h.remove()
-    # Return the feature vector
-    return my_embedding
+#     # Attach that function to our selected layer
+#     h = layer.register_forward_hook(copy_data)  # type: ignore
+#     # Run the model on our transformed image
+#     with torch.no_grad():                               # <-- no_grad context
+#         model(t_img.unsqueeze(0))                       # <-- unsqueeze
+#     # Detach our copy function from the layer
+#     h.remove()
+#     # Return the feature vector
+#     return my_embedding
 
 def image_process(frame):
     side_length = 225
@@ -76,8 +77,9 @@ def image_process(frame):
     
     width, height = frame.shape[1], frame.shape[0]
     frame = frame[40:height, 0:width]
+    frame = frame / 255
     
-    return frame, get_image_vector(frame)
+    return frame#, get_image_vector(frame)
 
 
 # model_file_path = "./nn_model"
@@ -89,6 +91,8 @@ def image_process(frame):
 
 
 trainer = Trainer()
+if os.path.exists(trainer.model_saving_path):
+    trainer.load_model()
 epoch_index = 0
 max_experience_length = 150 #slowly go up
 experience_list = deque(maxlen=max_experience_length)
@@ -117,7 +121,7 @@ speed = 1
 
 stay_in_same_position_count = 0
 while 1:
-    for step_count in range(10000):
+    for step_count in range(3000):
         if done:
             state = env.reset()
             experience_list.clear()
@@ -134,12 +138,6 @@ while 1:
             if the_farest_x_position < 0:
                 the_farest_x_position = 0
         
-        # if last_observe_data_as_input != None and last_observe_data_as_input[0] != None:
-        #     action = trainer.predict(last_observe_data_as_input)
-        # else:
-        #     action = env.action_space.sample() # this is an integer between [1, 7]
-        #     # print(len(SIMPLE_MOVEMENT))
-
         is_random_action = True
         if len(experience_list) < max_experience_length or speed < minimum_speed:
             action = env.action_space.sample() # this is an integer between [1, 7]
@@ -153,7 +151,7 @@ while 1:
                 action = env.action_space.sample() # this is an integer between [1, 7]
 
         state, reward, terminated, truncated, info = env.step(action) # type: ignore
-        state, state_for_pytorch = image_process(state)
+        state = image_process(state)
         done = terminated or truncated
         x_position = info.get("x_pos")
         x_position = 0 if x_position == None else int(x_position)
@@ -182,41 +180,20 @@ while 1:
             last_time = now
 
         last_observe_data_as_input = [last_state, game_level]
-        last_state = state_for_pytorch
+        last_state = state
         last_x_position = x_position
         last_y_position = y_position
         # print(f"reward: {reward}; info: {info}")
 
-        # if reward > 0:
-        #     trainer.train(data=last_observe_data_as_input, target_data=action)
-        # if (speed > 0 and jump_height > 0):
-        #     trainer.train(data=last_observe_data_as_input, target_data=action)
-        # print(len(experience_list))
-        # print(speed, jump_height)
-
         experience_list.append((last_observe_data_as_input, action)) # type: ignore
-        # if speed >= minimum_speed:
-        #     if x_position > the_farest_x_position:
-        #         the_farest_x_position = x_position
-        #         if len(experience_list) == max_experience_length:
-        #             print(f"learn from data where ai still alive, {get_broken_timestamp()}")
-        #             one_item = experience_list.popleft()
-        #             trainer.train(data=one_item[0], target_data=one_item[1])
-        #     else:
-        #         if len(experience_list) < max_experience_length:
-        #             print(f"learn after fail, {get_broken_timestamp()}")
-        #             trainer.train(data=last_observe_data_as_input, target_data=action)
         if len(experience_list) == max_experience_length:
             print(f"learn from data where ai still alive, {get_broken_timestamp()}")
             one_item = experience_list.popleft()
             trainer.train(data=one_item[0], target_data=one_item[1])
         else:
-            if reward > 0 or speed > 0:
+            if reward > 2 or speed > 0:
                 print(f"pre-learning, {get_broken_timestamp()}")
                 trainer.train(data=last_observe_data_as_input, target_data=action)
-        # else:
-        #     print(f"learn after fail, {get_broken_timestamp()}")
-        #     trainer.train(data=last_observe_data_as_input, target_data=action)
 
         env.render()
         # cv2.imshow('my mario', state)
