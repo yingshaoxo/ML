@@ -3,3 +3,4 @@ trained_models/
 __pycache__/
 *.pt
 *.h
+nn_keras_model/

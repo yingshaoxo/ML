@@ -1,0 +1,9 @@
+gym-super-mario-bros
+
+tensorflow==2.10
+tensorflow_hub
+transformers
+
+numpy
+Pillow
+opencv-python
