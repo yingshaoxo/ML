@@ -92,7 +92,7 @@ class Trainer:
         # info = {'coins': 0, 'flag_get': False, 'life': 3, 'score': 0, 'stage': 1, 'status': 'small', 'time': 400, 'world': 1, 'x_pos': 40}
 
         gamma = 0.99  # Discount factor for past rewards
-        max_steps_per_episode = 3000
+        max_steps_per_episode = 30
         eps = np.finfo(np.float32).eps.item()  # Smallest number such that 1.0 + eps != 1.0
 
         done = True
@@ -162,21 +162,14 @@ class Trainer:
             continues_real_rewards = (continues_real_rewards - np.mean(continues_real_rewards)) / (np.std(continues_real_rewards) + eps)
             continues_real_rewards = continues_real_rewards.tolist()
 
-            temp_x = []
-            temp_y = []
-            for i in range(len(real_rewards_history)):
-                the_x = {
-                        "action_image_input": tf.expand_dims(state_history[i], axis=0), 
-                    } 
-                the_y = {
-                        "action_output": tf.expand_dims(action_history[i], axis=0),
-                        "reward_output": tf.expand_dims(continues_real_rewards[i], axis=0),
-                }
-                temp_x.append(the_x)
-                temp_y.append(the_y)
             self.model.fit(
-                x=temp_x, 
-                y=temp_y,
+                x= {
+                    "action_image_input": np.array(state_history), 
+                }, 
+                y={
+                    "action_output": np.array(action_history),
+                    "reward_output": np.array(continues_real_rewards),
+                },
             )
 
             state_history.clear()
