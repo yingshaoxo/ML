@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 tf.keras.utils.disable_interactive_logging()
+from tensorflow import keras
 
 from random import randint
 import os
@@ -27,26 +28,32 @@ class Trainer:
         self.model = self.generate_model()
 
     def generate_model(self):
-        model = tf.keras.models.Sequential([
-            tf.keras.layers.Convolution2D(32, 2, 2, input_shape=(self.img_rows, self.img_cols, 1)),
-            tf.keras.layers.Activation('relu'),
+        action_image_input = keras.Input(shape=(self.img_rows, self.img_cols, 1), name="action_image_input")
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(action_image_input)
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(x)
+        x = keras.layers.Conv2D(32, 3, strides=(2,2), activation='relu')(x)
+        x = keras.layers.Dense(32, activation='relu')(x)
+        x = keras.layers.Flatten()(x)
+        commom_layer = keras.layers.Dense(32, activation='relu')(x)
 
-            tf.keras.layers.Convolution2D(32, 3, 3),
-            tf.keras.layers.Activation('relu'),
+        action_output = keras.layers.Dense(self.number_of_actions, activation="softmax", name="action_output")(commom_layer)
+        reward_output = keras.layers.Dense(1, name="reward_output")(commom_layer)
 
-            tf.keras.layers.Convolution2D(32, 2, 2),
-            tf.keras.layers.Activation('relu'),
+        model = keras.Model([action_image_input], [action_output, reward_output], name="yingshaoxo_and_mario")
+        #print(model.summary())
 
-            tf.keras.layers.Flatten(),
-            tf.keras.layers.Dense(32),
-            tf.keras.layers.Activation('relu'),
-
-            tf.keras.layers.Dense(self.number_of_actions, activation=tf.nn.softmax),
-        ])
-
-        model.compile(optimizer='adam',
-                    loss='mse',
-                    metrics=['accuracy'])
+        model.compile(
+            optimizer=keras.optimizers.Adam(0.001),
+            loss={
+                "action_output": "sparse_categorical_crossentropy",
+                "reward_output": "mean_squared_error",
+            },
+            loss_weights={
+                "action_output": 1,
+                "reward_output": 1,
+            },
+            metrics=["accuracy"],
+        )
 
         return model
 
@@ -84,51 +91,103 @@ class Trainer:
         # done = False or True
         # info = {'coins': 0, 'flag_get': False, 'life': 3, 'score': 0, 'stage': 1, 'status': 'small', 'time': 400, 'world': 1, 'x_pos': 40}
 
+        gamma = 0.99  # Discount factor for past rewards
+        max_steps_per_episode = 3000
+        eps = np.finfo(np.float32).eps.item()  # Smallest number such that 1.0 + eps != 1.0
+
         done = True
         last_state = None
         identity = np.identity(self.number_of_actions) # for quickly get a hot vector, like 0001000000000000
 
-        experimence_cache_list_for_x = []
-        experimence_cache_list_for_y = []
+        state_history = []
+        action_history = []
+        predict_rewards_history = []
+        real_rewards_history = []
+        running_reward = 0
+        episode_count = 0
 
         no_random_level = 3 # switch to 1000 to see what mario has learned
         while 1:
-            for step in range(3000):
+            state, _ = self.env.reset()
+            state = self.image_process(state)
+            episode_reward = 0
+
+            for step in range(max_steps_per_episode):
                 if done:
                     state, _ = self.env.reset()
+                    state = self.image_process(state)
 
-                if randint(0, no_random_level) == 0 or not isinstance(last_state, (np.ndarray, np.generic)):
+                if not isinstance(state, (np.ndarray, np.generic)):
                     action = self.env.action_space.sample()
                 else:
-                    result = self.model.predict(np.expand_dims(last_state, axis=0))
+                    predict_action_probability, predict_reward = self.model.predict(
+                        {
+                            "action_image_input": np.expand_dims(state, axis=0), 
+                        }
+                    )
+                    predict_rewards_history.append(predict_reward[0, 0])
 
-                    action_probability = result[0]
-                    action_probability /= action_probability.sum()
-                    action = np.random.choice(self.number_of_actions, p=np.squeeze(action_probability))
-                    
-                    # action = np.argmax(result)
+                    if randint(0, no_random_level) == 0:
+                        action = self.env.action_space.sample()
+                    else:
+                        # predict_action_probability = predict_action_probability[0]
+                        # predict_action_probability /= predict_action_probability.sum()
+                        # action = np.random.choice(self.number_of_actions, p=np.squeeze(predict_action_probability))
+                        action = np.random.choice(self.number_of_actions, p=np.squeeze(predict_action_probability[0]))
 
-                    # print(f"                                             {action}")
+                    action_history.append(action)
 
                 result = self.env.step(action)
                 if len(result) == 5:
                     state, reward, terminated1, terminated2, info = result
-                    state = self.image_process(state)
                     done = terminated1 or terminated2
+                    state = self.image_process(state)
+
+                    state_history.append(state)
+                    real_rewards_history.append(reward)
+                    episode_reward += reward
+
+                    self.env.render()
                 else:
                     continue
-                last_state = state
 
-                experimence_cache_list_for_x.append(last_state)
-                experimence_cache_list_for_y.append(identity[action: action+1])
+            running_reward = 0.05 * episode_reward + (1 - 0.05) * running_reward
+            continues_real_rewards = []
+            discounted_sum = 0
+            for reward in real_rewards_history[::-1]:
+                discounted_sum = reward + gamma * discounted_sum
+                continues_real_rewards.insert(0, discounted_sum)
 
-                if len(experimence_cache_list_for_x) == 150:
-                    print(f"traning..., in step {step}", flush=True)
-                    self.model.train_on_batch(x=np.array(experimence_cache_list_for_x), y=np.array(experimence_cache_list_for_y))
-                    experimence_cache_list_for_x = []
-                    experimence_cache_list_for_y = []
+            continues_real_rewards = np.array(continues_real_rewards)
+            continues_real_rewards = (continues_real_rewards - np.mean(continues_real_rewards)) / (np.std(continues_real_rewards) + eps)
+            continues_real_rewards = continues_real_rewards.tolist()
 
-                self.env.render()
+            temp_x = []
+            temp_y = []
+            for i in range(len(real_rewards_history)):
+                the_x = {
+                        "action_image_input": tf.expand_dims(state_history[i], axis=0), 
+                    } 
+                the_y = {
+                        "action_output": tf.expand_dims(action_history[i], axis=0),
+                        "reward_output": tf.expand_dims(continues_real_rewards[i], axis=0),
+                }
+                temp_x.append(the_x)
+                temp_y.append(the_y)
+            self.model.fit(
+                x=temp_x, 
+                y=temp_y,
+            )
+
+            state_history.clear()
+            action_history.clear()
+            predict_rewards_history.clear()
+            real_rewards_history.clear()
+            continues_real_rewards.clear()
+
+            episode_count += 1
+            template = "running reward: {:.2f} at episode {}"
+            print(template.format(running_reward, episode_count))
 
             self.save_model()
 

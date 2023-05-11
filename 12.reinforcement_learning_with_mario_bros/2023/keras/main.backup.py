@@ -257,7 +257,7 @@ class Trainer:
                             y=one[2],
                         )
 
-            if (not self.it_is_not_none(self.last_state)):
+            if random.randint(0, 3) == 0 or (not self.it_is_not_none(self.last_state)):
                 action = self.env.action_space.sample()
                 steps = random.randint(self.steps_range[0], self.steps_range[1])
                 print(f"{get_broken_timestamp()},                                       , {steps} by random choose...")
