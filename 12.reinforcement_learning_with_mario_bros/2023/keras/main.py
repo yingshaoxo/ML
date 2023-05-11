@@ -18,6 +18,8 @@ class Trainer:
             ['NOOP'],
             ['A', 'right', 'B'],
             ['A', 'left', 'B'],
+            ['A', 'left'],
+            ['A', 'right'],
         ]
         self.number_of_actions = len(MY_MARIO_MOVEMENT)
         self.env = JoypadSpace(self.env, MY_MARIO_MOVEMENT)
@@ -43,10 +45,10 @@ class Trainer:
         #print(model.summary())
 
         model.compile(
-            optimizer=keras.optimizers.Adam(0.001),
+            optimizer=keras.optimizers.Adam(0.01),
             loss={
                 "action_output": "sparse_categorical_crossentropy",
-                "reward_output": "mean_squared_error",
+                "reward_output": "huber",
             },
             loss_weights={
                 "action_output": 1,
@@ -92,7 +94,7 @@ class Trainer:
         # info = {'coins': 0, 'flag_get': False, 'life': 3, 'score': 0, 'stage': 1, 'status': 'small', 'time': 400, 'world': 1, 'x_pos': 40}
 
         gamma = 0.99  # Discount factor for past rewards
-        max_steps_per_episode = 30
+        max_steps_per_episode = 300
         eps = np.finfo(np.float32).eps.item()  # Smallest number such that 1.0 + eps != 1.0
 
         done = True
@@ -100,56 +102,46 @@ class Trainer:
         identity = np.identity(self.number_of_actions) # for quickly get a hot vector, like 0001000000000000
 
         state_history = []
-        action_history = []
+        predict_action_history = []
+        predict_action_probability_history = []
+        last_predict_action_probability_distribution = None
         predict_rewards_history = []
         real_rewards_history = []
         running_reward = 0
         episode_count = 0
 
-        no_random_level = 3 # switch to 1000 to see what mario has learned
         while 1:
             state, _ = self.env.reset()
-            state = self.image_process(state)
             episode_reward = 0
 
             for step in range(max_steps_per_episode):
                 if done:
                     state, _ = self.env.reset()
-                    state = self.image_process(state)
 
-                if not isinstance(state, (np.ndarray, np.generic)):
-                    action = self.env.action_space.sample()
-                else:
-                    predict_action_probability, predict_reward = self.model.predict(
-                        {
-                            "action_image_input": np.expand_dims(state, axis=0), 
-                        }
-                    )
-                    predict_rewards_history.append(predict_reward[0, 0])
+                state = self.image_process(state)
+                state_history.append(state)
 
-                    if randint(0, no_random_level) == 0:
-                        action = self.env.action_space.sample()
-                    else:
-                        # predict_action_probability = predict_action_probability[0]
-                        # predict_action_probability /= predict_action_probability.sum()
-                        # action = np.random.choice(self.number_of_actions, p=np.squeeze(predict_action_probability))
-                        action = np.random.choice(self.number_of_actions, p=np.squeeze(predict_action_probability[0]))
+                predict_action_probabilitys, predict_reward = self.model.predict(
+                    {
+                        "action_image_input": np.expand_dims(state, axis=0), 
+                    }
+                )
+                predict_rewards_history.append(predict_reward[0][0])
 
-                    action_history.append(action)
+                action = np.random.choice(self.number_of_actions, p=np.squeeze(predict_action_probabilitys[0]))
+                predict_action_history.append(action)
+                predict_action_probability_history.append(tf.math.log(predict_action_probabilitys[0][action]))
+                last_predict_action_probability_distribution = predict_action_probabilitys[0]
 
                 result = self.env.step(action)
-                if len(result) == 5:
-                    state, reward, terminated1, terminated2, info = result
-                    done = terminated1 or terminated2
-                    state = self.image_process(state)
 
-                    state_history.append(state)
-                    real_rewards_history.append(reward)
-                    episode_reward += reward
+                state, reward, terminated1, terminated2, info = result
+                done = terminated1 or terminated2
 
-                    self.env.render()
-                else:
-                    continue
+                real_rewards_history.append(reward)
+                episode_reward += reward
+
+                self.env.render()
 
             running_reward = 0.05 * episode_reward + (1 - 0.05) * running_reward
             continues_real_rewards = []
@@ -167,20 +159,21 @@ class Trainer:
                     "action_image_input": np.array(state_history), 
                 }, 
                 y={
-                    "action_output": np.array(action_history),
+                    "action_output": np.array(predict_action_history),
                     "reward_output": np.array(continues_real_rewards),
                 },
             )
 
+            episode_count += 1
             state_history.clear()
-            action_history.clear()
+            predict_action_history.clear()
+            predict_action_probability_history.clear()
             predict_rewards_history.clear()
             real_rewards_history.clear()
             continues_real_rewards.clear()
 
-            episode_count += 1
-            template = "running reward: {:.2f} at episode {}"
-            print(template.format(running_reward, episode_count))
+            template = "running reward: {:.2f} at episode {}, last_action_probability_distribution: {}"
+            print(template.format(running_reward, episode_count, last_predict_action_probability_distribution))
 
             self.save_model()
 
