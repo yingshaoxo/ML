@@ -1,4 +1,5 @@
 gym-super-mario-bros
+
 tensorflow
 tensorflow_hub
 transformers
@@ -6,3 +7,5 @@ transformers
 numpy
 Pillow
 opencv-python
+
+pymongo
