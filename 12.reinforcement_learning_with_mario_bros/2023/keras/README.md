@@ -10,6 +10,15 @@ python3.10 -m pip install -r requirements.txt
 ```
 
 ## Theory
-1. actor_model takes (state), returns (action_probability_list); reward_model takes (state, action), returns (reward)
-<!-- 2. why reward_model could make the actor_model perform better over time??? -->
-2. we train the actor_model by giving it x=(state), y=(the optimal action predicted by reward_model)
+0. we use random action to start the game
+1. we record (state, action, reward_after_perform_the_action)
+2. we train the reward_model with the data we recorded
+3. we choose the max_reward action by using the reward_model, meanwhile, we record (state, max_reward_action) to train actor_model, we still record (state, action, reward_after_perform_the_action)
+4. we use actor_model to get recommended action, we still record (state, action, reward_after_perform_the_action)
+
+### Simpler Thoery
+1. we use random action to train reward_model
+2. we use reward_model to get max_reward action to train actor_model, reward_model
+3. we use actor_model to get action to train reward_model
+
+> 3 functions in a loop
