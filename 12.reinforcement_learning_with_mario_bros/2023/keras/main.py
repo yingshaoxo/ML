@@ -139,7 +139,7 @@ class Trainer:
         return frame
     
     def collect_random_data(self):
-        max_steps_per_episode = 3000
+        max_steps_per_episode = 500
 
         state_history_for_continuous_input = []
         state_history = []
@@ -205,6 +205,7 @@ class Trainer:
             state_history_for_continuous_input.clear()
 
             print(f"episode {episode_count}, last_reward: {last_reward}")
+            episode_count += 1
 
         self.env.close()
 
@@ -312,6 +313,7 @@ class Trainer:
             state_history_for_continuous_input.clear()
 
             print(f"episode {episode_count}, last_reward: {last_reward}")
+            episode_count += 1
 
         self.env.close()
 
@@ -440,7 +442,7 @@ if __name__ == "__main__":
     trainer = Trainer()
     trainer.load_model()
 
-    # trainer.collect_random_data()
-    trainer.use_collect_random_data_to_train_reward_model()
+    trainer.collect_random_data()
+    # trainer.use_collect_random_data_to_train_reward_model()
 
     # trainer.use_random_action_to_train_reward_model()
