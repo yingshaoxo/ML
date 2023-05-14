@@ -360,6 +360,7 @@ class Trainer:
                         "action_input": np.array([i for i in range(self.number_of_actions)]),
                     }, 
                 )
+
                 # for x in np.copy(reward_result):
                 #     if x < 0:
                 #         reward_result += np.absolute(x)
@@ -368,6 +369,9 @@ class Trainer:
                 action_probability = np.copy(reward_result)
                 action_probability /= action_probability.sum()
                 action = np.random.choice(self.number_of_actions, p=np.squeeze(action_probability))
+
+                # action = np.argmax(np.squeeze(reward_result))
+
                 action_history.append(action)
 
                 jump_counting = 0
@@ -630,6 +634,6 @@ if __name__ == "__main__":
     # trainer.use_collect_random_data_to_train_reward_model()
     # trainer.use_random_action_to_train_reward_model()
 
-    # trainer.use_reward_model_to_run()
+    trainer.use_reward_model_to_run()
 
-    trainer.loop1_reward_model_train_and_predict()
+    # trainer.loop1_reward_model_train_and_predict()
