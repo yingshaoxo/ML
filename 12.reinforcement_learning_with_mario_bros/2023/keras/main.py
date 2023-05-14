@@ -29,8 +29,10 @@ class Trainer:
         self.number_of_actions = len(MY_MARIO_MOVEMENT)
         self.env = JoypadSpace(self.env, MY_MARIO_MOVEMENT)
 
-        self.img_rows , self.img_cols = 240, 256
+        # self.img_rows , self.img_cols = 240, 256
+        self.img_rows , self.img_cols = 80, 80
         self.continuous_image_number = 4
+        self.time_jump_number = 4
 
         self.reward_model_file_path = './reward_nn_keras_model'
         self.action_model_file_path = './action_nn_keras_model'
@@ -64,7 +66,7 @@ class Trainer:
         #print(model.summary())
 
         model.compile(
-            optimizer=keras.optimizers.Adam(0.01),
+            optimizer=keras.optimizers.Adam(0.001),
             loss={
                 "reward_output": "huber",
             },
@@ -139,7 +141,7 @@ class Trainer:
         return frame
     
     def collect_random_data(self):
-        max_steps_per_episode = 500
+        max_steps_per_episode = 1000
 
         state_history_for_continuous_input = []
         state_history = []
@@ -170,7 +172,7 @@ class Trainer:
 
                 jump_counting = 0
                 reward_counting = 0
-                while jump_counting < 30:
+                while jump_counting < self.time_jump_number:
                     result = self.env.step(action)
                     state, reward, terminated1, terminated2, info = result
                     state = self.image_process(state)
@@ -217,9 +219,7 @@ class Trainer:
             "reward": real_rewards_history[-1]
         }
         """
-        loop_counting = 0
-
-        page_size = 200
+        page_size = 2000
         page_number = 0
         while True:
             state_history = []
@@ -233,15 +233,6 @@ class Trainer:
                 action_history.append(one["action"])
                 real_rewards_history.append(one["reward"])
 
-            # if len(state_history) == 0:
-            #     # meet the end of datatbase record
-            #     page_number = 0
-            #     loop_counting += 1
-            #     self.save_model()
-            #     continue
-            
-            # print(np.expand_dims(np.array(state_history), axis=3).shape)
-            # exit()
             data_x = {
                 "action_image_input": np.array(state_history), 
                 "action_input": np.array(action_history),
@@ -249,85 +240,20 @@ class Trainer:
             data_y = {
                 "reward_output": np.array(real_rewards_history),
             }
-            for i in range(3):
+            for i in range(30):
                 self.reward_model.fit(
                     x=data_x, 
                     y=data_y,
                 )
 
-            if page_number % 10 == 0:
+            if page_number % 3 == 0:
                 self.save_model()
                 page_number = 0
                 
             page_number += 1
 
-    def use_random_action_to_train_reward_model(self):
-        max_steps_per_episode = 30
-
-        state_history_for_continuous_input = []
-        state_history = []
-        action_history = []
-        real_rewards_history = []
-
-        last_reward = None
-        episode_count = 0
-
-        while 1:
-            done = False
-            state, _ = self.env.reset()
-            state = self.image_process(state)
-            state_history_for_continuous_input += [state, state, state, state]
-
-            for step in range(max_steps_per_episode):
-                if done:
-                    state, _ = self.env.reset()
-                    state = self.image_process(state)
-                    state_history_for_continuous_input += [state, state, state, state]
-
-                state_history.append([one.tolist() for one in state_history_for_continuous_input[-4:]])
-
-                action = np.random.choice(self.number_of_actions)
-                action_history.append(action)
-
-                jump_counting = 0
-                reward_counting = 0
-                while jump_counting < 30:
-                    result = self.env.step(action)
-                    state, reward, terminated1, terminated2, info = result
-                    state = self.image_process(state)
-                    state_history_for_continuous_input += [state]
-                    reward_counting += reward
-                    done = terminated1 or terminated2
-                    self.env.render()
-                    if done == True:
-                        break
-                    jump_counting += 1
-                real_rewards_history.append(reward_counting)
-                last_reward = reward_counting
-            
-            self.reward_model.fit(
-                x= {
-                    "action_image_input": np.array(state_history), 
-                    "action_input": np.array(action_history),
-                }, 
-                y={
-                    "reward_output": np.array(real_rewards_history),
-                },
-            )
-            self.save_model()
-
-            state_history.clear()
-            action_history.clear()
-            real_rewards_history.clear()
-            state_history_for_continuous_input.clear()
-
-            print(f"episode {episode_count}, last_reward: {last_reward}")
-            episode_count += 1
-
-        self.env.close()
-
     def use_reward_model_to_run(self):
-        max_steps_per_episode = 500
+        max_steps_per_episode = 1000
 
         state_history_for_continuous_input = []
         state_history = []
@@ -365,7 +291,6 @@ class Trainer:
                 #     if x < 0:
                 #         reward_result += np.absolute(x)
                 reward_result[reward_result < 0] = 0
-                # reward_result[reward_result < 20] = 0
                 action_probability = np.copy(reward_result)
                 action_probability /= action_probability.sum()
                 action = np.random.choice(self.number_of_actions, p=np.squeeze(action_probability))
@@ -376,7 +301,7 @@ class Trainer:
 
                 jump_counting = 0
                 reward_counting = 0
-                while jump_counting < 30:
+                while jump_counting < self.time_jump_number:
                     result = self.env.step(action)
                     state, reward, terminated1, terminated2, info = result
                     state = self.image_process(state)
@@ -396,9 +321,9 @@ class Trainer:
                     "reward": real_rewards_history[-1]
                 }
                 if step % 10 == 0:
-                    test_data_cache.append(the_data.copy())
+                    test_data_cache.append(the_data)
                 else:
-                    training_data_cache.append(the_data.copy())
+                    training_data_cache.append(the_data)
 
             self.test_data_collection.insert_many(test_data_cache)
             self.training_data_collection.insert_many(training_data_cache)
@@ -414,7 +339,7 @@ class Trainer:
         self.env.close()
 
     def loop1_reward_model_train_and_predict(self):
-        max_steps_per_episode = 200
+        max_steps_per_episode = 1000
 
         state_history_for_continuous_input = []
         state_history = []
@@ -440,16 +365,16 @@ class Trainer:
 
                 state_history.append([one.tolist() for one in state_history_for_continuous_input[-4:]])
 
-                # action = np.random.choice(self.number_of_actions)
                 reward_result = self.reward_model.predict(
                     x= {
                         "action_image_input": np.array([state_history[-1]] * self.number_of_actions), 
                         "action_input": np.array([i for i in range(self.number_of_actions)]),
                     }, 
                 )
-                for x in np.copy(reward_result):
-                    if x < 0:
-                        reward_result += np.absolute(x)
+                # for x in np.copy(reward_result):
+                #     if x < 0:
+                #         reward_result += np.absolute(x)
+                reward_result[reward_result < 0] = 0
                 action_probability = np.copy(reward_result)
                 action_probability /= action_probability.sum()
                 action = np.random.choice(self.number_of_actions, p=np.squeeze(action_probability))
@@ -457,7 +382,7 @@ class Trainer:
 
                 jump_counting = 0
                 reward_counting = 0
-                while jump_counting < 30:
+                while jump_counting < self.time_jump_number:
                     result = self.env.step(action)
                     state, reward, terminated1, terminated2, info = result
                     state = self.image_process(state)
@@ -477,22 +402,23 @@ class Trainer:
                     "reward": real_rewards_history[-1]
                 }
                 if step % 10 == 0:
-                    test_data_cache.append(the_data.copy())
+                    test_data_cache.append(the_data)
                 else:
-                    training_data_cache.append(the_data.copy())
+                    training_data_cache.append(the_data)
 
             self.test_data_collection.insert_many(test_data_cache)
             self.training_data_collection.insert_many(training_data_cache)
 
-            self.reward_model.fit(
-                x= {
-                    "action_image_input": np.array(state_history), 
-                    "action_input": np.array(action_history),
-                }, 
-                y={
-                    "reward_output": np.array(real_rewards_history),
-                },
-            )
+            for i in range(10):
+                self.reward_model.fit(
+                    x= {
+                        "action_image_input": np.array(state_history), 
+                        "action_input": np.array(action_history),
+                    }, 
+                    y={
+                        "reward_output": np.array(real_rewards_history),
+                    },
+                )
             self.save_model()
 
             state_history.clear()
@@ -632,8 +558,7 @@ if __name__ == "__main__":
 
     # trainer.collect_random_data()
     # trainer.use_collect_random_data_to_train_reward_model()
-    # trainer.use_random_action_to_train_reward_model()
 
-    trainer.use_reward_model_to_run()
+    # trainer.use_reward_model_to_run()
 
-    # trainer.loop1_reward_model_train_and_predict()
+    trainer.loop1_reward_model_train_and_predict()
