@@ -22,3 +22,7 @@ python3.10 -m pip install -r requirements.txt
 3. we use actor_model to get action to train reward_model
 
 > 3 functions in a loop
+
+
+## Theory2
+Based on theory1, we no longer predict exact reward value, but 3 classes: 'good to me', 'bad to me', 'no good and also no bad to me'
