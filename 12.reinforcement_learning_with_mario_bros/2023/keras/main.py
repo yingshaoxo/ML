@@ -219,24 +219,26 @@ class Trainer:
         """
         loop_counting = 0
 
-        page_size = 50
+        page_size = 200
         page_number = 0
         while True:
             state_history = []
             action_history = []
             real_rewards_history = []
-            for one in self.training_data_collection.find().skip(page_number*page_size).limit(page_size):
+            # for one in self.training_data_collection.find().skip(page_number*page_size).limit(page_size):
+            for one in self.training_data_collection.aggregate([
+                { "$sample": { "size": page_size } }
+            ]):
                 state_history.append(one["state"])
                 action_history.append(one["action"])
                 real_rewards_history.append(one["reward"])
 
-            if len(state_history) == 0:
-                # meet the end of datatbase record
-                page_number = 0
-                loop_counting += 1
-                if loop_counting % 2 == 0:
-                    self.save_model()
-                continue
+            # if len(state_history) == 0:
+            #     # meet the end of datatbase record
+            #     page_number = 0
+            #     loop_counting += 1
+            #     self.save_model()
+            #     continue
             
             # print(np.expand_dims(np.array(state_history), axis=3).shape)
             # exit()
@@ -247,13 +249,16 @@ class Trainer:
             data_y = {
                 "reward_output": np.array(real_rewards_history),
             }
-            for i in range(50):
+            for i in range(3):
                 self.reward_model.fit(
-                    x=data_x.copy(), 
-                    y=data_y.copy(),
+                    x=data_x, 
+                    y=data_y,
                 )
-            self.save_model()
 
+            if page_number % 10 == 0:
+                self.save_model()
+                page_number = 0
+                
             page_number += 1
 
     def use_random_action_to_train_reward_model(self):
@@ -355,9 +360,11 @@ class Trainer:
                         "action_input": np.array([i for i in range(self.number_of_actions)]),
                     }, 
                 )
-                for x in np.copy(reward_result):
-                    if x < 0:
-                        reward_result += np.absolute(x)
+                # for x in np.copy(reward_result):
+                #     if x < 0:
+                #         reward_result += np.absolute(x)
+                reward_result[reward_result < 0] = 0
+                # reward_result[reward_result < 20] = 0
                 action_probability = np.copy(reward_result)
                 action_probability /= action_probability.sum()
                 action = np.random.choice(self.number_of_actions, p=np.squeeze(action_probability))
