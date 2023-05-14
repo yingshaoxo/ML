@@ -30,8 +30,8 @@ class Trainer:
         self.env = JoypadSpace(self.env, MY_MARIO_MOVEMENT)
 
         # self.img_rows , self.img_cols = 240, 256
-        self.img_rows , self.img_cols = 80, 80
-        self.continuous_image_number = 8
+        self.img_rows , self.img_cols = 50, 50
+        self.continuous_image_number = 32
         self.time_jump_number = 25
 
         self.reward_model_file_path = './reward_nn_keras_model'
