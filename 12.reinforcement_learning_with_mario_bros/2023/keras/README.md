@@ -33,6 +33,8 @@ Three level 'optimal path' finding, use thoery2 as the direction, see what is ri
 
 > Imagine you are doing coding for a remote control car, you use GPS to find the 'big direction' for the target, then you use camera to find the 'black line', then you use the 'white and black color senser (grayscale sensor)' to guide your car go that way in an exact way. Actually you are using three models togather at the same time to make sure the car will definitely go towards the target.
 
+> In mario, the big direction means a model that use 50 steps later reward as guide. the current direction means another model that use 4 steps later reward as guide. Two guide match, then do it!
+
 
 ## Tips
 * time_sequence_state_list(a series of images) is better than single frame
