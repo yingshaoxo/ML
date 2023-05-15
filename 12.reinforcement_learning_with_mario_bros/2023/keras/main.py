@@ -30,9 +30,10 @@ class Trainer:
         self.env = JoypadSpace(self.env, MY_MARIO_MOVEMENT)
 
         # self.img_rows , self.img_cols = 240, 256
-        self.img_rows , self.img_cols = 50, 50
-        self.continuous_image_number = 32
-        self.time_jump_number = 25
+        self.img_rows , self.img_cols = 80, 80
+        self.continuous_image_number = 8
+        self.time_jump_number = 50
+        # self.use_how_many_steps_later_reward = 100
 
         self.reward_model_file_path = './reward_nn_keras_model'
         self.action_model_file_path = './action_nn_keras_model'
@@ -46,20 +47,22 @@ class Trainer:
 
     def generate_reward_model(self):
         action_image_input = keras.Input(shape=(self.continuous_image_number, self.img_rows, self.img_cols, 1), name="action_image_input")
-        x = keras.layers.Conv3D(self.continuous_image_number, 8, strides=4, padding='same', activation='relu')(action_image_input)
-        x = keras.layers.Conv3D(32, 4, strides=2, padding='same', activation='relu')(x)
-        x = keras.layers.Conv3D(64, 3, strides=1, padding='same', activation='relu')(x)
-        x = keras.layers.Dense(32, activation='relu')(x)
+        x = keras.layers.Conv3D(64, kernel_size=8, strides=4, padding='same', activation='relu')(action_image_input)
+        x = keras.layers.ConvLSTM2D(64, kernel_size=4, padding='same', return_sequences=True)(x)
+        x = keras.layers.Conv3D(32, kernel_size=4, strides=2, padding='same', activation='relu')(x)
+        x = keras.layers.ConvLSTM2D(32, kernel_size=2, padding='same')(x)
         x = keras.layers.Flatten()(x)
-        commom_layer = keras.layers.Dense(512, activation='relu')(x)
+        commom_layer = keras.layers.Dense(1024, activation='relu')(x)
 
         action_input = keras.Input(shape=(1), name="action_input")
         x2 = keras.layers.Dense(self.number_of_actions, activation='relu')(action_input)
         x2 = keras.layers.Dense(512, activation='relu')(action_input)
+        x2 = keras.layers.Dense(512, activation='tanh')(action_input)
         x2 = keras.layers.concatenate([commom_layer, x2])
-        x2 = keras.layers.Dense(512, activation='relu')(x2)
-        x2 = keras.layers.Dense(256, activation='relu')(x2)
-        x2 = keras.layers.Dense(128, activation='relu')(x2)
+        x2 = keras.layers.Dense(1024, activation='relu')(x2)
+        x2 = keras.layers.Dense(1024, activation='tanh')(x2)
+        x2 = keras.layers.Dense(512, activation=keras.layers.LeakyReLU())(x2)
+        x2 = keras.layers.Dense(512, activation='sigmoid')(x2)
         reward_output = keras.layers.Dense(1, activation="linear", name="reward_output")(x2)
 
         model = keras.Model([action_image_input, action_input], [reward_output], name="yingshaoxo_and_mario_reward_model")
@@ -141,7 +144,7 @@ class Trainer:
         return frame
     
     def collect_random_data(self):
-        max_steps_per_episode = 300
+        max_steps_per_episode = 500
 
         state_history_for_continuous_input = []
         state_history = []
@@ -171,20 +174,24 @@ class Trainer:
                 action_history.append(action)
 
                 jump_counting = 0
-                reward_counting = 0
+                reward_adding_count = 0
+                temp_reward = 0
                 while jump_counting < self.time_jump_number:
                     result = self.env.step(action)
                     state, reward, terminated1, terminated2, info = result
                     state = self.image_process(state)
                     state_history_for_continuous_input += [state]
-                    reward_counting += reward
+                    temp_reward += reward
+                    reward_adding_count += 1
                     done = terminated1 or terminated2
                     self.env.render()
                     if done == True:
                         break
                     jump_counting += 1
-                real_rewards_history.append(reward_counting)
-                last_reward = reward_counting
+                temp_reward /= reward_adding_count
+                print(temp_reward)
+                real_rewards_history.append(temp_reward)
+                last_reward = temp_reward
 
                 the_data = {
                     "state": state_history[-1],
@@ -211,7 +218,7 @@ class Trainer:
 
         self.env.close()
 
-    def use_collect_random_data_to_train_reward_model(self):
+    def use_collect_random_data_to_train_reward_model(self, train_single_time=False):
         """
         {
             "state": state_history[-1].tolist(),
@@ -219,7 +226,7 @@ class Trainer:
             "reward": real_rewards_history[-1]
         }
         """
-        page_size = 200
+        page_size = 900
         page_number = 0
         while True:
             state_history = []
@@ -240,7 +247,7 @@ class Trainer:
             data_y = {
                 "reward_output": np.array(real_rewards_history),
             }
-            for i in range(10):
+            for i in range(3):
                 self.reward_model.fit(
                     x=data_x, 
                     y=data_y,
@@ -251,6 +258,10 @@ class Trainer:
                 page_number = 0
                 
             page_number += 1
+
+            if train_single_time == True:
+                self.save_model()
+                break
 
     def use_reward_model_to_run(self):
         max_steps_per_episode = 300
@@ -300,20 +311,23 @@ class Trainer:
                 action_history.append(action)
 
                 jump_counting = 0
-                reward_counting = 0
+                reward_adding_count = 0
+                temp_reward = 0
                 while jump_counting < self.time_jump_number:
                     result = self.env.step(action)
                     state, reward, terminated1, terminated2, info = result
                     state = self.image_process(state)
                     state_history_for_continuous_input += [state]
-                    reward_counting += reward
+                    temp_reward += reward
+                    reward_adding_count += 1
                     done = terminated1 or terminated2
                     self.env.render()
                     if done == True:
                         break
                     jump_counting += 1
-                real_rewards_history.append(reward_counting)
-                last_reward = reward_counting
+                temp_reward /= reward_adding_count
+                real_rewards_history.append(temp_reward)
+                last_reward = temp_reward
 
                 the_data = {
                     "state": state_history[-1],
@@ -339,7 +353,7 @@ class Trainer:
         self.env.close()
 
     def loop1_reward_model_train_and_predict(self):
-        max_steps_per_episode = 300
+        max_steps_per_episode = 500
 
         state_history_for_continuous_input = []
         state_history = []
@@ -381,20 +395,23 @@ class Trainer:
                 action_history.append(action)
 
                 jump_counting = 0
-                reward_counting = 0
+                reward_adding_count = 0
+                temp_reward = 0
                 while jump_counting < self.time_jump_number:
                     result = self.env.step(action)
                     state, reward, terminated1, terminated2, info = result
                     state = self.image_process(state)
                     state_history_for_continuous_input += [state]
-                    reward_counting += reward
+                    temp_reward += reward
+                    reward_adding_count += 1
                     done = terminated1 or terminated2
                     self.env.render()
                     if done == True:
                         break
                     jump_counting += 1
-                real_rewards_history.append(reward_counting)
-                last_reward = reward_counting
+                temp_reward /= reward_adding_count
+                real_rewards_history.append(temp_reward)
+                last_reward = temp_reward
 
                 the_data = {
                     "state": state_history[-1],
@@ -420,6 +437,7 @@ class Trainer:
                     },
                 )
             self.save_model()
+            self.use_collect_random_data_to_train_reward_model(train_single_time=True)
 
             state_history.clear()
             action_history.clear()
@@ -559,6 +577,6 @@ if __name__ == "__main__":
     # trainer.collect_random_data()
     # trainer.use_collect_random_data_to_train_reward_model()
 
-    #trainer.use_reward_model_to_run()
+    # trainer.use_reward_model_to_run()
 
     trainer.loop1_reward_model_train_and_predict()

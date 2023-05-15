@@ -36,6 +36,10 @@ Three level 'optimal path' finding, use thoery2 as the direction, see what is ri
 > In mario, the big direction means a model that uses 50_steps_later_reward as guide. the current direction means another model that uses 4_steps_later_reward as guide. If two guide matchs, then do it!
 
 
+## Summary
+Short quick reaction for long term future
+
+
 ## Tips
 * time_sequence_state_list(a series of images) is better than single frame
 * use mongodb to cache data for supervised learning later to see if the model is able to fetch key features or not
