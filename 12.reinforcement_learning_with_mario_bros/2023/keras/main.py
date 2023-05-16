@@ -364,7 +364,7 @@ class Trainer:
         self.env.close()
 
     def loop1_reward_model_train_and_predict(self):
-        max_steps_per_episode = 500
+        max_steps_per_episode = 300
 
         state_history_for_continuous_input = []
         state_history = []
@@ -440,7 +440,7 @@ class Trainer:
             self.test_data_collection.insert_many(test_data_cache)
             self.training_data_collection.insert_many(training_data_cache)
 
-            for i in range(10):
+            for i in range(3):
                 self.reward_model.fit(
                     x= {
                         "action_image_input": np.array(state_history), 
