@@ -235,7 +235,7 @@ class Trainer:
             "reward": real_rewards_history[-1]
         }
         """
-        page_size = 900
+        page_size = 300
         # page_size = 1
         page_number = 0
         while True:
@@ -273,7 +273,7 @@ class Trainer:
                 break
 
     def use_reward_model_to_run(self):
-        max_steps_per_episode = 300
+        max_steps_per_episode = 500
 
         state_history_for_continuous_input = []
         state_history = []
