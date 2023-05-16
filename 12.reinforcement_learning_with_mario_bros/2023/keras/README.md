@@ -44,3 +44,8 @@ Short quick reaction for long term future
 * time_sequence_state_list(a series of images) is better than single frame
 * use mongodb to cache data for supervised learning later to see if the model is able to fetch key features or not
 * buy >= 8GB GPU
+
+
+## In reality
+### How to increase success rate?
+Based on reward model output value, decrease optional actions by deleting those actions that most time causes negative values.
