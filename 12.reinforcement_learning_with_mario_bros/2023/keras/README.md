@@ -49,3 +49,11 @@ Short quick reaction for long term future
 ## In reality
 ### How to increase success rate?
 Based on reward model output value, decrease optional actions by deleting those actions that most time causes negative values.
+
+
+## New Theroy
+Instead of let the mario predict the reward of the future, how about we let them calculate current reward for each frame, that's a certain thing.
+
+Then we use image to image state of art model to predict a future 50 steps later image. 
+
+Maybe that will increase the success rate for mario.
