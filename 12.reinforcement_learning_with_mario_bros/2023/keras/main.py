@@ -29,9 +29,8 @@ class Trainer:
         self.number_of_actions = len(MY_MARIO_MOVEMENT)
         self.env = JoypadSpace(self.env, MY_MARIO_MOVEMENT)
 
-        # self.img_rows , self.img_cols = 240, 256
-        self.img_rows , self.img_cols = 80, 80
-        self.continuous_image_number = 8
+        self.img_rows , self.img_cols = 240, 256
+        self.continuous_image_number = 3
         self.time_jump_number = 50
         # self.use_how_many_steps_later_reward = 100
 
@@ -47,29 +46,26 @@ class Trainer:
 
     def generate_reward_model(self):
         action_image_input = keras.Input(shape=(self.continuous_image_number, self.img_rows, self.img_cols, 1), name="action_image_input")
-        x = keras.layers.Conv3D(64, kernel_size=8, strides=4, padding='same', activation='relu')(action_image_input)
-        x = keras.layers.ConvLSTM2D(64, kernel_size=4, padding='same', return_sequences=True)(x)
-        x = keras.layers.Conv3D(32, kernel_size=4, strides=2, padding='same', activation='relu')(x)
-        x = keras.layers.ConvLSTM2D(32, kernel_size=2, padding='same')(x)
+        x = keras.layers.ConvLSTM2D(256, kernel_size=8, strides=32, padding='same', return_sequences=True)(action_image_input)
+        x = keras.layers.ConvLSTM2D(128, kernel_size=2, strides=3, padding='same')(x)
         x = keras.layers.Flatten()(x)
-        commom_layer = keras.layers.Dense(1024, activation='relu')(x)
+        commom_layer = keras.layers.Dense(512, activation='relu')(x)
 
         action_input = keras.Input(shape=(1), name="action_input")
         x2 = keras.layers.Dense(self.number_of_actions, activation='relu')(action_input)
-        x2 = keras.layers.Dense(512, activation='relu')(action_input)
-        x2 = keras.layers.Dense(512, activation='tanh')(action_input)
+        x2 = keras.layers.Dense(64, activation='relu')(action_input)
+        x2 = keras.layers.Dense(64, activation='tanh')(action_input)
         x2 = keras.layers.concatenate([commom_layer, x2])
-        x2 = keras.layers.Dense(1024, activation='relu')(x2)
-        x2 = keras.layers.Dense(1024, activation='tanh')(x2)
-        x2 = keras.layers.Dense(512, activation=keras.layers.LeakyReLU())(x2)
-        x2 = keras.layers.Dense(512, activation='sigmoid')(x2)
+        x2 = keras.layers.Dense(512, activation='relu')(x2)
+        x2 = keras.layers.Dense(128, activation='tanh')(x2)
+        x2 = keras.layers.Dense(128, activation='relu')(x2)
         reward_output = keras.layers.Dense(1, activation="linear", name="reward_output")(x2)
 
         model = keras.Model([action_image_input, action_input], [reward_output], name="yingshaoxo_and_mario_reward_model")
         #print(model.summary())
 
         model.compile(
-            optimizer=keras.optimizers.Adam(0.01),
+            optimizer=keras.optimizers.Adam(0.1),
             loss={
                 "reward_output": "huber",
             },
@@ -83,7 +79,7 @@ class Trainer:
 
     def generate_action_model(self):
         action_image_input = keras.Input(shape=(self.continuous_image_number, self.img_rows, self.img_cols, 1), name="action_image_input")
-        x = keras.layers.Conv3D(self.continuous_image_number, 8, strides=4, padding='same', activation='relu')(action_image_input)
+        x = keras.layers.Conv3D(self.continuous_image_number, 8, strides=8, padding='same', activation='relu')(action_image_input)
         x = keras.layers.Conv3D(32, 4, strides=2, padding='same', activation='relu')(x)
         x = keras.layers.Conv3D(64, 3, strides=1, padding='same', activation='relu')(x)
         x = keras.layers.Dense(32, activation='relu')(x)
@@ -227,6 +223,7 @@ class Trainer:
         }
         """
         page_size = 900
+        # page_size = 1
         page_number = 0
         while True:
             state_history = []
@@ -260,7 +257,6 @@ class Trainer:
             page_number += 1
 
             if train_single_time == True:
-                self.save_model()
                 break
 
     def use_reward_model_to_run(self):
@@ -301,6 +297,7 @@ class Trainer:
                 # for x in np.copy(reward_result):
                 #     if x < 0:
                 #         reward_result += np.absolute(x)
+
                 reward_result[reward_result < 0] = 0
                 action_probability = np.copy(reward_result)
                 action_probability /= action_probability.sum()
@@ -575,8 +572,8 @@ if __name__ == "__main__":
     trainer.load_model()
 
     # trainer.collect_random_data()
-    # trainer.use_collect_random_data_to_train_reward_model()
+    trainer.use_collect_random_data_to_train_reward_model()
 
     # trainer.use_reward_model_to_run()
 
-    trainer.loop1_reward_model_train_and_predict()
+    # trainer.loop1_reward_model_train_and_predict()
