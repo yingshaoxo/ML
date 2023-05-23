@@ -16,35 +16,35 @@ class Trainer:
         from nes_py.wrappers import JoypadSpace
         import gym_super_mario_bros
 
-        self.env = gym_super_mario_bros.make('SuperMarioBros-v3', apply_api_compatibility=True, render_mode="human")
+        self.env = gym_super_mario_bros.make('SuperMarioBros-v2', apply_api_compatibility=True, render_mode="human")
         MY_MARIO_MOVEMENT = [
-            ['right'],
-            ['right', 'A'],
-            # ['NOOP'],
-            # ['A', 'right', 'B'],
-            # # ['A', 'left', 'B'],
-            # ['A', 'right'],
-            # # ['A', 'left'],
             # ['right'],
-            # # ['left'],
+            # ['right', 'A'],
+            ['NOOP'],
+            ['A', 'right', 'B'],
+            ['A', 'left', 'B'],
+            ['A', 'right'],
+            ['A', 'left'],
+            ['right'],
+            ['left'],
         ]
         self.number_of_actions = len(MY_MARIO_MOVEMENT)
         self.env = JoypadSpace(self.env, MY_MARIO_MOVEMENT)
 
         self.img_rows , self.img_cols = 240, 256
-        self.continuous_image_number = 4
-        self.time_jump_number = 30
+        self.continuous_image_number = 2
+        self.time_jump_number = 1
         # self.use_how_many_steps_later_reward = 100
 
-        self.reward_model_file_path = './reward_nn_keras_model'
+        self.reward_model_file_path = './test_reward_nn_keras_model'
         self.action_model_file_path = './action_nn_keras_model'
 
         self.reward_model = self.generate_reward_model()
         self.action_model = self.generate_action_model()
 
         self.mongo_client = MongoClient('mongodb://localhost:27017/')
-        self.training_data_collection = self.mongo_client['mario']['training_data_collection']
-        self.test_data_collection = self.mongo_client['mario']['test_data_collection']
+        self.training_data_collection = self.mongo_client['mario']['test_training_data_collection']
+        self.test_data_collection = self.mongo_client['mario']['test_test_data_collection']
 
     def generate_reward_model(self):
         action_image_input = keras.Input(shape=(self.continuous_image_number, self.img_rows, self.img_cols, 1), name="action_image_input")
@@ -237,6 +237,7 @@ class Trainer:
         """
         page_size = 300
         # page_size = 1
+        page_number = 0
         while True:
             state_history = []
             action_history = []
@@ -262,7 +263,11 @@ class Trainer:
                     y=data_y,
                 )
 
-            self.save_model()
+            if page_number % 3 == 0:
+                self.save_model()
+                page_number = 0
+                
+            page_number += 1
 
             if train_single_time == True:
                 break
@@ -467,8 +472,8 @@ if __name__ == "__main__":
     trainer.load_model()
 
     # trainer.collect_random_data()
-    # trainer.use_collect_random_data_to_train_reward_model()
+    trainer.use_collect_random_data_to_train_reward_model()
 
     # trainer.use_reward_model_to_run()
 
-    trainer.loop1_reward_model_train_and_predict()
+    #trainer.loop1_reward_model_train_and_predict()

@@ -6,3 +6,4 @@ __pycache__/
 nn_keras_model/
 action_nn_keras_model/
 reward_nn_keras_model/
+test_reward_nn_keras_model/
