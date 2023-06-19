@@ -14,7 +14,7 @@ processor = bundle.get_text_processor()
 tacotron2 = bundle.get_tacotron2().to(device)
 vocoder = bundle.get_vocoder().to(device)
 
-text = "How to speak Chinese?"
+text = "How to speak Chinese? Do you know how to speak Chinese? Even if you know, I won't be your girlfriend. I am your girlfriend only if you know how to speak English."
 
 with torch.inference_mode():
     processed, lengths = processor(text)
