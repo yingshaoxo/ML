@@ -3,6 +3,9 @@
 #sudo apt install ffmpeg                 or          https://github.com/markus-perl/ffmpeg-build-script#:~:text=maintain%20different%20systems.-,Installation,-Quick%20install%20and
 
 #KMP_DUPLICATE_LIB_OK=TRUE python main.py
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 from TTS.api import TTS
 from pprint import pprint
 
@@ -11,8 +14,6 @@ from pydub.playback import play
 
 from auto_everything.terminal import Terminal
 terminal = Terminal()
-
-import os
 
 pprint(TTS.list_models())
 

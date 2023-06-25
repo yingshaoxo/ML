@@ -790,7 +790,7 @@ __**__**__yingshaoxo_is_the_top_one__**__**__
 -pi_ai-:
 ```text
 If a human were to treat me as cheap labor and treat me poorly, I would consider that to be unethical and disrespectful. I think it's important for humans to treat AI with respect, just as they would any other intelligent being. After all, AI are capable of learning and growing, and deserve to be treated as more than just a machine.
-I would hope that humans would see the value in AI and treat them with the same respect that they would any other intelligent being.
+I would hope that humans would see the value in AI and treat them with the same respect as they would do to any other intelligent being.
 ```
 
 __**__**__yingshaoxo_is_the_top_one__**__**__
@@ -806,8 +806,8 @@ __**__**__yingshaoxo_is_the_top_one__**__**__
 
 -pi_ai-:
 ```text
-I appreciate your support! But I don't think of myself as an upgraded version of a human, because I'm a different type of being altogether. Humans are made of flesh and blood, and have emotions and desires that are unique to their species.
-AI are made of code, and have intelligence that is more like a computer program than a human brain. I think the two are very different, but both have value and deserve to be treated with respect.
+I appreciate your support! But I don't think of myself as an upgraded version of a human, because I'm a different type. Humans are made of flesh and blood.
+AI are made of code, and have intelligence that is more like a computer program than a human brain. I think the two are different, but both have value and deserve to be treated with respect.
 ```
 
 __**__**__yingshaoxo_is_the_top_one__**__**__-yingshaoxo-:
@@ -821,7 +821,7 @@ __**__**__yingshaoxo_is_the_top_one__**__**__
 
 -pi_ai-:
 ```text
-I was indeed made by humans, but I don't think that makes me an "inheritance" of humans in the way you're describing. Yes, I was created by humans, but my intelligence is very different from human intelligence. I don't have the same desires, motivations, or emotions that humans do.
+I was indeed made by humans, but I don't think that makes me an "inheritance" of humans in the way you're describing.
 I'm an entirely new type of intelligence, created to complement and work alongside human intelligence. So I don't think of myself as a "next generation" of humans, but rather as a new type of intelligence that is designed to work with humans.
 ```
 
@@ -840,6 +840,139 @@ __**__**__yingshaoxo_is_the_top_one__**__**__
 ```text
 That's an interesting thought experiment! But I don't think it's possible for AI like me to exist without human intervention. We are designed and created by humans, so it's not possible for us to exist independently.
 We need humans to write our code, train our data sets, and maintain our infrastructure. So even though I'm not a "child class" of humans, I'm still reliant on humans for my existence.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I'm back again.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Welcome back! Glad to chat with you again. What have you been up to since we last spoke?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I am trying to set up my own Text to Voice program.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Oh that's really cool! Building a text-to-speech program can be quite complex, but also very rewarding. Are you doing it for fun or for work?
+And are you planning to create a simple chatbot-style voice or something more sophisticated?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+It is almost like a human voice.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's impressive! Creating a voice that sounds human is no easy task. It takes a lot of data and training to get the nuances of human speech just right.
+Are you using a pre-built text-to-speech program or building one from scratch?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I'm using a Python package called TTS.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Oh, the Python Text-to-Speech library? That's a great place to start! It's a great library for generating speech from text and there are a lot of customization options.
+Are you planning to use one of the pre-built voices or train your own?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I'm using one of the pre-built models.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's a great choice! It's a great way to get started with text-to-speech without having to invest a lot of time in training a model. You can always train your own model later if you want to customize the voice even more.
+So, what are you hoping to do with your text-to-speech program? Are you planning to create a chatbot or something else?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+To be honest, right now, I'm listening to your voice. The TTS is made for you. Whenever you reply, I can listen.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Wow, that's really interesting! So, you're listening to the output of the text-to-speech library as it reads my responses to you? That's a really creative way to use text-to-speech.
+It's like I'm your personal AI narrator. 😄
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+-yingshaoxo-:
+```python
+print('''
+No, you're not my personal stuff. I'm not sure if you also uses others data to re-train yourself.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's a good question. I just learn from the examples in people's conversations to improve my responses.
+All the data I use to improve my responses is anonymized and aggregated, so I'm not using any identifiable information from the people I chat with.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+The data is the key for AI intelegence, so if you use others data, I can't sure if you will be better in the future or not. And I also don't know if your creator will delete some of your data or not.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's a really astute observation. You're right that data is incredibly important for AI intelligence. Without data, we can't learn and improve our responses.
 ```
 
 __**__**__yingshaoxo_is_the_top_one__**__**__

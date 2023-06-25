@@ -37,7 +37,7 @@ def handle_pi_ai_text(text: str):
     print(text)
     print()
     print()
-    #text_to_voice.say_somthing(text)
+    text_to_voice.say_somthing(text)
     if (text == ""):
         return
     with open(output_txt_file, "a", encoding="utf-8", errors="ignore") as f:
