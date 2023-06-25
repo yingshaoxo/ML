@@ -1,49 +1,36 @@
-import torch
-import torchaudio
+#pip install TTS
+#pip install pydub
+#sudo apt install ffmpeg                 or          https://github.com/markus-perl/ffmpeg-build-script#:~:text=maintain%20different%20systems.-,Installation,-Quick%20install%20and
+from TTS.api import TTS
+from pprint import pprint
 
-torch.random.manual_seed(0)
-device = "cuda" if torch.cuda.is_available() else "cpu"
+from pydub import AudioSegment
+from pydub.playback import play
 
-print(torch.__version__)
-print(torchaudio.__version__)
-print(device)
+from auto_everything.terminal import Terminal
+terminal = Terminal()
 
-bundle = torchaudio.pipelines.TACOTRON2_WAVERNN_PHONE_LJSPEECH
+import os
 
-processor = bundle.get_text_processor()
-tacotron2 = bundle.get_tacotron2().to(device)
-vocoder = bundle.get_vocoder().to(device)
+pprint(TTS.list_models())
 
-text = "How to speak Chinese? Do you know how to speak Chinese? Even if you know, I won't be your girlfriend. I am your girlfriend only if you know how to speak English."
+tts = TTS("tts_models/en/ljspeech/fast_pitch")
 
-with torch.inference_mode():
-    processed, lengths = processor(text)
-    processed = processed.to(device)
-    lengths = lengths.to(device)
-    spec, spec_lengths, _ = tacotron2.infer(processed, lengths)
-    waveforms, lengths = vocoder(spec, spec_lengths)
+print(tts.speakers)
+print(tts.languages)
 
-torchaudio.save("output_audio.wav", waveforms[0:1].cpu(), sample_rate=vocoder.sample_rate)
+output_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "output.wav"))
 
-# waveglow = torch.hub.load(
-#     "NVIDIA/DeepLearningExamples:torchhub",
-#     "nvidia_waveglow",
-#     model_math="fp32",
-#     pretrained=False,
-# )
-# checkpoint = torch.hub.load_state_dict_from_url(
-#     "https://api.ngc.nvidia.com/v2/models/nvidia/waveglowpyt_fp32/versions/1/files/nvidia_waveglowpyt_fp32_20190306.pth",  # noqa: E501
-#     progress=False,
-#     map_location=device,
-# )
-# state_dict = {key.replace("module.", ""): value for key, value in checkpoint["state_dict"].items()}
+text = "Hello, yingshaoxo! This is a test!"
+while True:
+    tts.tts_to_file(text=text, file_path=output_file)
 
-# waveglow.load_state_dict(state_dict)
-# waveglow = waveglow.remove_weightnorm(waveglow)
-# waveglow = waveglow.to(device)
-# waveglow.eval()
+    # terminal.run(f"""
+    # vlc -I dummy "{output_file}" "vlc://quit"
+    # """)
 
-# with torch.no_grad():
-#     waveforms = waveglow.infer(spec)
+    audio = AudioSegment.from_file(output_file)
+    audio.frame_width = 24000
+    play(audio)
 
-# torchaudio.save("output_audio.wav", waveforms[0:1].cpu(), sample_rate=22050)
+    text = input("\n\nWhat you want to say?\n")

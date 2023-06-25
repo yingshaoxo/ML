@@ -1,3 +1,2 @@
-pytorch
-torchaudio
-deep-phonemizer
+TTS
+pydub
