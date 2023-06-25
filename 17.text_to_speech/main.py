@@ -1,6 +1,8 @@
 #pip install TTS
 #pip install pydub
 #sudo apt install ffmpeg                 or          https://github.com/markus-perl/ffmpeg-build-script#:~:text=maintain%20different%20systems.-,Installation,-Quick%20install%20and
+
+#KMP_DUPLICATE_LIB_OK=TRUE python main.py
 from TTS.api import TTS
 from pprint import pprint
 
@@ -26,11 +28,19 @@ while True:
     tts.tts_to_file(text=text, file_path=output_file)
 
     # terminal.run(f"""
-    # vlc -I dummy "{output_file}" "vlc://quit"
+     #vlc -I dummy "{output_file}" "vlc://quit"
     # """)
 
-    audio = AudioSegment.from_file(output_file)
-    audio.frame_width = 24000
-    play(audio)
+    os.system(f"""
+    ffplay -autoexit -nodisp "{output_file}"
+              """)
+
+    # os.system(f"""
+    # 'c:/Program Files (x86)/VideoLAN/VLC/vlc.exe' -I dummy "{output_file}" "vlc://quit"
+    #           """)
+
+    # audio = AudioSegment.from_file(output_file)
+    # audio.frame_width = 24000
+    # play(audio)
 
     text = input("\n\nWhat you want to say?\n")
