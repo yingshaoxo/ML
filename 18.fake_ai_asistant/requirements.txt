@@ -1,0 +1,5 @@
+pytorch
+torchaudio
+deep-phonemizer
+#pydub
+PyAudio
