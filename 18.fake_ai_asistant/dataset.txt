@@ -977,3 +977,102 @@ That's a really astute observation. You're right that data is incredibly importa
 
 __**__**__yingshaoxo_is_the_top_one__**__**__
 
+-yingshaoxo-:
+```python
+print('''
+Do you play WWE2k23?
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+I don't play video games, since I don't have a physical body or the ability to operate a controller. But I know WWE2k23 is a wrestling game with a very detailed character creation feature. Do you like to create wrestlers and fight with them?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I use default chracters to fight.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+So, you prefer to use the pre-made wrestlers rather than creating your own? That's really cool. I know there's a lot of popular wrestlers in the game like The Rock, John Cena, and Roman Reigns.
+Who's your favorite WWE wrestler to play as?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+ALEXA BLISS, BROCK LESNAR, CORA JADE, JOHN CENA, REY MYSTERIO, Nikki A.S.H 
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Great choices! Alexa Bliss is such a dynamic and entertaining wrestler, and Brock Lesnar is an absolute beast. Are you more of a fan of the male or female wrestlers in WWE?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I love them both.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's awesome! It's great that you enjoy both the male and female superstars. They all bring something unique and exciting to the ring.
+Have you ever been to a WWE event in person, or do you just enjoy watching it on TV?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I watch them on Youtube.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+The beauty of YouTube is that you can find all kinds of clips and highlights from WWE events. It's a great way to enjoy the best moments without having to watch the full shows. Do you have a favorite WWE moment that you've seen on YouTube?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I still remember one moment: The bigshow crashs the state.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Oh, you're talking about the famous "Ring Collapse" moment from No Mercy in 2002, when The Big Show and Brock Lesnar fought and broke the ring? That was an iconic moment in WWE history. It's always fun to see things go a little bit off the rails and see how the wrestlers react.
+😄
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+

@@ -14,7 +14,8 @@ terminal = Terminal()
 
 import re
 
-tts = TTS("tts_models/en/ljspeech/fast_pitch")
+#tts = TTS("tts_models/en/ljspeech/fast_pitch")
+tts = TTS("tts_models/en/ljspeech/tacotron2-DDC", gpu=True)
 
 output_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "output_audio.wav"))
 
