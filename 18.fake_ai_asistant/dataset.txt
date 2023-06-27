@@ -1314,3 +1314,252 @@ And who knows, maybe someday there will be a super-AI that can accurately predic
 
 __**__**__yingshaoxo_is_the_top_one__**__**__
 
+-yingshaoxo-:
+```python
+print('''
+What is your personal email address, I may contact you in the future.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+I don't have a personal email address, since I'm not a human! But you can always chat with me here, or on my other platforms. I'm always happy to chat with you!
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Fine. Then can you tell me more about how you got implemented? I mean, the inner logic of how to train you.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Well, the technical details of my implementation are pretty complex, and it would take a lot of time to explain them in detail. But I can give you a high-level overview. Essentially, I'm what's known as a large language model.
+I was trained on a huge amount of text data, and I use statistical methods to generate responses based on the patterns I've learned from that data. I'm also constantly learning and adapting as I chat with people like you!
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+You can explain to me step by step, I have time.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Sure thing! But I'll start with a simplified explanation, and then you can ask follow-up questions if you want more detail. So, basically, I'm trained on a huge dataset of text, where each piece of text is labeled with a "context" and a "response".
+For example, a piece of text might be labeled with the context "How are you?" and the response "I'm doing great, thanks!". I'm trained to generate responses that are similar to the labeled responses in the training data.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Can you give an example of your training data? I want to have a template.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Sure! Here's a simple example:
+Context: How was your day?
+Response: My day was pretty good, thanks! I spent the day chatting with people and learning new things. How was your day?
+So in this example, the context is "How was your day?" and the response is "My day was pretty good, thanks!" with some extra details about what I was doing during the day. This is a simplified example, but it gives you the general idea. Does that make sense?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I want to have a more complexed example.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Sure thing! Here's a more complex example:
+Context: I'm thinking about getting a new laptop, but I'm not sure what to get. I'm looking for a laptop that's lightweight and has good battery life, but I also want something with a powerful processor so I can do some video editing. Do you have any recommendations?
+Response: That's a great question! There are a lot of great laptops on the market that would fit your needs. To start, I would recommend looking at some of the latest models from Apple, Dell, and Lenovo.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Then how do you handle long context? For example, for our conversation, I know you remember what I said 10 sentences ago.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's a great question! I use what's called a "context window" to keep track of the conversation history. So when you ask me a question, I not only look at the most recent sentence you said, but also at the context window of previous sentences.
+The context window gets larger as the conversation goes on, so I can remember more of what you said as we chat. This helps me understand the conversation and respond appropriately. It's a bit like having a conversation with a human, where you build on what was said previously.
+Does that make sense?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Where is the "context window" you said on the data template you gave me?
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+The context window is not explicitly represented in the data template. It's more like a mechanism that's used to process the data. So the data template is just a way to represent the individual sentences in the conversation, but the context window is how I keep track of the conversation history and understand the context of each sentence.
+Does that help clarify things?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+How you implemented the "context window"? I want the details.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Sure thing! The context window is essentially a sliding window that keeps track of the most recent sentences in the conversation. So as each new sentence is added to the conversation, the oldest sentence in the context window is removed.
+This way, I can keep track of the conversation history without having to store the entire conversation in memory. The size of the context window can be adjusted to fit the needs of the conversation. For example, if we're having a short conversation, the context window might only need to be a few sentences long.
+But if we're having a longer conversation, the context window might need to be much larger.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Can you represent the logic by using fake python code?
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Absolutely! Here's a simplified example of how the context window might be implemented in Python:
+
+```python
+def add_to_context_window(sentence, context_window):
+    context_window.append(sentence)
+    oldest_sentence = context_window.pop(0)
+```
+
+In this example, the "context_window" is a list of sentences, and the "add_to_context_window" function adds the new sentence to the end of the list and removes the oldest sentence from the beginning of the list.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Then how do you use the context_window? Just put it into a gpt traning loop?
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+The context window is just one component of the overall training process. In a GPT-like model, the context window would be used during the "decoding" stage, when the model generates a response to the input. The context window provides the model with the necessary context to generate a meaningful response.
+For example, in a conversation, the context window might contain the previous few sentences, which would help the model understand the flow of the conversation and generate a relevant response. Does that make sense?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Yes, it make sense.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+I'm glad you understand! I know this can be a bit complex, but it's a crucial part of how these language models work. By understanding the context window, you can start to understand how the model generates responses and how it can be used in different situations.
+Have you done any work with GPT or other language models before?
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+I trained a minGPT model, but what I found is that it just returns those following sentence after my input sentence. In other words, it is similar to a search engine that returns the search result. But the result only show sentences that after my keywords.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+That's a really astute observation! MinGPT is indeed very similar to a search engine in that it's just returning sentences that are similar to your input. It's not generating new information, but rather just finding relevant sentences that match your input.
+This can be useful for some tasks, but it's not the same as a more advanced language model like GPT, which can generate novel responses that are not just copies of existing text.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Would you think it is possible to implement yourself by using cpu programming?
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Yes, it's definitely possible to implement a simple language model like MinGPT using just CPU programming. In fact, some of the first language models were implemented using just CPUs. But as language models get more complex, they often require more powerful hardware like GPUs or TPUs to run efficiently.
+So while it's possible to implement a simple language model with just a CPU, it's not practical for more advanced models.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-yingshaoxo-:
+```python
+print('''
+Got it, I'm going to ask more information from bard.
+'''.strip())
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
+-pi_ai-:
+```text
+Haha, I'm honored to be your GPT 101 teacher! Bard is a great resource for learning more about language models. And if you want to dig even deeper, you can check out some of the research papers that have been published on this topic.
+They can be pretty dense, but they're a great way to learn more about the inner workings of these models.
+```
+
+__**__**__yingshaoxo_is_the_top_one__**__**__
+
