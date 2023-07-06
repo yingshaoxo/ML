@@ -103,6 +103,8 @@ def language_splitor(text: str):
         if (index+1 >= len(text)):
             break
 
+    if len(language_list) > 0:
+        language_list[-1]["text"] += text[-1]
     return language_list
 
 
