@@ -1,5 +1,4 @@
 #pip install TTS
-#pip install pydub
 #sudo apt install ffmpeg                 or          https://github.com/markus-perl/ffmpeg-build-script#:~:text=maintain%20different%20systems.-,Installation,-Quick%20install%20and
 
 #KMP_DUPLICATE_LIB_OK=TRUE python main.py
@@ -11,8 +10,9 @@ import re
 from TTS.api import TTS
 from pprint import pprint
 
-from pydub import AudioSegment
-from pydub.playback import play
+#pip install pydub
+# from pydub import AudioSegment
+# from pydub.playback import play
 
 from auto_everything.terminal import Terminal
 terminal = Terminal()
@@ -27,7 +27,7 @@ tts_en = TTS("tts_models/en/ljspeech/tacotron2-DDC", gpu=use_gpu)
 tts_cn = TTS("tts_models/zh-CN/baker/tacotron2-DDC-GST", gpu=use_gpu)
 
 
-def speak_it(language: str, text: str):
+def _speak_it(language: str, text: str):
     output_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "output.wav"))
 
     if (language == "en"):
@@ -35,10 +35,9 @@ def speak_it(language: str, text: str):
     else:
         tts = tts_cn
 
-    try:
+    if tts.speakers == None:
         tts.tts_to_file(text=text, file_path=output_file)
-    except Exception as e:
-        print(e)
+    else:
         tts.tts_to_file(text=text, file_path=output_file, speaker=tts.speakers[0], language=tts.languages[0], speed=2.5)
 
     # terminal.run(f"""
@@ -105,14 +104,28 @@ def language_splitor(text: str):
 
     if len(language_list) > 0:
         language_list[-1]["text"] += text[-1]
-    return language_list
+    
+    new_list = []
+    for index, one in enumerate(language_list):
+        new_text = language_list[index]["text"].strip()
+        if len(new_text) > 0:
+            new_list.append({
+                'language': one['language'],
+                'text': new_text
+            })
+
+    return new_list
+
+
+def speak_it(text: str):
+    data_ = language_splitor(text)
+    for one in data_:
+        print(one)
+        _speak_it(language=one["language"], text=one["text"])
 
 
 text = "Hello, yingshaoxo! I love you so much!"
 while True:
-    data_ = language_splitor(text)
-    for one in data_:
-        print(one)
-        speak_it(language=one["language"], text=one["text"])
+    speak_it(text)
 
     text = input("\n\nWhat you want to say?\n")
