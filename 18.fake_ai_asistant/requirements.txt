@@ -1,5 +1,7 @@
-pytorch
-torchaudio
-deep-phonemizer
+#pytorch
+./min_GPT
+
+#torchaudio
+#deep-phonemizer
 #pydub
-PyAudio
+#PyAudio
