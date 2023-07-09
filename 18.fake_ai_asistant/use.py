@@ -4,16 +4,18 @@ Trains a character-level language model.
 
 import os
 import sys
+from typing import final
 
 import torch
 from torch.utils.data import Dataset
-from torch.utils.data.dataloader import DataLoader
 
-device = torch.device("cuda:0")
-#device = torch.device("cpu")
+from auto_everything.terminal import Terminal
+terminal = Terminal()
 
 from mingpt.model import GPT
 from mingpt.utils import set_seed, setup_logging, CfgNode as CN
+
+import common_functions
 
 # -----------------------------------------------------------------------------
 
@@ -24,7 +26,7 @@ def get_config():
     # system
     C.system = CN()
     C.system.seed = 3407
-    C.system.work_dir = './out/chargpt'
+    C.system.work_dir = common_functions.output_model_folder
 
     # data
     C.data = CharDataset.get_default_config()
@@ -91,12 +93,14 @@ if __name__ == '__main__':
     set_seed(config.system.seed)
 
     # construct the training dataset
-    text = open('input.txt', 'r').read() # don't worry we won't run out of file handles
+    text = common_functions.read_database_txt_file()
     train_dataset = CharDataset(config.data, text)
 
     # construct the model
     config.model.vocab_size = train_dataset.get_vocab_size()
     config.model.block_size = train_dataset.get_block_size()
+
+    device = "cuda" #"cpu"
     model = GPT(config.model)
 
     # load model if possible
@@ -109,18 +113,27 @@ if __name__ == '__main__':
 
     # iteration callback
     def batch_end_callback(context_text: str):
+        response = ""
+
         # evaluate both the train and test score
         model.eval()
         with torch.no_grad():
             # sample from the model...
-            context = context_text
+            context = common_functions.encode_input(context_text)
             x = torch.tensor([train_dataset.stoi[s] for s in context], dtype=torch.long)[None,...].to(device)
             y = model.generate(x, 500, temperature=1.0, do_sample=True, top_k=10)[0]
             completion = ''.join([train_dataset.itos[int(i)] for i in y])
-            print(completion)
+            response += completion
+
+        return common_functions.decode_response(response)
+
     
     print("\n\n")
+    all_input_text = ""
     while True:
         input_text = input("What you want to say? \n")
-        batch_end_callback(context_text=input_text)
+        all_input_text += input_text
+        response = batch_end_callback(context_text=all_input_text[-8000:])
+        print()
+        print(response)
         print("\n\n---------\n\n")

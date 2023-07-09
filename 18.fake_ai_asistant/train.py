@@ -2,7 +2,7 @@
 Trains a character-level language model.
 """
 """
-pip install ./min_GPT -e
+pip install -e ./min_GPT 
 """
 
 import os
@@ -18,6 +18,8 @@ from mingpt.utils import set_seed, setup_logging, CfgNode as CN
 from auto_everything.disk import Disk
 disk = Disk()
 
+import common_functions
+
 # -----------------------------------------------------------------------------
 
 def get_config():
@@ -27,7 +29,7 @@ def get_config():
     # system
     C.system = CN()
     C.system.seed = 3407
-    C.system.work_dir = './out/chargpt'
+    C.system.work_dir = common_functions.output_model_folder
 
     # data
     C.data = CharDataset.get_default_config()
@@ -98,7 +100,7 @@ if __name__ == '__main__':
     set_seed(config.system.seed)
 
     # construct the training dataset
-    text = open(disk.join_paths(disk.get_directory_path(__file__), "dataset.txt"), 'r').read() # don't worry we won't run out of file handles
+    text = common_functions.read_database_txt_file()
     train_dataset = CharDataset(config.data, text)
 
     # construct the model
@@ -107,8 +109,16 @@ if __name__ == '__main__':
     model = GPT(config.model)
 
     # construct the trainer object
-    config.trainer.device = "cpu"
+    config.trainer.device = "cuda" #"cpu"
     trainer = Trainer(config.trainer, model, train_dataset)
+
+    # load model if possible
+    ckpt_path = os.path.join(config.system.work_dir, "model.pt")
+    if (os.path.exists(ckpt_path)):
+        ck = torch.load(ckpt_path)
+        model.load_state_dict(ck) 
+    model.transformer.to(config.trainer.device)
+    model.lm_head.to(config.trainer.device)
 
     # iteration callback
     def batch_end_callback(trainer):
@@ -121,11 +131,11 @@ if __name__ == '__main__':
             model.eval()
             with torch.no_grad():
                 # sample from the model...
-                context = "Hi you!"
+                context = common_functions.encode_input("Hi you!") 
                 x = torch.tensor([train_dataset.stoi[s] for s in context], dtype=torch.long)[None,...].to(trainer.device)
                 y = model.generate(x, 500, temperature=1.0, do_sample=True, top_k=10)[0]
                 completion = ''.join([train_dataset.itos[int(i)] for i in y])
-                print(completion)
+                print(common_functions.decode_response(completion))
             # save the latest model
             print("saving model")
             ckpt_path = os.path.join(config.system.work_dir, "model.pt")
