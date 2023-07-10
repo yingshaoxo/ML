@@ -135,11 +135,15 @@ if __name__ == '__main__':
                 x = torch.tensor([train_dataset.stoi[s] for s in context], dtype=torch.long)[None,...].to(trainer.device)
                 y = model.generate(x, 500, temperature=1.0, do_sample=True, top_k=10)[0]
                 completion = ''.join([train_dataset.itos[int(i)] for i in y])
-                print(common_functions.decode_response(completion))
+                print(common_functions.decode_response(context_text="Hi you!", text=completion))
             # save the latest model
             print("saving model")
             ckpt_path = os.path.join(config.system.work_dir, "model.pt")
             torch.save(model.state_dict(), ckpt_path)
+
+            if trainer.loss.item() <= 0.06:
+                exit()
+
             # revert model to training mode
             model.train()
 

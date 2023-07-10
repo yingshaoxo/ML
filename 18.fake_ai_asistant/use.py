@@ -125,15 +125,15 @@ if __name__ == '__main__':
             completion = ''.join([train_dataset.itos[int(i)] for i in y])
             response += completion
 
-        return common_functions.decode_response(response)
+        return common_functions.decode_response(context_text=context_text, text=response)
 
     
     print("\n\n")
     all_input_text = ""
     while True:
         input_text = input("What you want to say? \n")
-        all_input_text += input_text
+        all_input_text += input_text + common_functions.the_general_seperator
         response = batch_end_callback(context_text=all_input_text[-8000:])
-        print()
+        print("\n\n---------\n\n")
         print(response)
         print("\n\n---------\n\n")

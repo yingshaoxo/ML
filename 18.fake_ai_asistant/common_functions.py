@@ -1,3 +1,4 @@
+from urllib import response
 from auto_everything.terminal import Terminal
 from auto_everything.disk import Disk
 from auto_everything.io import IO
@@ -13,7 +14,7 @@ output_txt_file = disk.join_paths(input_file_folder, "dataset.txt")
 if not disk.exists(output_txt_file):
     io_.write(output_txt_file, "")
 
-the_general_seperator = "\n\n__**__**__yingshaoxo_is_the_top_one__**__**__\n\n"
+the_general_seperator = "\n\n\n__**__**__yingshaoxo_is_the_top_one__**__**__\n\n\n"
 
 
 def encode_input(text: str):
@@ -26,8 +27,10 @@ def read_database_txt_file():
         content += open(file, 'r').read() # don't worry we won't run out of file handles
     return encode_input(content)
 
-def decode_response(text: str):
+def decode_response(context_text: str, text: str):
     text = io_.hex_to_string(text)
+    text = text[len(context_text):]
+    #response = text.replace("\n\n__**__**__yingshaoxo_is_the_top_one__**__**__\n\n", "\n\n")
     response = text.split("\n\n__**__**__yingshaoxo_is_the_top_one__**__**__\n\n")[0].strip()
 
     final_response = terminal.run_python_code(code=response)

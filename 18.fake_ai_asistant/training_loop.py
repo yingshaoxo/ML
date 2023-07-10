@@ -130,14 +130,16 @@ if __name__ == '__main__':
         if trainer.iter_num % 10 == 0:
             print(f"iter_dt {trainer.iter_dt * 1000:.2f}ms; iter {trainer.iter_num}: train loss {trainer.loss.item():.5f}")
 
-        if trainer.iter_num % 100 == 0:
+        if trainer.iter_num % 200 == 0:
             # save the latest model
             print("saving model")
             ckpt_path = os.path.join(config.system.work_dir, "model.pt")
             torch.save(model.state_dict(), ckpt_path)
 
             input_text = input("\nWhat you want to say? \n")
-            all_input_text += input_text
+            all_input_text += input_text + common_functions.the_general_seperator
+
+            common_functions.handle_yingshaoxo_ai_text(text=input_text)
 
             model.eval()
             with torch.no_grad():
@@ -146,12 +148,11 @@ if __name__ == '__main__':
                 x = torch.tensor([train_dataset.stoi[s] for s in input_context], dtype=torch.long)[None,...].to(trainer.device)
                 y = model.generate(x, 500, temperature=1.0, do_sample=True, top_k=10)[0]
                 completion = ''.join([train_dataset.itos[int(i)] for i in y])
-                response = common_functions.decode_response(completion)
+                response = common_functions.decode_response(context_text=all_input_text[-8000:], text=completion)
                 print()
                 print(response)
                 print("\n\n---------\n\n")
 
-            common_functions.handle_yingshaoxo_ai_text(text=input_text)
             common_functions.handle_pi_ai_text(text=response)
 
             input("Done the editing to the response in txt file? (hit enter to go on)")
