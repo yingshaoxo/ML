@@ -33,7 +33,7 @@ def get_config():
 
     # model
     C.model = GPT.get_default_config()
-    C.model.model_type = 'gopher-44m'#'gpt-mini'
+    C.model.model_type = common_functions.model_type
 
     return C
 
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     config.model.vocab_size = train_dataset.get_vocab_size()
     config.model.block_size = train_dataset.get_block_size()
 
-    device = "cuda" #"cpu"
+    device = common_functions.computing_device #"cpu"
     model = GPT(config.model)
 
     # load model if possible

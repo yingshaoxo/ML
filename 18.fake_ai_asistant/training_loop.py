@@ -36,7 +36,7 @@ def get_config():
 
     # model
     C.model = GPT.get_default_config()
-    C.model.model_type = 'gopher-44m'#'gpt-mini'
+    C.model.model_type = common_functions.model_type
 
     # trainer
     C.trainer = Trainer.get_default_config()
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     model = GPT(config.model)
 
     # construct the trainer object
-    config.trainer.device = "cuda" #"cpu"
+    config.trainer.device = common_functions.computing_device #"cpu"
     trainer = Trainer(config.trainer, model, train_dataset)
 
     # load model if possible

@@ -26,5 +26,8 @@
 
 > If you have an advanced AI bot, you may directly ask him/she "Do you know how to speak 'xxx' in a another better way?"
 
+## Method 4
+Use `TextRank4ZH`: https://github.com/letiantian/TextRank4ZH
+
 ## Author 
 yingshaoxo
