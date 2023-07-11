@@ -19,6 +19,7 @@ while True:
     result = tokenizer.batch_decode(summary_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
     print()
     print(result)
+    #反垄断调查小组突击查访奔驰上海办事处，对多名奔驰高管进行约谈
     print()
 
     text = input("What you want to say?\n")
