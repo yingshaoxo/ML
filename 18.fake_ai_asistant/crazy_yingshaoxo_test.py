@@ -1,6 +1,5 @@
 from auto_everything.ml import Yingshaoxo_Text_Generator
 from auto_everything.terminal import Terminal
-from matplotlib.contour import QuadContourSet
 terminal = Terminal()
 
 yingshaoxo_text_generator = Yingshaoxo_Text_Generator(
