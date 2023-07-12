@@ -4,11 +4,12 @@ from matplotlib.contour import QuadContourSet
 terminal = Terminal()
 
 yingshaoxo_text_generator = Yingshaoxo_Text_Generator(
-    input_txt_folder_path="/home/yingshaoxo/CS/ML/18.fake_ai_asistant/input_txt_files"
+    input_txt_folder_path="/home/yingshaoxo/CS/ML/18.fake_ai_asistant/input_txt_files",
+    use_machine_learning=True
 )
 
 def decode_response(text: str):
-    print("`"+text+"`")
+    #print("`"+text+"`")
     splits = text.split("\n\n__**__**__yingshaoxo_is_the_top_one__**__**__\n\n")
     if (len(splits) > 1):
         response = splits[1].strip()
@@ -19,6 +20,7 @@ def decode_response(text: str):
     final_response = terminal.run_python_code(code=response)
     if final_response.strip() == "":
         final_response = response
+    final_response = "\n".join([one for one in final_response.split("\n") if not one.strip().startswith("__**")])
     return final_response
 
 print("\n\n")
@@ -29,6 +31,7 @@ while True:
     real_input = all_input_text[-8000:].strip()
     response = yingshaoxo_text_generator.search_and_get_following_text_in_a_exact_way(input_text=real_input, quick_mode=False)
     response = decode_response(text=response)
+
     print("\n\n---------\n\n")
     print(response)
     print("\n\n---------\n\n")
