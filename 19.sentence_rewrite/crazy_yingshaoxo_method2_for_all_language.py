@@ -32,7 +32,7 @@ def train_for_once(source_text: str, target_text: str):
     global traning_step
 
     input_ids = the_main_tokenizer(
-        source_text, add_special_tokens=False, max_length=1024, return_tensors="pt", truncation=True, padding=True
+        source_text, add_special_tokens=False, return_tensors="pt"
     ).input_ids
     target = the_main_tokenizer(target_text, return_tensors="pt").input_ids
 
@@ -60,6 +60,7 @@ def train():
         for i in range(500):
             target_line = random.choice(text_lines)
             input_line = yingshaoxo_text_generator.get_random_text_deriation_from_source_text(source_text=target_line, random_remove_some_characters=False, random_add_some_characters=False, random_char_source_text=txt_source)
+
             train_for_once(
                 input_line,
                 target_line
