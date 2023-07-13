@@ -32,7 +32,7 @@ def train_for_once(source_text: str, target_text: str):
     global traning_step
 
     input_ids = the_main_tokenizer(
-        source_text, add_special_tokens=False, return_tensors="pt"
+        source_text, add_special_tokens=False, max_length=1024, return_tensors="pt", truncation=True, padding=True
     ).input_ids
     target = the_main_tokenizer(target_text, return_tensors="pt").input_ids
 
@@ -75,7 +75,7 @@ def predict_once(input_text: str) -> str:
         input_text, add_special_tokens=False, return_tensors="pt"
     ).input_ids
     outputs = the_main_model.generate(input_ids.to("cuda"))
-    return the_main_tokenizer.decode(outputs[0])
+    return the_main_tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=False)
 
 def test():
     text = "hi"
