@@ -1,11 +1,14 @@
+from json import load
 import random
 import common_functions
 
 import transformers
 from auto_everything.disk import Disk
+from auto_everything.language import Language
 from auto_everything.ml import Yingshaoxo_Text_Generator
 from auto_everything.python import Python
 disk = Disk()
+language = Language()
 python = Python()
 yingshaoxo_text_generator = Yingshaoxo_Text_Generator(common_functions.input_file_folder)
 
@@ -13,18 +16,27 @@ yingshaoxo_text_generator = Yingshaoxo_Text_Generator(common_functions.input_fil
 model_saving_folder_path = disk.join_paths(disk.get_directory_path(__file__), "bert_model_saving_place")
 
 
-model_name = "IDEA-CCNL/Randeng-Pegasus-238M-Summary-Chinese"
-the_main_tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
-#the_main_tokenizer = transformers.PegasusTokenizer.from_pretrained(pretrained_model_name_or_path=model_name)
+#model_name = "IDEA-CCNL/Randeng-Pegasus-238M-Summary-Chinese"
+model_name = "fnlp/bart-base-chinese"
 
-try:
-    the_main_model = transformers.PegasusForConditionalGeneration.from_pretrained(model_saving_folder_path).to("cuda")
-    print("\n\nusing local model\n\n")
-except Exception as e:
-    print(e)
-    the_main_model = transformers.PegasusForConditionalGeneration.from_pretrained(model_name).to("cuda")
-    the_main_model.save_pretrained(model_saving_folder_path)
-    print("\n\nusing remote model\n\n")
+#the_main_tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
+the_main_tokenizer = transformers.AutoTokenizer.from_pretrained(model_name)
+
+the_main_model = None
+def load_model():
+    global the_main_model
+    try:
+        #the_main_model = transformers.PegasusForConditionalGeneration.from_pretrained(model_saving_folder_path).to("cuda")
+        the_main_model = transformers.BartForConditionalGeneration.from_pretrained(model_saving_folder_path).to("cuda")
+        print("\n\nusing local model\n\n")
+    except Exception as e:
+        print(e)
+        #the_main_model = transformers.PegasusForConditionalGeneration.from_pretrained(model_name).to("cuda")
+        #the_main_model = transformers.PegasusForConditionalGeneration(transformers.PegasusConfig()).to("cuda")
+        the_main_model = transformers.BartForConditionalGeneration.from_pretrained(model_name).to("cuda")
+        the_main_model.save_pretrained(model_saving_folder_path)
+        print("\n\nusing remote model\n\n")
+load_model()
 
 
 traning_step = 0
@@ -50,16 +62,21 @@ def save_model():
 
 
 def train():
-    the_main_model.learning_rate = 0.00001
-
     txt_source = common_functions.read_database_txt_file()
     text_lines = [one.strip() for one in txt_source.split("\n") if one.strip() != ""]
+    new_text_lines = []
+    for one in text_lines:
+        splits = language.seperate_text_to_segments(one)
+        for part in splits:
+            if part["is_punctuation_or_space"] == False:
+                new_text_lines.append(part["text"])
+    text_lines = new_text_lines
     while True:
         input_line = ""
         target_line = ""
-        for i in range(500):
+        for i in range(1000):
             target_line = random.choice(text_lines)
-            input_line = yingshaoxo_text_generator.get_random_text_deriation_from_source_text(source_text=target_line, random_remove_some_characters=False, random_add_some_characters=False, random_char_source_text=txt_source)
+            input_line = yingshaoxo_text_generator.get_random_text_deriation_from_source_text(source_text=target_line, random_remove_some_characters=True, random_add_some_characters=True, random_char_source_text=txt_source)
 
             train_for_once(
                 input_line,
