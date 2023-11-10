@@ -1,0 +1,7 @@
+.venv/
+geckodriver.log
+__pycache__/
+*.wav
+*.pt
+out/
+./input.txt

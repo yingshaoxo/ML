@@ -1,0 +1,9 @@
+trained_models/
+.pytest_cache/
+__pycache__/
+*.pt
+*.h
+nn_keras_model/
+action_nn_keras_model/
+reward_nn_keras_model/
+test_reward_nn_keras_model/

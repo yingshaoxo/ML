@@ -1,0 +1,13 @@
+gym-super-mario-bros
+sewar
+
+numpy
+opencv-python
+Pillow
+
+tensorflow
+h5py
+tensorflow_hub
+# torch
+# torchvision
+# torchaudio

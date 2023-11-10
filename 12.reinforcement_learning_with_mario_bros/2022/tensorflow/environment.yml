@@ -1,0 +1,8 @@
+name: mario
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - poetry
+  - tensorflow-deps==2.6.0
+prefix: /Users/yingshaoxo/miniforge3/envs/mario

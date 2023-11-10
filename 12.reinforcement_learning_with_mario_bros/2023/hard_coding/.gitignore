@@ -1,0 +1,12 @@
+.pytest_cache/
+__pycache__/
+.vscode/
+
+raw_images/
+raw_seperate_images/
+seperated_classes/
+
+yingshaoxo_database/*
+!yingshaoxo_database/cpu_quick_mode.txt
+
+test.py

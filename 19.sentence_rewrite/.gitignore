@@ -1,0 +1,8 @@
+geckodriver.log
+__pycache__/
+*.wav
+*.pt
+out/
+./input.txt
+bert_model_saving_place/
+input_txt_files/*

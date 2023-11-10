@@ -1,0 +1,22 @@
+{
+    "name": "18.fake_ai_asistant",
+    "version": "0.0.0",
+    "author": "yingshaoxo@gmail.com",
+    "main": "main.py",
+    "scripts": {
+        "hi": "echo hi",
+        "test": "python crazy_yingshaoxo_test.py",
+        "train": "python crazy_yingshaoxo_traning.py",
+        "translate": "python translation_test.py",
+        "audio_chat": "python audio_chat_test.py"
+    },
+    "dependencies": [
+        "git+https://github.com/yingshaoxo/auto_everything.git@dev",
+        "dl-translate",
+        "vosk",
+        "sounddevice",
+        "TTS",
+        "jieba",
+        "pydub"
+    ]
+}
