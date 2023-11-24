@@ -5,7 +5,9 @@ disk = Disk()
 
 text_generator =  ml.Yingshaoxo_Text_Generator()
 
-text = text_generator.get_source_text_data_by_using_yingshaoxo_method(input_txt_folder_path="/home/yingshaoxo/Downloads/source_txt", type_limiter=[".txt"])
+path = "/home/yingshaoxo/Downloads/source_txt"
+#path = "/home/yingshaoxo/Disk/Sync_Folder/Yingshaoxo_Data/Additional/Ebooks/Chinese"
+text = text_generator.get_source_text_data_by_using_yingshaoxo_method(input_txt_folder_path=path, type_limiter=[".txt"])
 global_string_dict = None
 
 while True:

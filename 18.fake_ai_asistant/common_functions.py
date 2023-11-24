@@ -78,7 +78,7 @@ def handle_yingshaoxo_ai_text(text: str):
 
 
 def format_data_set():
-    text = io_.read(output_txt_file) 
+    text = io_.read(output_txt_file)
     list_ = text.split(the_general_seperator.strip())
     new_text = ""
     for one in list_:
