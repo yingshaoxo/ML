@@ -20,7 +20,7 @@ the_regex_dict = {}
 text = io_.read("./en_to_zh_word_dict_yingshaoxo_version.txt")
 data_list = [one for one in text.split("\n\n_\n\n") if one != ""]
 for one in data_list:
-    key, value = one.split("\n")[:2]
+    value, key = one.split("\n")[:2]
     the_regex_dict[key] = value
 
 for char in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ',.:":
@@ -29,8 +29,8 @@ for char in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ',.:
 
 
 while True:
-    input_text = input("What you want to translate? ")
-    output_text = text_transformer.pure_string_dict_based_sequence_transformer(input_text.lower(), the_regex_dict)
+    input_text = input("What you want to translate (cn->en)? ")
+    output_text = text_transformer.pure_string_dict_based_sequence_transformer(input_text.lower(), the_regex_dict, add_space=True)
     #output_text = text_transformer.yingshaoxo_regex_expression_based_recursive_transformer(input_text, the_regex_dict)
     print("\n\n----------\n\n")
     print(output_text)
