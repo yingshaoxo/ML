@@ -23,6 +23,12 @@ for one in data_list:
     key, value = one.split("\n")[:2]
     the_regex_dict[key] = value
 
+text = io_.read("./additional_en_to_zh_dict_yingshaoxo_version.txt")
+data_list = [one for one in text.split("\n\n_\n\n") if one != ""]
+for one in data_list:
+    key, value = one.split("\n")[:2]
+    the_regex_dict[key] = value
+
 for char in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ',.:":
     if char not in the_regex_dict.keys():
         the_regex_dict[char] = char

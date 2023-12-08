@@ -1,0 +1,23694 @@
+let's
+让我们
+
+_
+
+how are you
+你好吗
+
+_
+
+themselves more expensive
+自己更昂贵
+
+_
+
+knowledge more expensive
+知识更昂贵
+
+_
+
+programming language is
+编程语言是
+
+_
+
+Duplicates from Sorted
+重复从分类
+
+_
+
+about machine learning
+关于机器学习
+
+_
+
+contains the specified
+包含所指定的
+
+_
+
+command line interface
+命令线界面
+
+_
+
+function that returns
+返回的功能
+
+_
+
+programming language
+编程语言
+
+_
+
+relationship between
+關係之間
+
+_
+
+they are programmers
+他们是编程
+
+_
+
+The only difference
+唯一的差异
+
+_
+
+question and answer
+问题与答案
+
+_
+
+to answer questions
+回答问题
+
+_
+
+something like this
+这样的东西
+
+_
+
+value in enumerate
+值在列表
+
+_
+
+difference between
+之间的差异
+
+_
+
+and answer website
+答案网站
+
+_
+
+always have people
+总是有人
+
+_
+
+solve this problem
+解决这个问题
+
+_
+
+with the following
+与下列
+
+_
+
+I don't understand
+我不明白
+
+_
+
+Minimum in Rotated
+最少的旋转
+
+_
+
+doesn't make sense
+没有意义
+
+_
+
+will automatically
+将自动
+
+_
+
+important thing is
+重要的是
+
+_
+
+hard to understand
+难以理解
+
+_
+
+information on the
+关于信息的
+
+_
+
+easy to understand
+易于理解
+
+_
+
+a better developer
+更好的开发者
+
+_
+
+I could understand
+我可以理解
+
+_
+
+cell in enumerate
+细胞列表
+
+_
+
+a new programming
+一个新的编程
+
+_
+
+Combinations of a
+A 的组合
+
+_
+
+node in enumerate
+Node 在 列表
+
+_
+
+And another thing
+又一件事
+
+_
+
+char in enumerate
+公交车列表
+
+_
+
+Flipping an Image
+放下一张图像
+
+_
+
+this set contains
+此集包含
+
+_
+
+in the background
+在背景下
+
+_
+
+don't have enough
+没有足够的
+
+_
+
+Search in Rotated
+搜索在旋转
+
+_
+
+government always
+政府总是
+
+_
+
+learned something
+学到一件事
+
+_
+
+other programming
+其他编程
+
+_
+
+or something like
+或类似的东西
+
+_
+
+solve the problem
+解决问题
+
+_
+
+thing that really
+事實上這
+
+_
+
+to make something
+要做点什么
+
+_
+
+is something that
+是某种东西
+
+_
+
+a real programmer
+真正的编程
+
+_
+
+kind of knowledge
+某种知识
+
+_
+
+is very important
+非常重要
+
+_
+
+better experience
+更好的体验
+
+_
+
+row in enumerate
+列入列表中的列表
+
+_
+
+binary tree node
+二元树节点
+
+_
+
+the first letter
+第一封信
+
+_
+
+in the following
+在下列
+
+_
+
+and the function
+其功能
+
+_
+
+don't know where
+不知道在哪里
+
+_
+
+num in enumerate
+编号 编号
+
+_
+
+Pointers in Each
+各式各樣的指標
+
+_
+
+different things
+不同事物
+
+_
+
+more information
+更多信息
+
+_
+
+answer questions
+回答问题
+
+_
+
+Increase to Keep
+增加 保持
+
+_
+
+around the world
+世界各地
+
+_
+
+everything about
+一切关于
+
+_
+
+with programming
+与编程
+
+_
+
+according to the
+根據The
+
+_
+
+machine learning
+机器学习
+
+_
+
+is important for
+重要的是
+
+_
+
+write a function
+写一个函数
+
+_
+
+at the beginning
+在开始时
+
+_
+
+want to download
+想下载
+
+_
+
+don't understand
+不理解
+
+_
+
+Write a function
+写一个函数
+
+_
+
+game development
+游戏发展
+
+_
+
+Given an integer
+考虑到一个整体
+
+_
+
+definitely don't
+肯定不
+
+_
+
+education system
+教育体系
+
+_
+
+For those people
+对于这些人
+
+_
+
+you'll find that
+你会发现这
+
+_
+
+efficient way to
+有效的方式
+
+_
+
+communicate with
+与沟通
+
+_
+
+notice one thing
+注意一件事
+
+_
+
+those people who
+那些那些
+
+_
+
+Learn more about
+了解更多关于
+
+_
+
+something that I
+有一件事我
+
+_
+
+should never use
+永远不要使用
+
+_
+
+to be successful
+要成功
+
+_
+
+better developer
+更好的开发者
+
+_
+
+interesting part
+有趣部分
+
+_
+
+to learn English
+学习英语
+
+_
+
+they don't speak
+他们不说话
+
+_
+
+it's more stable
+它更稳定
+
+_
+
+could understand
+可以理解
+
+_
+
+you should learn
+你应该学习
+
+_
+
+belongs to those
+属于那些
+
+_
+
+new programming
+新编程
+
+_
+
+with each other
+彼此相伴
+
+_
+
+Duplicates from
+重复从
+
+_
+
+Combinations of
+组合的
+
+_
+
+only difference
+唯一的差异
+
+_
+
+only thing that
+唯一的事情就是
+
+_
+
+not contain any
+不包含任何
+
+_
+
+think my answer
+想想我的答案
+
+_
+
+better than the
+比你更好
+
+_
+
+replace it with
+用它取代
+
+_
+
+looks like this
+看起来像这样
+
+_
+
+the programming
+编程
+
+_
+
+in combinations
+在组合中
+
+_
+
+don't have much
+不要有太多
+
+_
+
+to make friends
+要做朋友
+
+_
+
+more convenient
+更方便
+
+_
+
+try more option
+尝试更多选项
+
+_
+
+will definitely
+肯定会
+
+_
+
+Returns true if
+返回真相 如果
+
+_
+
+just don't know
+只是不知道
+
+_
+
+don't know that
+不知道那
+
+_
+
+matter what you
+不管你是什么
+
+_
+
+the right thing
+正确的事情
+
+_
+
+again and again
+又一次又一次
+
+_
+
+have to install
+必须安装
+
+_
+
+the application
+申请
+
+_
+
+in permutations
+在转变中
+
+_
+
+is the simplest
+是最简单的
+
+_
+
+simplest way to
+最简单的方式
+
+_
+
+is actually the
+事实上,是
+
+_
+
+TTS hard coding
+TTS 硬编码
+
+_
+
+the first thing
+第一件事
+
+_
+
+can do anything
+能做任何事
+
+_
+
+themselves more
+自己更多
+
+_
+
+simple question
+简单问题
+
+_
+
+I didn't expect
+我不期望
+
+_
+
+that you should
+你应该
+
+_
+
+What's the fuck
+什么是 他妈的
+
+_
+
+important thing
+重要事物
+
+_
+
+on the internet
+在互联网上
+
+_
+
+the development
+發展
+
+_
+
+don't know what
+不知道什么
+
+_
+
+they don't have
+他们没有
+
+_
+
+I'm in thinking
+我在思考
+
+_
+
+learn something
+学习一些东西
+
+_
+
+to those people
+对于这些人
+
+_
+
+solve a problem
+解决一个问题
+
+_
+
+into the string
+进入链条
+
+_
+
+never know what
+永远不知道什么
+
+_
+
+build something
+建造某事
+
+_
+
+I never thought
+我从来没有想过
+
+_
+
+real programmer
+真正的编程
+
+_
+
+inefficient and
+不有效和
+
+_
+
+are programmers
+是程序员
+
+_
+
+That's the only
+这是唯一的
+
+_
+
+between Chinese
+中國之間
+
+_
+
+more productive
+更有生产力
+
+_
+
+would be better
+会更好
+
+_
+
+understand this
+理解这
+
+_
+
+the more likely
+越有可能
+
+_
+
+something wrong
+什么不对
+
+_
+
+something like
+某种类似
+
+_
+
+will be better
+会更好
+
+_
+
+hear something
+听到某事
+
+_
+
+it is possible
+这是可能的
+
+_
+
+figure out how
+找出如何
+
+_
+
+understand the
+理解的
+
+_
+
+you understand
+你明白
+
+_
+
+class TreeNode
+班级TreeNode
+
+_
+
+a new function
+新功能
+
+_
+
+have different
+有不同的
+
+_
+
+information to
+信息到
+
+_
+
+class ListNode
+班级列表
+
+_
+
+Exception as e
+例外是e
+
+_
+
+the same thing
+相同的事情
+
+_
+
+c in enumerate
+c 列出
+
+_
+
+you don't know
+你不知道
+
+_
+
+the real world
+真正的世界
+
+_
+
+the investment
+投资
+
+_
+
+always want to
+总是想
+
+_
+
+that you don't
+那你不
+
+_
+
+another better
+另一个更好
+
+_
+
+answer website
+答案网站
+
+_
+
+you don't have
+你没有
+
+_
+
+v in enumerate
+V 列入
+
+_
+
+is better than
+比更好
+
+_
+
+Words from Two
+兩個字
+
+_
+
+i in enumerate
+我在列表
+
+_
+
+n in enumerate
+n 在列表中
+
+_
+
+that you could
+你可以做的
+
+_
+
+opportunity to
+機會為
+
+_
+
+to a Character
+到一个角色
+
+_
+
+android system
+安卓系统
+
+_
+
+want to create
+想创造
+
+_
+
+In other words
+换句话说,
+
+_
+
+the definition
+定义
+
+_
+
+Nodes in Pairs
+双子座在夫妇
+
+_
+
+will always be
+将永远是
+
+_
+
+thinking about
+思考关于
+
+_
+
+remember those
+记住这些
+
+_
+
+represented as
+被代表为
+
+_
+
+doesn't have a
+没有一个
+
+_
+
+different than
+不同于
+
+_
+
+you don't want
+你不想
+
+_
+
+start to think
+开始思考
+
+_
+
+what you wanna
+你想要的
+
+_
+
+with different
+与不同
+
+_
+
+python to make
+Python 要做
+
+_
+
+able to handle
+能够处理
+
+_
+
+have an public
+有一个公众
+
+_
+
+You may assume
+你可以假设
+
+_
+
+something will
+有什么会
+
+_
+
+You don't need
+你不需要
+
+_
+
+with the first
+与第一
+
+_
+
+data more than
+数据多于
+
+_
+
+the background
+背景
+
+_
+
+understand how
+理解如何
+
+_
+
+I have learned
+我学会了
+
+_
+
+Given an array
+根据一个序列
+
+_
+
+programmer who
+编程谁
+
+_
+
+function which
+函数谁
+
+_
+
+It should only
+它只应该
+
+_
+
+running in the
+跑在
+
+_
+
+an application
+一项申请
+
+_
+
+the difference
+区别
+
+_
+
+don't know how
+不知道如何
+
+_
+
+some functions
+某些功能
+
+_
+
+do programming
+做编程
+
+_
+
+number between
+数字之间
+
+_
+
+line interface
+线接口
+
+_
+
+you definitely
+你肯定
+
+_
+
+programming by
+编程 由
+
+_
+
+something from
+從某種
+
+_
+
+knowledge more
+知识更多
+
+_
+
+more expensive
+更昂贵
+
+_
+
+their products
+他们的产品
+
+_
+
+experience and
+经验和
+
+_
+
+it interesting
+有趣的
+
+_
+
+I should speak
+我应该说话
+
+_
+
+the first step
+第一步
+
+_
+
+just the first
+只有第一
+
+_
+
+to help others
+帮助他人
+
+_
+
+understand why
+理解为什么
+
+_
+
+The problem is
+问题是
+
+_
+
+you could just
+你可以只是
+
+_
+
+be much easier
+要更容易
+
+_
+
+to communicate
+要沟通
+
+_
+
+you would like
+你想
+
+_
+
+development is
+發展是
+
+_
+
+have no choice
+没有选择
+
+_
+
+use a question
+使用一个问题
+
+_
+
+Next time when
+下一次当
+
+_
+
+need to create
+需要创造
+
+_
+
+real important
+真正重要的
+
+_
+
+don't know why
+不知道为什么
+
+_
+
+information on
+关于信息
+
+_
+
+from the start
+从开始
+
+_
+
+You don't want
+你不想
+
+_
+
+something that
+某种东西
+
+_
+
+feel good when
+感觉好的时候
+
+_
+
+to think about
+想一想
+
+_
+
+most important
+最重要的
+
+_
+
+to do anything
+做任何事
+
+_
+
+programming is
+编程是
+
+_
+
+The thing that
+这件事
+
+_
+
+many different
+多种不同的
+
+_
+
+make something
+做点什么
+
+_
+
+general people
+一般人
+
+_
+
+record a video
+录制视频
+
+_
+
+the other hand
+另一只手
+
+_
+
+an interesting
+一个有趣
+
+_
+
+I was thinking
+我在思考
+
+_
+
+have something
+有什么
+
+_
+
+a better place
+更好的地方
+
+_
+
+make the world
+让世界
+
+_
+
+the government
+政府
+
+_
+
+really want to
+真的想要
+
+_
+
+Then you could
+然后你可以
+
+_
+
+product better
+产品更好
+
+_
+
+should be able
+应该能够
+
+_
+
+more important
+更重要
+
+_
+
+people who are
+那些是的人
+
+_
+
+still the best
+仍然是最好的
+
+_
+
+know what kind
+知道什么样的
+
+_
+
+You don't have
+你没有
+
+_
+
+of programming
+关于编程
+
+_
+
+within one day
+在一天之内
+
+_
+
+I don't really
+我真的不
+
+_
+
+want to change
+想改變
+
+_
+
+very important
+非常重要
+
+_
+
+English is the
+英语是
+
+_
+
+Now we support
+现在我们支持
+
+_
+
+row in matrix
+序列在马特里克斯
+
+_
+
+create a real
+创造一个真实的
+
+_
+
+you can treat
+你可以处理
+
+_
+
+language that
+这个语言
+
+_
+
+a new torrent
+新的Torrent
+
+_
+
+people around
+周围的人
+
+_
+
+the following
+下一篇
+
+_
+
+make you feel
+让你感觉
+
+_
+
+None and node
+没有和节点
+
+_
+
+you should be
+你应该是
+
+_
+
+new ArrayList
+新 ArrayList
+
+_
+
+to change the
+要改变的
+
+_
+
+between those
+在这些人之间
+
+_
+
+refers to the
+指的是
+
+_
+
+of a function
+一项职能
+
+_
+
+function call
+函数呼叫
+
+_
+
+that provides
+它提供
+
+_
+
+that contains
+这包含
+
+_
+
+function that
+这个功能
+
+_
+
+for different
+为不同
+
+_
+
+that we could
+我们可以
+
+_
+
+which returns
+谁回来
+
+_
+
+not in result
+不是结果
+
+_
+
+at the bottom
+在底部
+
+_
+
+to understand
+要理解
+
+_
+
+in the middle
+在中间
+
+_
+
+impossible to
+不可能的
+
+_
+
+I don't think
+我不想
+
+_
+
+that they are
+他们是
+
+_
+
+Once you have
+一旦你有
+
+_
+
+that sentence
+这个句子
+
+_
+
+think this is
+想这就是
+
+_
+
+don't have to
+你不必
+
+_
+
+you just have
+你只是有
+
+_
+
+the thing you
+你所做的事情
+
+_
+
+it will print
+将打印
+
+_
+
+questions you
+问你
+
+_
+
+starting from
+从开始
+
+_
+
+from datetime
+从日期
+
+_
+
+to use python
+使用Python
+
+_
+
+of TypeScript
+关于TypeScript
+
+_
+
+a programming
+一个编程
+
+_
+
+You could use
+你可以使用
+
+_
+
+Distance to a
+距离一个
+
+_
+
+could be used
+可以使用
+
+_
+
+to build your
+要建造你的
+
+_
+
+along the way
+沿着路
+
+_
+
+the beginning
+开始的
+
+_
+
+want to build
+想建造
+
+_
+
+that you have
+你所拥有的
+
+_
+
+definition of
+定义的
+
+_
+
+word in words
+词语中的词语
+
+_
+
+another thing
+另一件事
+
+_
+
+How to create
+如何创造
+
+_
+
+the specified
+所指定的
+
+_
+
+about machine
+关于机器
+
+_
+
+long sequence
+长序列
+
+_
+
+will remember
+会记得
+
+_
+
+are different
+是不同的
+
+_
+
+still need to
+仍然需要
+
+_
+
+don't want to
+不想去
+
+_
+
+to each other
+彼此的
+
+_
+
+important for
+重要的是
+
+_
+
+function will
+函数将
+
+_
+
+different way
+不同的方式
+
+_
+
+this question
+这个问题
+
+_
+
+For all those
+对于所有这些
+
+_
+
+directly from
+直接从
+
+_
+
+to the client
+到客户
+
+_
+
+more than one
+超過一個
+
+_
+
+should return
+应该回来
+
+_
+
+pyplot as plt
+像PLT一样
+
+_
+
+you are using
+你正在使用
+
+_
+
+deep learning
+深度学习
+
+_
+
+you only have
+你只有一
+
+_
+
+should become
+應該成為
+
+_
+
+allows you to
+允许你
+
+_
+
+you know what
+你知道什么
+
+_
+
+find anything
+找什么
+
+_
+
+you could use
+你可以使用
+
+_
+
+Never give up
+永远不要放弃
+
+_
+
+everything is
+一切都是
+
+_
+
+the same time
+同一时间
+
+_
+
+we don't need
+我们不需要
+
+_
+
+have the same
+有相同的
+
+_
+
+interact with
+与互动
+
+_
+
+when it comes
+当它到来
+
+_
+
+between words
+字之間
+
+_
+
+the number of
+这个数字的
+
+_
+
+them together
+他们一起
+
+_
+
+then you will
+然后你会
+
+_
+
+could do this
+可以这样做
+
+_
+
+I always want
+我总是想要
+
+_
+
+always try to
+总是试着
+
+_
+
+would like to
+我希望
+
+_
+
+familiar with
+熟悉的
+
+_
+
+when you want
+当你想要
+
+_
+
+didn't expect
+不期望
+
+_
+
+machine to do
+机器要做
+
+_
+
+I don't wanna
+我不想
+
+_
+
+if they don't
+如果他们不
+
+_
+
+know what you
+你知道什么
+
+_
+
+Life is short
+人生很短
+
+_
+
+what you love
+你所爱的
+
+_
+
+got something
+得到一些
+
+_
+
+of everything
+关于一切
+
+_
+
+those Chinese
+这些中国人
+
+_
+
+how to create
+如何创造
+
+_
+
+people create
+人创造
+
+_
+
+always have a
+总是有一个
+
+_
+
+in the future
+在未来的
+
+_
+
+efficient way
+有效的方式
+
+_
+
+is a question
+这是一个问题
+
+_
+
+my colleagues
+我的同事
+
+_
+
+look like the
+看起来像
+
+_
+
+don't need to
+不要需要
+
+_
+
+thought about
+思考的
+
+_
+
+is better for
+最好是为了
+
+_
+
+for more than
+為超過
+
+_
+
+you will have
+你會有
+
+_
+
+can be shared
+可以分享
+
+_
+
+more powerful
+更强大
+
+_
+
+experience of
+經驗的
+
+_
+
+was better as
+更好如
+
+_
+
+to make money
+为了赚钱
+
+_
+
+In the future
+未來的
+
+_
+
+including the
+包括The
+
+_
+
+big companies
+大公司
+
+_
+
+don't know if
+不知道是否
+
+_
+
+are you doing
+你在做
+
+_
+
+won't be able
+不会有能力
+
+_
+
+was more love
+有更多的爱情
+
+_
+
+in this world
+在这个世界
+
+_
+
+couldn't find
+找不到
+
+_
+
+have to learn
+必须学习
+
+_
+
+want to learn
+想学习
+
+_
+
+make it right
+让它正确
+
+_
+
+could use the
+可以使用的
+
+_
+
+with the help
+与帮助
+
+_
+
+how would you
+你会怎样
+
+_
+
+something you
+某事你
+
+_
+
+talking about
+谈论
+
+_
+
+only supports
+只支持
+
+_
+
+need to write
+需要写作
+
+_
+
+of technology
+技术的
+
+_
+
+is everything
+一切都是
+
+_
+
+understand it
+理解它
+
+_
+
+need to learn
+需要学习
+
+_
+
+get something
+得到一些
+
+_
+
+could survive
+能生存
+
+_
+
+be successful
+成功的
+
+_
+
+would be fine
+会好
+
+_
+
+everything in
+一切在
+
+_
+
+never thought
+從未想過
+
+_
+
+should always
+应该总是
+
+_
+
+The next step
+下一步
+
+_
+
+what you want
+你想要的
+
+_
+
+Anything that
+所有这些
+
+_
+
+government or
+政府或
+
+_
+
+on the server
+在服务器上
+
+_
+
+learn English
+学习英语
+
+_
+
+start to feel
+开始感受
+
+_
+
+I didn't know
+我不知道
+
+_
+
+is enough for
+足以为
+
+_
+
+Where are you
+你在哪里
+
+_
+
+to JavaScript
+关于JavaScript
+
+_
+
+I could learn
+我可以学习
+
+_
+
+recommend you
+推荐你
+
+_
+
+only requires
+只需要
+
+_
+
+better if you
+如果你更好
+
+_
+
+good practice
+良好的实践
+
+_
+
+make anything
+做任何事
+
+_
+
+If you really
+如果你真的
+
+_
+
+never give up
+永远不会放弃
+
+_
+
+of this group
+这个团体
+
+_
+
+focus on your
+专注于你的
+
+_
+
+delete a word
+删除一句话
+
+_
+
+there must be
+必须有
+
+_
+
+in university
+在大学
+
+_
+
+in enumerate
+在列出
+
+_
+
+create a new
+创建一个新
+
+_
+
+question and
+问题和
+
+_
+
+ask question
+问问题
+
+_
+
+to different
+到不同
+
+_
+
+could do the
+可以做的
+
+_
+
+my knowledge
+我的知识
+
+_
+
+where people
+人们在哪里
+
+_
+
+it should be
+它应该是
+
+_
+
+that doesn't
+这不是
+
+_
+
+is the first
+是第一
+
+_
+
+you'd better
+你会更好
+
+_
+
+for a binary
+一个二进制
+
+_
+
+you and your
+你和你的
+
+_
+
+this problem
+这个问题
+
+_
+
+the previous
+上一篇
+
+_
+
+the computer
+计算机
+
+_
+
+In this case
+在此情况下
+
+_
+
+need to move
+需要移动
+
+_
+
+address with
+地址与
+
+_
+
+All you have
+所有你有
+
+_
+
+Then you can
+然后你可以
+
+_
+
+node is None
+Node 是 None
+
+_
+
+first letter
+第一封信
+
+_
+
+do you think
+你以为
+
+_
+
+new function
+新功能
+
+_
+
+that returns
+那回来
+
+_
+
+the function
+函数
+
+_
+
+contains the
+包含 The
+
+_
+
+doesn't have
+没有有
+
+_
+
+determine if
+确定如果
+
+_
+
+increase the
+增加的
+
+_
+
+to determine
+要确定
+
+_
+
+I don't know
+我不知道
+
+_
+
+new Solution
+新解决方案
+
+_
+
+Exception as
+例外如
+
+_
+
+is a special
+是特殊的
+
+_
+
+functions in
+函数在
+
+_
+
+important to
+重要的是
+
+_
+
+the solution
+解決方案
+
+_
+
+do something
+做点什么
+
+_
+
+line between
+线之间
+
+_
+
+to get money
+为了赚钱
+
+_
+
+deal with it
+处理它
+
+_
+
+you know how
+你知道如何
+
+_
+
+the original
+原始的
+
+_
+
+how to speak
+如何说话
+
+_
+
+I think this
+我认为这
+
+_
+
+you could do
+你可以做
+
+_
+
+just have to
+只需要
+
+_
+
+command line
+命令线
+
+_
+
+my answer is
+我的答案是
+
+_
+
+with certain
+与一定的
+
+_
+
+in itertools
+在 Itertools
+
+_
+
+there always
+永远在那里
+
+_
+
+in the range
+在范围内
+
+_
+
+the one that
+那个那个
+
+_
+
+function and
+功能和
+
+_
+
+you'll get a
+你会得到一个
+
+_
+
+which is the
+哪个是
+
+_
+
+would always
+总是会
+
+_
+
+according to
+根据
+
+_
+
+a dictionary
+一个词典
+
+_
+
+could create
+可以创造
+
+_
+
+to create an
+要创造一个
+
+_
+
+because they
+因为他们
+
+_
+
+have to make
+必须做
+
+_
+
+want to have
+想有
+
+_
+
+based on the
+基于The
+
+_
+
+is to create
+要创造
+
+_
+
+Root to Leaf
+根到叶
+
+_
+
+other people
+其他人
+
+_
+
+Element in a
+元素 一个
+
+_
+
+this website
+这个网站
+
+_
+
+want to make
+想做
+
+_
+
+is all about
+一切都是关于
+
+_
+
+to reach the
+要到达
+
+_
+
+overcome the
+克服了
+
+_
+
+in this case
+在此情况下
+
+_
+
+should never
+永远不应该
+
+_
+
+have another
+有另一个
+
+_
+
+be as simple
+如同简单
+
+_
+
+is different
+是不同的
+
+_
+
+the question
+这个问题
+
+_
+
+as simple as
+简单如
+
+_
+
+this project
+这个项目
+
+_
+
+user want to
+用户想要
+
+_
+
+the Internet
+互联网
+
+_
+
+make friends
+做朋友
+
+_
+
+if you don't
+如果你不
+
+_
+
+have learned
+学会了
+
+_
+
+that you can
+你可以
+
+_
+
+is important
+重要的是
+
+_
+
+some time to
+有一段时间
+
+_
+
+in different
+在不同的
+
+_
+
+on different
+在不同的
+
+_
+
+from scratch
+来自Scratch
+
+_
+
+all you need
+你所需要的一切
+
+_
+
+then it will
+然后它将
+
+_
+
+only need to
+只需要
+
+_
+
+need to have
+需要有
+
+_
+
+separated by
+由分开
+
+_
+
+or something
+或某事
+
+_
+
+thousands of
+成千上万
+
+_
+
+don't need a
+不需要一个
+
+_
+
+on something
+在某事上
+
+_
+
+true if this
+真的是,如果这
+
+_
+
+set contains
+Set 包含
+
+_
+
+Returns true
+返回真相
+
+_
+
+what kind of
+什么样的
+
+_
+
+could use it
+可以使用它
+
+_
+
+example that
+这个例子
+
+_
+
+All you need
+你所需要的一切
+
+_
+
+must do this
+必须这样做
+
+_
+
+What kind of
+什么样的
+
+_
+
+generate the
+生成的
+
+_
+
+contain more
+包含更多
+
+_
+
+can only run
+只能跑
+
+_
+
+something to
+某种东西
+
+_
+
+I understand
+我明白
+
+_
+
+It's time to
+现在是时候
+
+_
+
+a programmer
+一个程序员
+
+_
+
+an important
+一个重要的
+
+_
+
+you can also
+你也可以
+
+_
+
+you can even
+你甚至可以
+
+_
+
+It should be
+应该是
+
+_
+
+want to sell
+想出售
+
+_
+
+the relative
+相對的
+
+_
+
+need to find
+需要找到
+
+_
+
+to implement
+要实施
+
+_
+
+It's because
+是因为
+
+_
+
+I don't have
+我没有
+
+_
+
+in real time
+在实时
+
+_
+
+want to know
+想知道
+
+_
+
+a successful
+一个成功
+
+_
+
+we could use
+我们可以使用
+
+_
+
+that product
+这个产品
+
+_
+
+I could just
+我只能
+
+_
+
+keyboard and
+键盘和
+
+_
+
+The only way
+唯一的方式
+
+_
+
+the simplest
+最简单的
+
+_
+
+simplest way
+最简单的方式
+
+_
+
+people could
+人們可以
+
+_
+
+to make sure
+要确保
+
+_
+
+forget about
+忘了
+
+_
+
+program with
+與計劃
+
+_
+
+actually the
+事实上,该
+
+_
+
+just want to
+只是想
+
+_
+
+where is the
+在哪里是
+
+_
+
+you'll never
+你永远不会
+
+_
+
+whenever you
+每当你
+
+_
+
+that must be
+这必须是
+
+_
+
+the cheapest
+最便宜的
+
+_
+
+everyone can
+每个人都可以
+
+_
+
+one who send
+谁发送
+
+_
+
+can help you
+可以帮助你
+
+_
+
+whatever you
+无论你
+
+_
+
+you have any
+你有任何
+
+_
+
+those people
+这些人
+
+_
+
+connected to
+连接到
+
+_
+
+need to make
+需要做
+
+_
+
+one sentence
+一句句子
+
+_
+
+get the real
+得到真正的
+
+_
+
+should speak
+应该说话
+
+_
+
+I should use
+我应该使用
+
+_
+
+know what to
+知道什么要
+
+_
+
+doesn't make
+不做
+
+_
+
+those things
+这些事物
+
+_
+
+only because
+只是因为
+
+_
+
+it every day
+它每天
+
+_
+
+time you can
+时间你可以
+
+_
+
+without much
+没有太多
+
+_
+
+what you can
+你能做什么
+
+_
+
+According to
+根据
+
+_
+
+This is what
+这就是什么
+
+_
+
+going to use
+要使用
+
+_
+
+thought that
+想这
+
+_
+
+a little bit
+稍微一点
+
+_
+
+allows us to
+允许我们
+
+_
+
+I don't want
+我不想
+
+_
+
+is essential
+至关重要
+
+_
+
+know whether
+知道是否
+
+_
+
+I could have
+我可以有
+
+_
+
+the only way
+唯一的方式
+
+_
+
+problem with
+问题与
+
+_
+
+I think it's
+我想它是
+
+_
+
+have a dream
+有一个梦想
+
+_
+
+can also use
+也可以使用
+
+_
+
+You can also
+你也可以
+
+_
+
+you recorded
+你记录了
+
+_
+
+of knowledge
+关于知识
+
+_
+
+finished the
+结束了
+
+_
+
+How about we
+怎样对我们
+
+_
+
+You probably
+你可能
+
+_
+
+live without
+生活在没有
+
+_
+
+I found that
+我发现这
+
+_
+
+is more like
+更像
+
+_
+
+anything you
+任何你
+
+_
+
+can actually
+实际上可以
+
+_
+
+this kind of
+这种类型的
+
+_
+
+can use this
+可以使用此
+
+_
+
+watched this
+观看此
+
+_
+
+the best way
+最好的方式
+
+_
+
+you remember
+你记得
+
+_
+
+have created
+他们创造了
+
+_
+
+the internet
+互联网
+
+_
+
+same problem
+同样的问题
+
+_
+
+if you can't
+如果你不能
+
+_
+
+people would
+人們會
+
+_
+
+from android
+从Android
+
+_
+
+they have to
+他们必须
+
+_
+
+this package
+这个包
+
+_
+
+what are you
+什么是你
+
+_
+
+all over the
+全世界的
+
+_
+
+don't forget
+不要忘记
+
+_
+
+at the first
+在第一
+
+_
+
+there has no
+有没有
+
+_
+
+necessary to
+必需的
+
+_
+
+your life is
+你的生活是
+
+_
+
+hard problem
+硬问题
+
+_
+
+build better
+建造更好
+
+_
+
+could record
+可以记录
+
+_
+
+hardest part
+最艰难的一部分
+
+_
+
+tell you how
+告诉你如何
+
+_
+
+a thing that
+有一件事,
+
+_
+
+I have spent
+我花了
+
+_
+
+talking with
+與談話
+
+_
+
+a good movie
+好电影
+
+_
+
+the learning
+学习的
+
+_
+
+Although the
+雖然是
+
+_
+
+It's hard to
+很难到
+
+_
+
+I decided to
+我决定
+
+_
+
+If you can't
+如果你不能
+
+_
+
+something in
+某事在
+
+_
+
+so that they
+以便他们
+
+_
+
+only problem
+只有问题
+
+_
+
+people won't
+人们不会
+
+_
+
+to make your
+要使你的
+
+_
+
+the one hand
+一只手
+
+_
+
+On the other
+另一方面
+
+_
+
+don't really
+真的不
+
+_
+
+was thinking
+是思考
+
+_
+
+think people
+想想人
+
+_
+
+the software
+该软件
+
+_
+
+don't follow
+不要跟随
+
+_
+
+better place
+更好的地方
+
+_
+
+look at this
+看这
+
+_
+
+to do things
+要做事
+
+_
+
+could have a
+可以有一个
+
+_
+
+try to solve
+试着解决
+
+_
+
+would happen
+會發生
+
+_
+
+first time I
+第一次我
+
+_
+
+Why you need
+为什么你需要
+
+_
+
+To be honest
+要诚实
+
+_
+
+people can't
+人不能
+
+_
+
+all the time
+整个时间
+
+_
+
+is something
+是某事
+
+_
+
+seems like I
+似乎我
+
+_
+
+could make a
+可以做一个
+
+_
+
+I would like
+我希望
+
+_
+
+people don't
+人不
+
+_
+
+just found a
+找到了一个
+
+_
+
+I just found
+我刚刚发现
+
+_
+
+start to use
+开始使用
+
+_
+
+a good place
+一个好地方
+
+_
+
+the power of
+权力的
+
+_
+
+write better
+写得更好
+
+_
+
+should learn
+应该学习
+
+_
+
+is just like
+只是像
+
+_
+
+very good at
+非常好在
+
+_
+
+by following
+通过跟随
+
+_
+
+If you could
+如果你能
+
+_
+
+can't find a
+找不到一个
+
+_
+
+the power to
+权力为
+
+_
+
+That's why I
+这就是为什么我
+
+_
+
+forward by a
+向前的一个
+
+_
+
+beginning of
+开始的
+
+_
+
+is very good
+非常好
+
+_
+
+smarter than
+更聪明的
+
+_
+
+that problem
+这个问题
+
+_
+
+don't have a
+不要有一个
+
+_
+
+this picture
+这个图像
+
+_
+
+a better way
+更好的方式
+
+_
+
+to feel that
+要感觉到这
+
+_
+
+a more clear
+更清晰的
+
+_
+
+better first
+最好先
+
+_
+
+that contain
+这包含
+
+_
+
+This must be
+这必须是
+
+_
+
+be better if
+如果更好
+
+_
+
+I have tried
+我尝试过
+
+_
+
+to have some
+要有一些
+
+_
+
+that because
+因为这
+
+_
+
+if you could
+如果你能
+
+_
+
+is wonderful
+奇妙的
+
+_
+
+to something
+到某事
+
+_
+
+this is what
+这就是什么
+
+_
+
+just thought
+只是想
+
+_
+
+should start
+应该开始
+
+_
+
+be something
+做某事
+
+_
+
+What are you
+什么是你
+
+_
+
+This is the
+这就是
+
+_
+
+is required
+需要的
+
+_
+
+to download
+下载
+
+_
+
+you want to
+你想要的
+
+_
+
+If you want
+如果你想
+
+_
+
+faster than
+比快
+
+_
+
+needs to be
+必须是
+
+_
+
+video about
+视频关于
+
+_
+
+by watching
+通过观察
+
+_
+
+feel better
+感觉更好
+
+_
+
+is possible
+可能的
+
+_
+
+function is
+函数是
+
+_
+
+treat it as
+把它当作
+
+_
+
+new torrent
+新的Torrent
+
+_
+
+that people
+这些人
+
+_
+
+a real time
+一个真实的时间
+
+_
+
+the freedom
+自由的
+
+_
+
+possible to
+可能的
+
+_
+
+sequence to
+序列到
+
+_
+
+with others
+与其他人
+
+_
+
+num in nums
+nums 中的 nums
+
+_
+
+in reversed
+相反的
+
+_
+
+best friend
+最好的朋友
+
+_
+
+What is the
+什么是The
+
+_
+
+the name of
+这个名字的
+
+_
+
+not in self
+不是在自己
+
+_
+
+object will
+对象将
+
+_
+
+if counting
+如果计算
+
+_
+
+debug until
+到目前为止
+
+_
+
+better have
+最好有
+
+_
+
+binary tree
+二元树
+
+_
+
+a different
+一种不同的
+
+_
+
+you can ask
+你可以问
+
+_
+
+you have to
+你必须
+
+_
+
+you have an
+你有一个
+
+_
+
+You have to
+你必须
+
+_
+
+even if you
+即使你
+
+_
+
+elements in
+元素在
+
+_
+
+anywhere in
+在任何地方
+
+_
+
+It's like a
+它就像一个
+
+_
+
+number list
+数字列表
+
+_
+
+you need to
+你需要
+
+_
+
+of elements
+因元素
+
+_
+
+of the next
+从下一个
+
+_
+
+You want to
+你想
+
+_
+
+But what if
+但是如果
+
+_
+
+if you have
+如果你有
+
+_
+
+for word in
+用字在
+
+_
+
+to give you
+要给你
+
+_
+
+from bottom
+从底部
+
+_
+
+predict the
+预测的
+
+_
+
+think about
+想一想
+
+_
+
+you are not
+你不是
+
+_
+
+followed by
+跟随的
+
+_
+
+you can use
+你可以使用
+
+_
+
+what do you
+你做什么
+
+_
+
+part of the
+其中的一部分
+
+_
+
+starts with
+开始与
+
+_
+
+it would be
+它将是
+
+_
+
+function in
+函数在
+
+_
+
+it contains
+它包含
+
+_
+
+sequence of
+序列的
+
+_
+
+name of the
+姓名 The
+
+_
+
+can only be
+只能是
+
+_
+
+that refers
+这指的是
+
+_
+
+refers to a
+提到一个
+
+_
+
+function to
+函数为
+
+_
+
+the element
+元素
+
+_
+
+object from
+对象从
+
+_
+
+There has a
+有一个
+
+_
+
+some people
+有些人
+
+_
+
+the process
+这个过程
+
+_
+
+numpy as np
+如 NP 如 NP
+
+_
+
+there has a
+有一个
+
+_
+
+from Sorted
+从分类
+
+_
+
+can be used
+可以使用
+
+_
+
+of the Year
+年度的
+
+_
+
+is probably
+可能是
+
+_
+
+through the
+通过The
+
+_
+
+for the key
+為關鍵
+
+_
+
+If you find
+如果你找到
+
+_
+
+in order to
+为了使
+
+_
+
+the program
+该计划
+
+_
+
+Pointers in
+指标在
+
+_
+
+always want
+总是想要
+
+_
+
+will be the
+将是
+
+_
+
+how can you
+你怎么能
+
+_
+
+do anything
+做任何事
+
+_
+
+don't think
+不要想
+
+_
+
+You'll have
+你會有
+
+_
+
+this is the
+这就是
+
+_
+
+the machine
+机器
+
+_
+
+bigger than
+比大
+
+_
+
+that really
+这真的
+
+_
+
+want to get
+想得到
+
+_
+
+contain any
+包含任何
+
+_
+
+not contain
+不包含
+
+_
+
+sentence to
+判决为
+
+_
+
+back to the
+回到The
+
+_
+
+If you have
+如果你有
+
+_
+
+Do you know
+你知道吗
+
+_
+
+to create a
+要创造一个
+
+_
+
+could do is
+可以做的是
+
+_
+
+in terminal
+在终端
+
+_
+
+will simply
+将简单
+
+_
+
+better than
+比好
+
+_
+
+a difficult
+一个艰难
+
+_
+
+the problem
+这个问题
+
+_
+
+language is
+语言是
+
+_
+
+a number of
+一数的
+
+_
+
+to generate
+要生成
+
+_
+
+list length
+列表长度
+
+_
+
+You need to
+你需要
+
+_
+
+all of them
+他们所有
+
+_
+
+Increase to
+增加到
+
+_
+
+you can get
+你可以得到
+
+_
+
+can get the
+可以得到的
+
+_
+
+the current
+目前的
+
+_
+
+to get more
+要得到更多
+
+_
+
+so that you
+以便你
+
+_
+
+for each in
+对于每一个在
+
+_
+
+always have
+总是有
+
+_
+
+have people
+有的人
+
+_
+
+question is
+问题是
+
+_
+
+and replace
+取代
+
+_
+
+you can see
+你可以看到
+
+_
+
+in a String
+在一条线上
+
+_
+
+a Character
+一个性格
+
+_
+
+Distance to
+距离到
+
+_
+
+And another
+还有另一个
+
+_
+
+for example
+例如
+
+_
+
+google play
+谷歌游戏
+
+_
+
+right thing
+正确的事情
+
+_
+
+have to use
+必须使用
+
+_
+
+by yourself
+由自己
+
+_
+
+they do not
+他们不
+
+_
+
+the virtual
+虚拟的
+
+_
+
+if you want
+如果你想
+
+_
+
+key in self
+關鍵在自己
+
+_
+
+and returns
+又返回
+
+_
+
+whether the
+如果你是
+
+_
+
+Removes the
+取消 The
+
+_
+
+other words
+其他词语
+
+_
+
+Returns the
+返回 The
+
+_
+
+can provide
+可以提供
+
+_
+
+people want
+人們想要
+
+_
+
+in a Sorted
+在一个分类
+
+_
+
+replace the
+取代的
+
+_
+
+How to make
+如何做
+
+_
+
+is the best
+是最好的
+
+_
+
+will always
+将永远
+
+_
+
+in front of
+在前面
+
+_
+
+is about to
+即将到
+
+_
+
+it has some
+它有一些
+
+_
+
+Learning is
+学习是
+
+_
+
+good or bad
+好或坏
+
+_
+
+those small
+这些小
+
+_
+
+to overcome
+要克服
+
+_
+
+will try to
+将尝试
+
+_
+
+Suppose you
+假设你
+
+_
+
+do whatever
+做什么
+
+_
+
+millions of
+百万的
+
+_
+
+should take
+應該採取
+
+_
+
+Because you
+因为你
+
+_
+
+as possible
+尽可能
+
+_
+
+should have
+应该有
+
+_
+
+Let's start
+让我们开始
+
+_
+
+you control
+你控制
+
+_
+
+because you
+因为你
+
+_
+
+you do that
+你做这
+
+_
+
+the fucking
+该 他妈的
+
+_
+
+if you feel
+如果你感到
+
+_
+
+How can you
+你怎么能
+
+_
+
+to find out
+要找出
+
+_
+
+without any
+没有任何
+
+_
+
+I would say
+我会说
+
+_
+
+could solve
+可以解决
+
+_
+
+could learn
+可以学习
+
+_
+
+many things
+很多事物
+
+_
+
+those stuff
+这些东西
+
+_
+
+with python
+与Python
+
+_
+
+found there
+在那里找到
+
+_
+
+client that
+这个客户
+
+_
+
+client will
+客戶會
+
+_
+
+Flipping an
+飞翔一
+
+_
+
+able to get
+能得到
+
+_
+
+get deleted
+被删除
+
+_
+
+a long time
+很久很久
+
+_
+
+to continue
+要继续
+
+_
+
+and Windows
+和Windows
+
+_
+
+more option
+更多选项
+
+_
+
+Here is the
+这里是The
+
+_
+
+In this way
+以此方式
+
+_
+
+There is no
+有没有
+
+_
+
+make things
+做事
+
+_
+
+if this set
+如果这个设置
+
+_
+
+in a Stream
+在一流中
+
+_
+
+the biggest
+最大的
+
+_
+
+will happen
+會發生
+
+_
+
+in an Array
+在某种情况下
+
+_
+
+there is no
+有没有
+
+_
+
+which means
+什么意思
+
+_
+
+you need is
+你需要的是
+
+_
+
+in the same
+在同一
+
+_
+
+for another
+对于另一个
+
+_
+
+appear only
+只出现
+
+_
+
+you must do
+你必须做
+
+_
+
+extra space
+额外空间
+
+_
+
+matter what
+重要的是什么
+
+_
+
+that allows
+这允许
+
+_
+
+during this
+在此期间
+
+_
+
+on internet
+在互联网上
+
+_
+
+is the only
+是唯一的
+
+_
+
+have a good
+有一个好
+
+_
+
+between you
+你們之間
+
+_
+
+during that
+在此期间
+
+_
+
+me tell you
+我告诉你
+
+_
+
+in this way
+以此方式
+
+_
+
+assume that
+假设这
+
+_
+
+to find the
+要找到的
+
+_
+
+the largest
+最大的
+
+_
+
+Most of the
+大多数的
+
+_
+
+of the time
+此时此刻
+
+_
+
+is a single
+是单身
+
+_
+
+You can get
+你可以得到
+
+_
+
+from others
+从其他人
+
+_
+
+more people
+更多人
+
+_
+
+should only
+只需要
+
+_
+
+I have used
+我用了
+
+_
+
+between the
+與之間的
+
+_
+
+those words
+这些话语
+
+_
+
+move to the
+移动到The
+
+_
+
+get started
+开始吧
+
+_
+
+to build an
+要建造一
+
+_
+
+the ability
+能力
+
+_
+
+to let your
+让你的
+
+_
+
+is a number
+是数字
+
+_
+
+to keep the
+为了保持
+
+_
+
+can use the
+可以使用的
+
+_
+
+do the same
+做同样的事情
+
+_
+
+higher than
+更高于
+
+_
+
+open source
+开源
+
+_
+
+I was wrong
+我错了
+
+_
+
+know what I
+知道我什么
+
+_
+
+English and
+英语和
+
+_
+
+have enough
+有足够的
+
+_
+
+enough time
+足够的时间
+
+_
+
+some reason
+某种原因
+
+_
+
+to make the
+要使其
+
+_
+
+to know how
+要知道如何
+
+_
+
+one command
+1 命令
+
+_
+
+that we can
+我们可以
+
+_
+
+at the same
+在同一
+
+_
+
+only way to
+唯一的途径
+
+_
+
+because the
+因为The
+
+_
+
+You can use
+你可以使用
+
+_
+
+or software
+或软件
+
+_
+
+the website
+网站
+
+_
+
+is actually
+事实上是
+
+_
+
+hard coding
+硬编码
+
+_
+
+by creating
+通过创造
+
+_
+
+first thing
+第一件事
+
+_
+
+of the data
+关于数据
+
+_
+
+with Python
+与Python
+
+_
+
+we could do
+我们可以做
+
+_
+
+That's also
+这也是
+
+_
+
+They do not
+他们不
+
+_
+
+products at
+产品在
+
+_
+
+the one who
+那个谁
+
+_
+
+What do you
+你做什么
+
+_
+
+group where
+团体在哪里
+
+_
+
+the service
+服务
+
+_
+
+returns the
+返回 The
+
+_
+
+change your
+改变你的
+
+_
+
+use English
+使用英语
+
+_
+
+Do you have
+你有
+
+_
+
+do you have
+你有
+
+_
+
+a directory
+一个目录
+
+_
+
+they should
+他们应该
+
+_
+
+world needs
+世界需要
+
+_
+
+don't wanna
+不要渴望
+
+_
+
+things that
+这些事物
+
+_
+
+the library
+图书馆
+
+_
+
+do what you
+做你做什么
+
+_
+
+Some people
+有些人
+
+_
+
+to tell you
+要告诉你
+
+_
+
+the outside
+外面
+
+_
+
+made during
+在此期间制作
+
+_
+
+I know that
+我知道那
+
+_
+
+help people
+帮助人
+
+_
+
+a developer
+一个开发者
+
+_
+
+continue to
+繼續
+
+_
+
+of what you
+你所做的事情
+
+_
+
+you'll find
+你会找到
+
+_
+
+the browser
+浏览器
+
+_
+
+to automate
+自动化
+
+_
+
+just a tool
+只是一个工具
+
+_
+
+help others
+帮助其他人
+
+_
+
+go anywhere
+去任何地方
+
+_
+
+for a whole
+為一個整體
+
+_
+
+for that is
+因为这就是
+
+_
+
+still don't
+仍然不
+
+_
+
+The problem
+问题
+
+_
+
+without the
+没有The
+
+_
+
+have to pay
+必须付出
+
+_
+
+just didn't
+只是没有
+
+_
+
+inside of a
+内部的一个
+
+_
+
+much easier
+更容易
+
+_
+
+of training
+訓練
+
+_
+
+could start
+可以开始
+
+_
+
+I love this
+我爱这
+
+_
+
+to get into
+要进去
+
+_
+
+what is the
+什么是The
+
+_
+
+to manually
+用手动
+
+_
+
+to classify
+要分类
+
+_
+
+people have
+人有
+
+_
+
+what people
+什么人
+
+_
+
+is what you
+是你什么
+
+_
+
+what you do
+你做什么
+
+_
+
+to complete
+要完成
+
+_
+
+use it with
+用它与
+
+_
+
+record what
+记录什么
+
+_
+
+they always
+他们总是
+
+_
+
+to become a
+要成为一个
+
+_
+
+lot of time
+很多时间
+
+_
+
+is that you
+是你
+
+_
+
+This is how
+这就是如何
+
+_
+
+you have no
+你没有
+
+_
+
+that can be
+这可以是
+
+_
+
+nothing but
+除了什么
+
+_
+
+able to use
+能够使用
+
+_
+
+the man who
+那个男人谁
+
+_
+
+answer more
+回答更多
+
+_
+
+better just
+最好只是
+
+_
+
+and make it
+做它
+
+_
+
+know why it
+知道為什麼
+
+_
+
+and thought
+和思考
+
+_
+
+all of your
+所有的你的
+
+_
+
+thought you
+想你
+
+_
+
+the picture
+图像
+
+_
+
+than Python
+比Python
+
+_
+
+I should be
+我应该是
+
+_
+
+it might be
+可能是
+
+_
+
+best way to
+最好的方式
+
+_
+
+their money
+他们的钱
+
+_
+
+user system
+用户系统
+
+_
+
+a good time
+好时光
+
+_
+
+not good at
+不好在
+
+_
+
+can also be
+也可以是
+
+_
+
+learning of
+学习的
+
+_
+
+should work
+应该工作
+
+_
+
+you'll have
+你會有
+
+_
+
+Even if you
+即使你
+
+_
+
+many people
+许多人
+
+_
+
+most people
+大多数人
+
+_
+
+I could use
+我可以使用
+
+_
+
+in thinking
+在思考中
+
+_
+
+place where
+地方在哪里
+
+_
+
+could use a
+可以使用 一个
+
+_
+
+really need
+真的需要
+
+_
+
+Even though
+尽管
+
+_
+
+system with
+系统与
+
+_
+
+after a few
+经过几次
+
+_
+
+a few hours
+几个小时
+
+_
+
+the help of
+援助的
+
+_
+
+don't speak
+不要说话
+
+_
+
+would never
+永远不会
+
+_
+
+and product
+和产品
+
+_
+
+that Google
+这个谷歌
+
+_
+
+of software
+关于软件
+
+_
+
+about to go
+要去的
+
+_
+
+never teach
+永远不会教
+
+_
+
+that school
+这所学校
+
+_
+
+let it work
+让它工作
+
+_
+
+rather than
+而不是
+
+_
+
+I'd like to
+我会喜欢
+
+_
+
+to learn it
+要学会它
+
+_
+
+more likely
+更有可能
+
+_
+
+should find
+应该找到
+
+_
+
+of computer
+计算机
+
+_
+
+will change
+會改變
+
+_
+
+should know
+应该知道
+
+_
+
+seems to be
+似乎是
+
+_
+
+way to make
+如何做
+
+_
+
+lot of work
+很多工作
+
+_
+
+the meaning
+意义的
+
+_
+
+people love
+人爱
+
+_
+
+becomes the
+变成了
+
+_
+
+didn't make
+没有做
+
+_
+
+I think the
+我认为
+
+_
+
+are so many
+有这么多
+
+_
+
+We can make
+我们可以做
+
+_
+
+people work
+人工作
+
+_
+
+the world a
+世界 一个
+
+_
+
+I have done
+我做了
+
+_
+
+going to be
+将成为
+
+_
+
+can do this
+可以这样做
+
+_
+
+someone who
+有人谁
+
+_
+
+I just want
+我只是想要
+
+_
+
+it could be
+它可以是
+
+_
+
+from now on
+从现在开始
+
+_
+
+solution is
+解决方案是
+
+_
+
+but instead
+但相反
+
+_
+
+really want
+真的想要
+
+_
+
+That's what
+这就是什么
+
+_
+
+the morning
+早晨
+
+_
+
+worry about
+担心
+
+_
+
+I'll try it
+我会尝试
+
+_
+
+the product
+产品
+
+_
+
+people like
+人類如
+
+_
+
+that before
+此前的
+
+_
+
+we'd better
+我们会更好
+
+_
+
+want to see
+想看到
+
+_
+
+This is all
+这一切都是
+
+_
+
+thinking is
+思考是
+
+_
+
+to remember
+要记住
+
+_
+
+This guy is
+这个男人是
+
+_
+
+need to use
+需要使用
+
+_
+
+didn't know
+不知道
+
+_
+
+people know
+人知道
+
+_
+
+it's better
+它更好
+
+_
+
+supposed to
+假设
+
+_
+
+start a new
+开始一个新的
+
+_
+
+what should
+什么应该
+
+_
+
+learning is
+学习是
+
+_
+
+Now you can
+现在你可以
+
+_
+
+it tomorrow
+明天是
+
+_
+
+even in the
+即使在
+
+_
+
+more stable
+更稳定
+
+_
+
+I could get
+我可以得到
+
+_
+
+about where
+关于哪里
+
+_
+
+pretty much
+相当多
+
+_
+
+Here you go
+这里你去
+
+_
+
+measure the
+测量的
+
+_
+
+become more
+变成更多
+
+_
+
+that you'll
+那你会
+
+_
+
+better plan
+更好的计划
+
+_
+
+out of date
+出于日期
+
+_
+
+high school
+高中
+
+_
+
+Do what you
+做你做什么
+
+_
+
+should look
+应该看
+
+_
+
+word before
+此前的词语
+
+_
+
+good way to
+很好的方式
+
+_
+
+happened in
+发生在
+
+_
+
+i in range
+我在范围内
+
+_
+
+the object
+对象
+
+_
+
+model that
+这个模型
+
+_
+
+the output
+出口
+
+_
+
+x in range
+x 在范围内
+
+_
+
+y in range
+在范围内
+
+_
+
+an integer
+一个整体
+
+_
+
+a question
+一个问题
+
+_
+
+find a job
+找工作
+
+_
+
+an offline
+一个离线
+
+_
+
+because it
+因为它
+
+_
+
+we can use
+我们可以使用
+
+_
+
+can access
+可以访问
+
+_
+
+people can
+人可以
+
+_
+
+could make
+可以做
+
+_
+
+that could
+这可能
+
+_
+
+you do not
+你不做
+
+_
+
+even if it
+即使它
+
+_
+
+is working
+正在工作
+
+_
+
+send it to
+把它送到
+
+_
+
+my website
+我的网站
+
+_
+
+version of
+版本的
+
+_
+
+figure out
+找出
+
+_
+
+the search
+搜尋
+
+_
+
+the target
+目标
+
+_
+
+to capture
+捕捉
+
+_
+
+how to use
+如何使用
+
+_
+
+talking to
+说话的
+
+_
+
+how to set
+如何设置
+
+_
+
+to use the
+用它
+
+_
+
+outside of
+外在的
+
+_
+
+j in range
+J在范围内
+
+_
+
+in counter
+对比
+
+_
+
+memory and
+记忆和
+
+_
+
+each other
+互相
+
+_
+
+never have
+永远不会有
+
+_
+
+problem is
+问题是
+
+_
+
+it doesn't
+它不
+
+_
+
+you should
+你应该
+
+_
+
+stores the
+商店 The
+
+_
+
+have to do
+必须做
+
+_
+
+can use it
+可以使用它
+
+_
+
+give you a
+给你一个
+
+_
+
+change the
+改變 The
+
+_
+
+if current
+如果目前
+
+_
+
+second day
+第二天
+
+_
+
+found that
+找到了那
+
+_
+
+because of
+因为
+
+_
+
+array will
+Array 會
+
+_
+
+about this
+關於此
+
+_
+
+more about
+更多关于
+
+_
+
+an example
+一个例子
+
+_
+
+go through
+走过
+
+_
+
+through it
+通过它
+
+_
+
+learn more
+学习更多
+
+_
+
+means that
+这意味着
+
+_
+
+the string
+线条
+
+_
+
+using this
+使用此
+
+_
+
+we use the
+我们使用的
+
+_
+
+use Python
+使用Python
+
+_
+
+If you are
+如果你是
+
+_
+
+contains a
+包含 一个
+
+_
+
+a function
+一项功能
+
+_
+
+a variable
+一个变量
+
+_
+
+in another
+在另一个
+
+_
+
+as part of
+作为一部分
+
+_
+
+the values
+价值观
+
+_
+
+element is
+元素是
+
+_
+
+is running
+正在奔跑
+
+_
+
+object and
+对象和
+
+_
+
+one of the
+其中一个是
+
+_
+
+So that we
+所以,我们
+
+_
+
+we want to
+我们要
+
+_
+
+if we want
+如果我们想要
+
+_
+
+don't know
+不知道
+
+_
+
+know where
+知道在哪里
+
+_
+
+working on
+工作在
+
+_
+
+before you
+在你之前
+
+_
+
+if request
+如果请求
+
+_
+
+message to
+留言到
+
+_
+
+for one in
+对于一个在
+
+_
+
+auto found
+车被发现
+
+_
+
+nothing to
+没有什么
+
+_
+
+you create
+你创造
+
+_
+
+which is a
+什么是一个
+
+_
+
+the bottom
+底部
+
+_
+
+belongs to
+属于
+
+_
+
+you try to
+你试着
+
+_
+
+of a Phone
+一个电话
+
+_
+
+Day of the
+那一天的
+
+_
+
+better for
+更好为
+
+_
+
+There's no
+有没有
+
+_
+
+same thing
+相同的事情
+
+_
+
+the second
+第二个
+
+_
+
+the middle
+中间
+
+_
+
+meaning of
+意义的
+
+_
+
+One of the
+其中一个
+
+_
+
+that makes
+这使得
+
+_
+
+the source
+来源
+
+_
+
+who always
+谁总是
+
+_
+
+people are
+人是
+
+_
+
+anyone can
+任何人都可以
+
+_
+
+could live
+可以活着
+
+_
+
+money from
+金钱从
+
+_
+
+one letter
+一封信
+
+_
+
+think only
+只想想
+
+_
+
+only thing
+唯一事物
+
+_
+
+the people
+人民的
+
+_
+
+real world
+现实世界
+
+_
+
+thing that
+这件事
+
+_
+
+them think
+他们想
+
+_
+
+have to be
+必须是
+
+_
+
+every time
+每一次
+
+_
+
+to make it
+要做它
+
+_
+
+better way
+更好的方式
+
+_
+
+to English
+到英语
+
+_
+
+to rewrite
+重写
+
+_
+
+think this
+想这
+
+_
+
+download a
+下载 一个
+
+_
+
+and answer
+和答案
+
+_
+
+don't have
+不要有
+
+_
+
+will start
+将开始
+
+_
+
+the server
+服务器
+
+_
+
+service to
+服务到
+
+_
+
+will print
+将打印
+
+_
+
+n in range
+n 在范围内
+
+_
+
+I think my
+我想我的
+
+_
+
+there is a
+有一个
+
+_
+
+process of
+过程的
+
+_
+
+At the end
+最后,
+
+_
+
+ability to
+能力到
+
+_
+
+Words from
+从词语
+
+_
+
+just a few
+只有一些
+
+_
+
+similar to
+类似于
+
+_
+
+I found an
+我找到了一个
+
+_
+
+Sum of Two
+总数为2
+
+_
+
+can create
+可以创造
+
+_
+
+have a lot
+有很多
+
+_
+
+you have a
+你有一个
+
+_
+
+written in
+写在
+
+_
+
+is written
+已写
+
+_
+
+How to use
+如何使用
+
+_
+
+use python
+使用Python
+
+_
+
+to write a
+要写一
+
+_
+
+you'll get
+你会得到
+
+_
+
+I know how
+我知道如何
+
+_
+
+connect to
+连接到
+
+_
+
+to connect
+连接
+
+_
+
+and change
+和变化
+
+_
+
+Element in
+元素在
+
+_
+
+to do that
+要做到这一点
+
+_
+
+How do you
+你怎么做
+
+_
+
+would have
+會有
+
+_
+
+if someone
+如果有人
+
+_
+
+solve this
+解决这个
+
+_
+
+replace it
+取代它
+
+_
+
+looks like
+看起来像
+
+_
+
+end of the
+终结的
+
+_
+
+In the end
+在结局
+
+_
+
+their name
+他们的名字
+
+_
+
+around the
+周围的
+
+_
+
+try to use
+尝试使用
+
+_
+
+let result
+让结果
+
+_
+
+Words in a
+字在一个
+
+_
+
+is getting
+正在得到
+
+_
+
+We need to
+我们需要
+
+_
+
+new system
+新制度
+
+_
+
+system for
+系统为
+
+_
+
+a business
+一家企业
+
+_
+
+to be able
+要有能力
+
+_
+
+build your
+建造你的
+
+_
+
+during the
+在期间的
+
+_
+
+not have a
+没有一个
+
+_
+
+so fucking
+如此 他妈的
+
+_
+
+in the end
+在结局
+
+_
+
+top of the
+顶部的The
+
+_
+
+to the top
+到顶部
+
+_
+
+inside the
+内在的
+
+_
+
+let anyone
+让任何人
+
+_
+
+one single
+一个单身
+
+_
+
+request to
+请求
+
+_
+
+write your
+写你的
+
+_
+
+mapping of
+地图的
+
+_
+
+some basic
+一些基本
+
+_
+
+to perform
+要执行
+
+_
+
+use random
+随机使用
+
+_
+
+it without
+它没有
+
+_
+
+about your
+关于你的
+
+_
+
+we are not
+我们不是
+
+_
+
+content in
+内容在
+
+_
+
+never know
+永远不知道
+
+_
+
+know other
+知道其他
+
+_
+
+You should
+你应该
+
+_
+
+unless you
+除非你
+
+_
+
+that would
+这将是
+
+_
+
+instead of
+而不是
+
+_
+
+their time
+他们的时间
+
+_
+
+python and
+Python 和
+
+_
+
+still need
+仍然需要
+
+_
+
+you do the
+你做的
+
+_
+
+don't want
+不要想要
+
+_
+
+much money
+很多钱
+
+_
+
+it'll more
+它将更多
+
+_
+
+I start to
+我开始
+
+_
+
+won't talk
+不会说话
+
+_
+
+By the way
+通过途径
+
+_
+
+thing with
+事與
+
+_
+
+want to do
+想做
+
+_
+
+for you to
+為你為
+
+_
+
+are stored
+被存储
+
+_
+
+touch with
+触摸与
+
+_
+
+That's why
+这就是为什么
+
+_
+
+you can do
+你可以做
+
+_
+
+start from
+从开始
+
+_
+
+be good at
+善良在
+
+_
+
+need to do
+需要做
+
+_
+
+within one
+在其中一个
+
+_
+
+never stop
+永远不会停止
+
+_
+
+has public
+有公众
+
+_
+
+the client
+客戶
+
+_
+
+define the
+定义的
+
+_
+
+may assume
+可以假设
+
+_
+
+that there
+那在那里
+
+_
+
+could play
+可以玩
+
+_
+
+that's why
+这就是为什么
+
+_
+
+the number
+这个数字
+
+_
+
+a platform
+一个平台
+
+_
+
+is because
+是因为
+
+_
+
+written by
+由写的
+
+_
+
+easily get
+易于获取
+
+_
+
+because we
+因为我们
+
+_
+
+Windows is
+Windows 是
+
+_
+
+if you can
+如果你能
+
+_
+
+you failed
+你失败了
+
+_
+
+never give
+永远不要给
+
+_
+
+also don't
+也不要
+
+_
+
+don't need
+不要需要
+
+_
+
+believe in
+相信
+
+_
+
+person you
+你的人
+
+_
+
+to achieve
+
+
+_
+
+and return
+又返回
+
+_
+
+digits are
+数字是
+
+_
+
+except the
+除了
+
+_
+
+Product of
+產品的
+
+_
+
+a language
+一种语言
+
+_
+
+related to
+与相关的
+
+_
+
+about what
+关于什么
+
+_
+
+an account
+一份账户
+
+_
+
+they could
+他们可以
+
+_
+
+to explain
+要解释
+
+_
+
+seems like
+看起来像
+
+_
+
+What's the
+什么是The
+
+_
+
+the result
+结果
+
+_
+
+just don't
+只是不要
+
+_
+
+place with
+地点与
+
+_
+
+return the
+返回 The
+
+_
+
+do this in
+做这在
+
+_
+
+Instead of
+而不是
+
+_
+
+the future
+未來的
+
+_
+
+to explore
+探索
+
+_
+
+allows you
+允许你
+
+_
+
+which will
+谁会
+
+_
+
+one by one
+一对一
+
+_
+
+Minimum in
+最低限度
+
+_
+
+in Rotated
+在旋转
+
+_
+
+a notebook
+一张笔记本
+
+_
+
+can't make
+不能做
+
+_
+
+Welcome to
+欢迎来到
+
+_
+
+remove all
+删除所有
+
+_
+
+can have a
+可以有一个
+
+_
+
+play games
+玩游戏
+
+_
+
+change all
+改变一切
+
+_
+
+to build a
+要建造一
+
+_
+
+from those
+从这些
+
+_
+
+start with
+开始与
+
+_
+
+people you
+人 你
+
+_
+
+of example
+例如
+
+_
+
+example is
+例子是
+
+_
+
+to install
+安装
+
+_
+
+to compile
+收集
+
+_
+
+words that
+这句话
+
+_
+
+you make a
+你做一个
+
+_
+
+How to get
+如何得到
+
+_
+
+It is used
+它被用
+
+_
+
+website or
+WEB 或
+
+_
+
+running in
+跑在
+
+_
+
+to control
+要控制
+
+_
+
+to the end
+到最后
+
+_
+
+a complete
+一个完整
+
+_
+
+a positive
+一个积极的
+
+_
+
+But if you
+但是,如果你
+
+_
+
+if you use
+如果你使用
+
+_
+
+We can use
+我们可以使用
+
+_
+
+to do some
+要做一些
+
+_
+
+we have to
+我们必须
+
+_
+
+next thing
+下一篇
+
+_
+
+by default
+因故障
+
+_
+
+on Android
+在Android上
+
+_
+
+talk about
+谈论
+
+_
+
+to improve
+要改进
+
+_
+
+could also
+也可以
+
+_
+
+make money
+赚钱
+
+_
+
+would know
+会知道
+
+_
+
+play store
+玩商店
+
+_
+
+you to use
+你要使用
+
+_
+
+and use it
+用它
+
+_
+
+good thing
+好事
+
+_
+
+English is
+英语是
+
+_
+
+of Chinese
+中国人
+
+_
+
+and number
+和数字
+
+_
+
+a sentence
+一个判决
+
+_
+
+can change
+可以改变
+
+_
+
+one person
+一个人
+
+_
+
+can always
+可以总是
+
+_
+
+always get
+总是得到
+
+_
+
+record and
+记录和
+
+_
+
+the screen
+屏幕
+
+_
+
+Never give
+永远不要给
+
+_
+
+the better
+最好的
+
+_
+
+why people
+為什麼人
+
+_
+
+is similar
+是相似的
+
+_
+
+need money
+需要钱
+
+_
+
+so that we
+所以,我们
+
+_
+
+if we have
+如果我们有
+
+_
+
+could just
+可以只是
+
+_
+
+make a new
+做一个新
+
+_
+
+to another
+到另一个
+
+_
+
+few months
+几个月
+
+_
+
+won't have
+不会有
+
+_
+
+to help me
+为了帮助我
+
+_
+
+in history
+在历史上
+
+_
+
+select and
+选择和
+
+_
+
+book table
+书桌
+
+_
+
+could find
+可以找到
+
+_
+
+with other
+与其他人
+
+_
+
+this error
+这个错误
+
+_
+
+should get
+应该得到
+
+_
+
+the top of
+顶部的
+
+_
+
+a specific
+一个特定的
+
+_
+
+to get the
+要得到的
+
+_
+
+for people
+為人
+
+_
+
+way to get
+如何获取
+
+_
+
+to see how
+要看如何
+
+_
+
+process is
+过程是
+
+_
+
+will get a
+会得到一
+
+_
+
+love to do
+爱做
+
+_
+
+to do this
+要做到这一点
+
+_
+
+always try
+总是尝试
+
+_
+
+from China
+从中国
+
+_
+
+I could do
+我可以做
+
+_
+
+spy on you
+间谍你
+
+_
+
+would like
+我希望
+
+_
+
+a telegram
+一张电报
+
+_
+
+with those
+与这些
+
+_
+
+might like
+可能喜欢
+
+_
+
+Post about
+文章关于
+
+_
+
+the answer
+答案
+
+_
+
+you change
+你改变
+
+_
+
+also could
+也可以
+
+_
+
+docker run
+杜克跑
+
+_
+
+and create
+并创造
+
+_
+
+So you can
+所以你可以
+
+_
+
+they don't
+他们不
+
+_
+
+machine to
+机器到
+
+_
+
+should use
+應該使用
+
+_
+
+should not
+不应该
+
+_
+
+first step
+第一步
+
+_
+
+what to do
+要做什么
+
+_
+
+know which
+知道什么
+
+_
+
+I mean the
+我指的是
+
+_
+
+make sense
+要有意义
+
+_
+
+don't love
+不要爱
+
+_
+
+follow the
+跟随
+
+_
+
+behind the
+背后的
+
+_
+
+within the
+在内在的
+
+_
+
+building a
+建造一个
+
+_
+
+and simple
+和简单
+
+_
+
+little bit
+小小的
+
+_
+
+control of
+控制的
+
+_
+
+to do what
+要做什么
+
+_
+
+to monitor
+要监视
+
+_
+
+what would
+什么会
+
+_
+
+an article
+一篇文章
+
+_
+
+as long as
+只要只要
+
+_
+
+after this
+在此之后
+
+_
+
+in Chinese
+在中国
+
+_
+
+live right
+生活正确
+
+_
+
+notice one
+注意一
+
+_
+
+used to be
+常常是
+
+_
+
+still have
+仍然有
+
+_
+
+you always
+你总是
+
+_
+
+handle the
+处理的
+
+_
+
+I'd better
+我会更好
+
+_
+
+reduce the
+减少了
+
+_
+
+to convert
+要转换
+
+_
+
+get almost
+接近
+
+_
+
+module has
+模块有
+
+_
+
+could be a
+可能是一
+
+_
+
+choice but
+选择但
+
+_
+
+could have
+可以有
+
+_
+
+the system
+系统
+
+_
+
+can answer
+可以回答
+
+_
+
+picture of
+图片的
+
+_
+
+simple way
+简单的方式
+
+_
+
+care about
+关心
+
+_
+
+all people
+所有人
+
+_
+
+ask you to
+请求你
+
+_
+
+think it's
+想它是
+
+_
+
+is awesome
+令人惊叹
+
+_
+
+search the
+寻找The
+
+_
+
+you search
+你正在寻找
+
+_
+
+school can
+學校可以
+
+_
+
+you really
+你真的
+
+_
+
+and follow
+跟随
+
+_
+
+check this
+查看此
+
+_
+
+class that
+这个班级
+
+_
+
+I found it
+我找到了它
+
+_
+
+use number
+使用号码
+
+_
+
+that takes
+这需要
+
+_
+
+is nothing
+没有什么
+
+_
+
+with these
+与这些
+
+_
+
+and better
+而且更好
+
+_
+
+people who
+那些谁
+
+_
+
+I probably
+我可能
+
+_
+
+the public
+公众
+
+_
+
+write more
+写更多
+
+_
+
+at the top
+在顶部
+
+_
+
+doing this
+做这
+
+_
+
+was better
+是更好的
+
+_
+
+short time
+短时间
+
+_
+
+I think it
+我认为
+
+_
+
+would find
+会找到
+
+_
+
+Learn more
+学习更多
+
+_
+
+in my life
+在我生命中
+
+_
+
+I will use
+我将使用
+
+_
+
+the things
+这些事物
+
+_
+
+find a way
+找路
+
+_
+
+would be a
+會是一个
+
+_
+
+get out of
+走出
+
+_
+
+can indeed
+可以真的
+
+_
+
+I know why
+我知道为什么
+
+_
+
+started to
+开始了
+
+_
+
+works with
+工作与
+
+_
+
+better use
+更好的使用
+
+_
+
+know about
+知道关于
+
+_
+
+only takes
+只需要
+
+_
+
+As long as
+只要只要
+
+_
+
+have never
+從未有
+
+_
+
+this world
+这个世界
+
+_
+
+write some
+写一些
+
+_
+
+don't like
+不要喜欢
+
+_
+
+what could
+什么可以
+
+_
+
+have faith
+有信仰
+
+_
+
+to be good
+要善良
+
+_
+
+Why people
+為什麼人
+
+_
+
+that means
+这意味着
+
+_
+
+where have
+哪里有
+
+_
+
+about that
+关于这
+
+_
+
+might be a
+可能是一
+
+_
+
+the reason
+原因
+
+_
+
+feel happy
+感到快乐
+
+_
+
+have spent
+花了
+
+_
+
+of working
+工作中的
+
+_
+
+They don't
+他们不
+
+_
+
+wrong with
+错了与
+
+_
+
+a girl who
+一个女孩谁
+
+_
+
+person who
+谁的人
+
+_
+
+good movie
+好电影
+
+_
+
+best thing
+最好的事情
+
+_
+
+the more I
+越多我
+
+_
+
+The more I
+越多我
+
+_
+
+the school
+學校
+
+_
+
+give up on
+放弃
+
+_
+
+field that
+这个领域
+
+_
+
+stable and
+稳定和
+
+_
+
+decided to
+决定为
+
+_
+
+from today
+从今天
+
+_
+
+that their
+這些他們的
+
+_
+
+How to let
+如何让
+
+_
+
+can't feel
+不能感觉
+
+_
+
+willing to
+愿意为
+
+_
+
+they won't
+他们不会
+
+_
+
+want to be
+想成为
+
+_
+
+that's the
+这就是The
+
+_
+
+other hand
+另一只手
+
+_
+
+On the one
+在其中一
+
+_
+
+to replace
+取代
+
+_
+
+simple and
+简单和
+
+_
+
+better one
+更好的一个
+
+_
+
+could send
+可以发送
+
+_
+
+Compare to
+比较
+
+_
+
+life would
+生命会
+
+_
+
+of problem
+关于问题
+
+_
+
+ability of
+能力的
+
+_
+
+think they
+以为他们
+
+_
+
+gonna make
+会做
+
+_
+
+won't make
+不会做
+
+_
+
+always use
+总是使用
+
+_
+
+the latest
+最新的
+
+_
+
+You can do
+你可以做
+
+_
+
+part about
+部分关于
+
+_
+
+this would
+这将是
+
+_
+
+good about
+好关于
+
+_
+
+first time
+第一次
+
+_
+
+will never
+永远不会
+
+_
+
+Due to the
+由于其
+
+_
+
+more clear
+更清晰
+
+_
+
+high level
+高级别
+
+_
+
+to support
+支持
+
+_
+
+get into a
+进入一个
+
+_
+
+money with
+金钱与
+
+_
+
+new things
+新事物
+
+_
+
+to develop
+要发展
+
+_
+
+more money
+更多钱
+
+_
+
+do it with
+做它与
+
+_
+
+think that
+想想那
+
+_
+
+is kind of
+是某种
+
+_
+
+of special
+特殊的
+
+_
+
+can't find
+找不到
+
+_
+
+problem in
+问题在
+
+_
+
+have a big
+有一个大
+
+_
+
+Not at all
+根本不
+
+_
+
+is all you
+都是你
+
+_
+
+morning to
+早上到
+
+_
+
+enough for
+足以
+
+_
+
+my English
+我的英语
+
+_
+
+just found
+刚刚找到
+
+_
+
+Because it
+因为它
+
+_
+
+good place
+好地方
+
+_
+
+but it has
+但它有
+
+_
+
+no problem
+没有问题
+
+_
+
+that every
+这个每一个
+
+_
+
+a software
+一个软件
+
+_
+
+the author
+作者
+
+_
+
+idea about
+关于的想法
+
+_
+
+That's the
+这就是
+
+_
+
+try it out
+尝试出来
+
+_
+
+to receive
+要接受
+
+_
+
+forward by
+向前的
+
+_
+
+that works
+这个工作
+
+_
+
+better and
+更好和
+
+_
+
+there must
+必须有
+
+_
+
+as you can
+如你能
+
+_
+
+I must say
+我必须说
+
+_
+
+some other
+一些其他
+
+_
+
+another is
+另一个是
+
+_
+
+don't even
+甚至不要
+
+_
+
+keep those
+保持这些
+
+_
+
+get better
+做得更好
+
+_
+
+don't care
+不要担心
+
+_
+
+could know
+可以知道
+
+_
+
+you to get
+你要得到
+
+_
+
+can become
+可以变成
+
+_
+
+I've never
+我从来没有
+
+_
+
+few people
+少数人
+
+_
+
+this after
+此後
+
+_
+
+like those
+如同这些
+
+_
+
+have tried
+已尝试
+
+_
+
+are better
+是更好的
+
+_
+
+would more
+会更多
+
+_
+
+this group
+这个团体
+
+_
+
+I love you
+我爱你
+
+_
+
+just about
+只是关于
+
+_
+
+more power
+更多权力
+
+_
+
+wonder why
+想知道为什么
+
+_
+
+better let
+最好放下
+
+_
+
+by the way
+通过道路
+
+_
+
+id of this
+ID 的此
+
+_
+
+what's the
+什么是The
+
+_
+
+we support
+我们支持
+
+_
+
+is another
+是另一个
+
+_
+
+is the end
+是结局
+
+_
+
+a good way
+好方式
+
+_
+
+has better
+有更好的
+
+_
+
+you better
+你好
+
+_
+
+mean those
+意思是那些
+
+_
+
+I got this
+我得到了这
+
+_
+
+don't mean
+不要说
+
+_
+
+stored in
+存储在
+
+_
+
+since the
+从那以后,
+
+_
+
+the image
+图像
+
+_
+
+with your
+与你的
+
+_
+
+code with
+代码与
+
+_
+
+if result
+如果结果
+
+_
+
+in matrix
+在矩阵中
+
+_
+
+less than
+少于
+
+_
+
+of Python
+关于Python
+
+_
+
+if string
+如果 string
+
+_
+
+if matchs
+如果相匹配
+
+_
+
+in result
+结果
+
+_
+
+about the
+關於The
+
+_
+
+a list of
+一份名单
+
+_
+
+open port
+开放港口
+
+_
+
+a version
+一种版本
+
+_
+
+about how
+关于如何
+
+_
+
+create an
+创建一个
+
+_
+
+should be
+应该是
+
+_
+
+be better
+做得更好
+
+_
+
+can treat
+可以治疗
+
+_
+
+you could
+你可以
+
+_
+
+create my
+创建我的
+
+_
+
+to create
+要创造
+
+_
+
+to find a
+寻找一个
+
+_
+
+the first
+第一個
+
+_
+
+get wrong
+错了
+
+_
+
+it should
+应该是
+
+_
+
+if it has
+如果它有
+
+_
+
+use it to
+用它为
+
+_
+
+just like
+就像
+
+_
+
+make sure
+确保
+
+_
+
+real time
+实时
+
+_
+
+and so on
+因此,在
+
+_
+
+So that I
+所以我
+
+_
+
+so that I
+所以我
+
+_
+
+that will
+这将
+
+_
+
+doing the
+做 The
+
+_
+
+the final
+最后的
+
+_
+
+others to
+其他人为
+
+_
+
+to figure
+以图为
+
+_
+
+to update
+要更新
+
+_
+
+is to use
+要使用
+
+_
+
+where you
+你在哪里
+
+_
+
+talk with
+與談話
+
+_
+
+chat with
+聊天与
+
+_
+
+if length
+如果长度
+
+_
+
+in school
+在学校
+
+_
+
+from most
+从大多数
+
+_
+
+in sorted
+在 sorted
+
+_
+
+the whole
+整个
+
+_
+
+solve the
+解決的
+
+_
+
+three and
+三和
+
+_
+
+and three
+和三
+
+_
+
+tree node
+树节点
+
+_
+
+finding a
+寻找一个
+
+_
+
+is a good
+这是一个好
+
+_
+
+with each
+与每一个
+
+_
+
+can't get
+不能得到
+
+_
+
+have only
+只有有
+
+_
+
+in memory
+在记忆中
+
+_
+
+This is a
+这是一个
+
+_
+
+It's like
+如同
+
+_
+
+more than
+多于
+
+_
+
+you never
+你从来没有
+
+_
+
+of memory
+记忆的
+
+_
+
+place for
+地点为
+
+_
+
+space for
+空间为
+
+_
+
+stay with
+留在与
+
+_
+
+this case
+这个案例
+
+_
+
+trying to
+试图
+
+_
+
+go to the
+走到The
+
+_
+
+you can't
+你不能
+
+_
+
+if target
+如果目标
+
+_
+
+where the
+哪里是
+
+_
+
+to change
+要改变
+
+_
+
+the start
+起点
+
+_
+
+after the
+之后的The
+
+_
+
+if you do
+如果你做
+
+_
+
+in values
+在价值
+
+_
+
+values in
+价值在
+
+_
+
+a regular
+一个常规
+
+_
+
+and those
+而那些
+
+_
+
+words are
+言语是
+
+_
+
+is simply
+只是
+
+_
+
+read this
+阅读此
+
+_
+
+with some
+与某些
+
+_
+
+such that
+這樣的
+
+_
+
+the above
+上方的
+
+_
+
+what they
+他们是什么
+
+_
+
+you think
+你认为
+
+_
+
+wanted to
+想要的
+
+_
+
+Python to
+Python 到
+
+_
+
+refers to
+指的是
+
+_
+
+would you
+如果你
+
+_
+
+you write
+你写的
+
+_
+
+produce a
+生产一个
+
+_
+
+returns a
+返回 一个
+
+_
+
+and other
+和其他
+
+_
+
+passed as
+经过如
+
+_
+
+The first
+第一個
+
+_
+
+is called
+被称为
+
+_
+
+part of a
+一部分一个
+
+_
+
+The order
+命令
+
+_
+
+the value
+價值
+
+_
+
+access to
+接入到
+
+_
+
+target in
+目标在
+
+_
+
+the array
+阿拉里
+
+_
+
+a picture
+一张图片
+
+_
+
+an object
+一个对象
+
+_
+
+it can be
+它可以是
+
+_
+
+could get
+可以得到
+
+_
+
+found one
+找到了一个
+
+_
+
+from that
+从那
+
+_
+
+to get an
+要得到一
+
+_
+
+There has
+有
+
+_
+
+that have
+这有
+
+_
+
+is useful
+有用
+
+_
+
+number of
+数字的
+
+_
+
+means the
+意思是
+
+_
+
+to detect
+要检测
+
+_
+
+there has
+这里有
+
+_
+
+it to the
+它到
+
+_
+
+to make a
+要做一
+
+_
+
+with open
+与开放
+
+_
+
+a special
+一个特殊
+
+_
+
+is at the
+是在
+
+_
+
+the order
+命令
+
+_
+
+the error
+错误
+
+_
+
+useful to
+有用的
+
+_
+
+with more
+与更多
+
+_
+
+found the
+找到了
+
+_
+
+to search
+去寻找
+
+_
+
+easier to
+更容易
+
+_
+
+in target
+在目标
+
+_
+
+from each
+从每一个
+
+_
+
+a program
+一项计划
+
+_
+
+a command
+一个命令
+
+_
+
+and print
+和印刷
+
+_
+
+code from
+代码从
+
+_
+
+have seen
+已见
+
+_
+
+name that
+这个名字
+
+_
+
+for other
+对于其他人
+
+_
+
+using the
+使用 The
+
+_
+
+you'll be
+你将是
+
+_
+
+be honest
+要诚实
+
+_
+
+to do the
+要做 The
+
+_
+
+you don't
+你不
+
+_
+
+You don't
+你不
+
+_
+
+get money
+得到金钱
+
+_
+
+hard part
+硬部分
+
+_
+
+have more
+有更多
+
+_
+
+have ever
+曾经有
+
+_
+
+my friend
+我的朋友
+
+_
+
+that they
+这就是他们
+
+_
+
+think the
+想想的
+
+_
+
+how to do
+如何做
+
+_
+
+with them
+与他们
+
+_
+
+deal with
+处理与
+
+_
+
+The world
+世界
+
+_
+
+makes you
+使你
+
+_
+
+you build
+你建造
+
+_
+
+use regex
+使用 Regex
+
+_
+
+can't use
+不能使用
+
+_
+
+can't run
+不能跑
+
+_
+
+n in nums
+n 中的 nums
+
+_
+
+this is a
+这是一个
+
+_
+
+very high
+非常高
+
+_
+
+can found
+可以找到
+
+_
+
+is a loop
+是 loop
+
+_
+
+to answer
+要回答
+
+_
+
+just have
+只有一
+
+_
+
+life is a
+生命就是一
+
+_
+
+print out
+印刷出
+
+_
+
+then show
+然后展示
+
+_
+
+you start
+你开始
+
+_
+
+the thing
+事物
+
+_
+
+thing you
+事物你
+
+_
+
+my answer
+我的答案
+
+_
+
+answer is
+答案是
+
+_
+
+is better
+更好
+
+_
+
+be a good
+做一个好
+
+_
+
+like this
+如此
+
+_
+
+you might
+你可能
+
+_
+
+they were
+他们是
+
+_
+
+When they
+当他们
+
+_
+
+i in list
+我在列表中
+
+_
+
+in common
+在共同
+
+_
+
+number is
+数字是
+
+_
+
+There are
+有有
+
+_
+
+the field
+田野
+
+_
+
+the right
+正确的
+
+_
+
+they both
+他们两人
+
+_
+
+You could
+你可以
+
+_
+
+length of
+长度的
+
+_
+
+the range
+范围
+
+_
+
+to choose
+要选择
+
+_
+
+time from
+时间从
+
+_
+
+which you
+哪个你
+
+_
+
+bottom of
+底部的
+
+_
+
+is like a
+就像一
+
+_
+
+inside of
+内部的
+
+_
+
+python to
+Python 到
+
+_
+
+next time
+下一次
+
+_
+
+N and Its
+n 和其
+
+_
+
+you got a
+你得到了一个
+
+_
+
+look like
+看起来像
+
+_
+
+to use it
+用它
+
+_
+
+with this
+与此
+
+_
+
+a fucking
+一个 他妈的
+
+_
+
+there are
+有有
+
+_
+
+a library
+图书馆
+
+_
+
+could ask
+可以问
+
+_
+
+How can I
+我怎么能
+
+_
+
+could use
+可以使用
+
+_
+
+It is not
+它不是
+
+_
+
+people to
+人們為
+
+_
+
+would say
+会说
+
+_
+
+use flask
+使用瓶子
+
+_
+
+string to
+String 到
+
+_
+
+those are
+这些人是
+
+_
+
+cannot be
+不能是
+
+_
+
+any other
+任何其他
+
+_
+
+the place
+所在地
+
+_
+
+says that
+说这
+
+_
+
+the world
+世界
+
+_
+
+a problem
+一个问题
+
+_
+
+must be a
+必须是一个
+
+_
+
+to handle
+处理
+
+_
+
+system is
+系统是
+
+_
+
+only want
+只想
+
+_
+
+I want to
+我想
+
+_
+
+may found
+可能找到
+
+_
+
+to have a
+要有一个
+
+_
+
+along the
+沿着
+
+_
+
+you would
+你会
+
+_
+
+save that
+保存此
+
+_
+
+all night
+全夜
+
+_
+
+night and
+夜晚和
+
+_
+
+last line
+最后一行
+
+_
+
+until the
+直到The
+
+_
+
+server is
+服务器是
+
+_
+
+to others
+到其他人
+
+_
+
+to let it
+让它
+
+_
+
+love with
+爱与
+
+_
+
+change it
+改变它
+
+_
+
+a mapping
+一张地图
+
+_
+
+always be
+永远是
+
+_
+
+which the
+哪个是
+
+_
+
+about try
+关于尝试
+
+_
+
+all about
+所有關於
+
+_
+
+enough to
+足以
+
+_
+
+action is
+行动是
+
+_
+
+memory is
+记忆是
+
+_
+
+reach the
+到达 The
+
+_
+
+the input
+入口
+
+_
+
+to memory
+为了记忆
+
+_
+
+result is
+结果是
+
+_
+
+whole day
+一整天
+
+_
+
+note that
+注意这
+
+_
+
+is in the
+是在
+
+_
+
+also have
+也有
+
+_
+
+as simple
+像简单
+
+_
+
+simple as
+简单如
+
+_
+
+I have to
+我不得不
+
+_
+
+home page
+主页
+
+_
+
+list with
+列表与
+
+_
+
+they will
+他们将
+
+_
+
+user want
+用户想要
+
+_
+
+I've been
+我曾经
+
+_
+
+just give
+只是给
+
+_
+
+middle of
+中间的
+
+_
+
+that time
+此时此刻
+
+_
+
+where has
+哪里有
+
+_
+
+of Kotlin
+由Kotlin
+
+_
+
+a complex
+一个复杂
+
+_
+
+like that
+像这样
+
+_
+
+did a lot
+做了很多
+
+_
+
+you are a
+你是一个
+
+_
+
+because I
+因为我
+
+_
+
+feel like
+感觉像
+
+_
+
+have much
+有很多
+
+_
+
+your time
+你的时间
+
+_
+
+you won't
+你不会
+
+_
+
+have same
+有相同的
+
+_
+
+the words
+那些话语
+
+_
+
+you do it
+你做
+
+_
+
+list from
+列表从
+
+_
+
+way is to
+途径是
+
+_
+
+that list
+这个名单
+
+_
+
+than most
+比大多
+
+_
+
+some time
+一段时间
+
+_
+
+maybe you
+也许你
+
+_
+
+you wanna
+你想要的
+
+_
+
+person in
+人在
+
+_
+
+all those
+所有这些
+
+_
+
+could say
+可以说
+
+_
+
+do things
+做事
+
+_
+
+one thing
+一件事
+
+_
+
+think you
+想你
+
+_
+
+and write
+和写作
+
+_
+
+which has
+谁有
+
+_
+
+so it can
+所以它可以
+
+_
+
+an public
+一个公众
+
+_
+
+will need
+将需要
+
+_
+
+only need
+只需要
+
+_
+
+least one
+至少一个
+
+_
+
+to upload
+要上传
+
+_
+
+file with
+文件与
+
+_
+
+letter in
+信在
+
+_
+
+right way
+正确的路
+
+_
+
+that this
+这就是
+
+_
+
+has to be
+必须是
+
+_
+
+between a
+在A之间
+
+_
+
+each time
+每一次
+
+_
+
+have been
+已有
+
+_
+
+by myself
+由自己
+
+_
+
+long time
+长时间
+
+_
+
+Search in
+搜索在
+
+_
+
+give it a
+给它一个
+
+_
+
+this time
+这一次
+
+_
+
+pyplot as
+像Pyplot
+
+_
+
+into your
+在你的
+
+_
+
+you plant
+你种植
+
+_
+
+to become
+要成为
+
+_
+
+things to
+事物到
+
+_
+
+are given
+被授予
+
+_
+
+number in
+数字在
+
+_
+
+are doing
+正在做
+
+_
+
+are using
+正在使用
+
+_
+
+what kind
+什么类型
+
+_
+
+they need
+他们需要
+
+_
+
+the point
+点点
+
+_
+
+what will
+什么要
+
+_
+
+is strong
+是强
+
+_
+
+know that
+知道那
+
+_
+
+that each
+这个每一个
+
+_
+
+first two
+第一二
+
+_
+
+you leave
+你离开
+
+_
+
+only once
+只有一次
+
+_
+
+What kind
+什么类型
+
+_
+
+data more
+更多数据
+
+_
+
+to return
+返回
+
+_
+
+only have
+只有有
+
+_
+
+the third
+第三个
+
+_
+
+to delete
+要删除
+
+_
+
+a certain
+一定的
+
+_
+
+how about
+关于如何
+
+_
+
+watch and
+观察和
+
+_
+
+can't see
+看不见
+
+_
+
+again and
+又一次和
+
+_
+
+and again
+又一次
+
+_
+
+to server
+服务器
+
+_
+
+real life
+真实生活
+
+_
+
+this year
+今年
+
+_
+
+make more
+做更多
+
+_
+
+Check out
+查看
+
+_
+
+It's time
+是时候
+
+_
+
+they make
+他们做
+
+_
+
+no longer
+不再
+
+_
+
+time when
+时间当
+
+_
+
+your work
+你的工作
+
+_
+
+and cross
+和十字架
+
+_
+
+who knows
+谁知道
+
+_
+
+which can
+谁能
+
+_
+
+I need to
+我需要
+
+_
+
+and don't
+而且不
+
+_
+
+don't use
+不要使用
+
+_
+
+the black
+黑人
+
+_
+
+the shape
+形状
+
+_
+
+start the
+开始的
+
+_
+
+And it is
+而它是
+
+_
+
+to people
+到人
+
+_
+
+It should
+应该是
+
+_
+
+become so
+成为这样
+
+_
+
+have used
+已使用
+
+_
+
+they want
+他们想要
+
+_
+
+all kinds
+各式各樣
+
+_
+
+world and
+世界和
+
+_
+
+tell them
+告诉他们
+
+_
+
+and debug
+和Debug
+
+_
+
+why it is
+為什麼是
+
+_
+
+one place
+一个地方
+
+_
+
+I'll make
+我会做
+
+_
+
+change to
+改變為
+
+_
+
+to export
+以出口
+
+_
+
+to docker
+到Docker
+
+_
+
+among all
+所有人之間
+
+_
+
+will only
+只会
+
+_
+
+know what
+知道什么
+
+_
+
+they love
+他们爱
+
+_
+
+is change
+是变化
+
+_
+
+should do
+应该做
+
+_
+
+good idea
+好想法
+
+_
+
+it online
+它在线
+
+_
+
+also make
+也做
+
+_
+
+was wrong
+错了
+
+_
+
+a package
+一包
+
+_
+
+in python
+在Python
+
+_
+
+python is
+Python 是
+
+_
+
+is what I
+这是我
+
+_
+
+a Chinese
+一位中国人
+
+_
+
+at school
+在学校
+
+_
+
+school is
+學校是
+
+_
+
+much time
+很多时间
+
+_
+
+each word
+每一句话
+
+_
+
+It can be
+它可以是
+
+_
+
+change in
+改变在
+
+_
+
+How about
+关于如何
+
+_
+
+mind with
+心与
+
+_
+
+ready for
+准备好
+
+_
+
+take time
+花时间
+
+_
+
+It's just
+它只是
+
+_
+
+to select
+要选择
+
+_
+
+a company
+一家公司
+
+_
+
+the money
+金钱
+
+_
+
+our lives
+我们的生活
+
+_
+
+same time
+同一时间
+
+_
+
+for us to
+為我們為
+
+_
+
+import to
+进口到
+
+_
+
+no matter
+不管
+
+_
+
+need that
+需要那
+
+_
+
+just made
+只是做
+
+_
+
+module to
+模块为
+
+_
+
+way to do
+如何做
+
+_
+
+with that
+与此
+
+_
+
+How to do
+如何做
+
+_
+
+same with
+相同的
+
+_
+
+could add
+可以添加
+
+_
+
+for those
+对于那些
+
+_
+
+people in
+人們在
+
+_
+
+I decided
+我决定
+
+_
+
+just want
+只想
+
+_
+
+teach you
+教你
+
+_
+
+Could you
+你可以
+
+_
+
+I can use
+我可以使用
+
+_
+
+do what I
+做什么我
+
+_
+
+done with
+完成与
+
+_
+
+for every
+对于每一个
+
+_
+
+one month
+一个月
+
+_
+
+After one
+之后一
+
+_
+
+have time
+有时间
+
+_
+
+They have
+他们有
+
+_
+
+they have
+他们有
+
+_
+
+even make
+甚至做
+
+_
+
+you fight
+你战斗
+
+_
+
+that must
+这必须
+
+_
+
+a perfect
+一个完美
+
+_
+
+always do
+总是做
+
+_
+
+I think I
+我想我
+
+_
+
+the other
+其它
+
+_
+
+you to be
+你要是
+
+_
+
+Where are
+在哪里是
+
+_
+
+their own
+自己的
+
+_
+
+make that
+做这
+
+_
+
+data from
+数据从
+
+_
+
+from your
+从你的
+
+_
+
+too short
+太短
+
+_
+
+of course
+当然
+
+_
+
+system in
+系统在
+
+_
+
+that when
+那时当
+
+_
+
+that file
+这个文件
+
+_
+
+can learn
+可以学习
+
+_
+
+you to do
+你要做
+
+_
+
+every day
+每一天
+
+_
+
+to follow
+跟随
+
+_
+
+For those
+对于那些
+
+_
+
+if you're
+如果你是
+
+_
+
+Don't let
+不要让
+
+_
+
+you found
+你找到了
+
+_
+
+the model
+模型
+
+_
+
+like them
+像他们一样
+
+_
+
+how can I
+我怎么能
+
+_
+
+your life
+你的生活
+
+_
+
+make your
+做你的
+
+_
+
+maybe the
+也许是
+
+_
+
+the night
+夜晚
+
+_
+
+of person
+人的
+
+_
+
+them both
+他们两人
+
+_
+
+into this
+在此中
+
+_
+
+few years
+几年
+
+_
+
+find that
+找到了那
+
+_
+
+this week
+本周
+
+_
+
+is just a
+只是一个
+
+_
+
+that from
+这个从
+
+_
+
+I thought
+我想
+
+_
+
+is really
+真的是
+
+_
+
+the house
+房子
+
+_
+
+it before
+它之前
+
+_
+
+to notice
+要注意
+
+_
+
+right now
+现在的
+
+_
+
+of number
+數字
+
+_
+
+allows us
+允许我们
+
+_
+
+created a
+創造 一个
+
+_
+
+it in the
+它在
+
+_
+
+under the
+在下
+
+_
+
+better do
+最好做
+
+_
+
+it didn't
+它没有
+
+_
+
+love this
+爱这
+
+_
+
+have full
+满满
+
+_
+
+will have
+将有
+
+_
+
+I have no
+我没有
+
+_
+
+no choice
+没有选择
+
+_
+
+answer it
+回答它
+
+_
+
+by answer
+以答案
+
+_
+
+is to let
+要让
+
+_
+
+give them
+给他们
+
+_
+
+of people
+人民的
+
+_
+
+after you
+在你之后
+
+_
+
+never get
+永远不会得到
+
+_
+
+no change
+没有变化
+
+_
+
+only draw
+只拖
+
+_
+
+Next time
+下一次
+
+_
+
+chance to
+有机会
+
+_
+
+are going
+正在走
+
+_
+
+the topic
+主题
+
+_
+
+this book
+这本书
+
+_
+
+that mean
+这意味着
+
+_
+
+you still
+你仍然
+
+_
+
+guess the
+猜想的
+
+_
+
+can get a
+可以得到一个
+
+_
+
+the files
+文件
+
+_
+
+it's just
+它只是
+
+_
+
+be shared
+分享
+
+_
+
+will make
+會做
+
+_
+
+more like
+更多如
+
+_
+
+must have
+必须有
+
+_
+
+system to
+系统到
+
+_
+
+use their
+使用他们的
+
+_
+
+and money
+和金钱
+
+_
+
+this kind
+这种类型
+
+_
+
+better as
+更好如
+
+_
+
+a new one
+一个新的一个
+
+_
+
+become an
+成为一个
+
+_
+
+Python is
+Python 是
+
+_
+
+is to get
+要得到
+
+_
+
+the wrong
+错误的
+
+_
+
+is simple
+是简单
+
+_
+
+be a fool
+做个傻瓜
+
+_
+
+that were
+那是
+
+_
+
+method to
+方法到
+
+_
+
+to get to
+要到达
+
+_
+
+a website
+一个网站
+
+_
+
+good time
+好时间
+
+_
+
+still got
+仍有
+
+_
+
+the stock
+库存
+
+_
+
+I can not
+我不能
+
+_
+
+will give
+将给予
+
+_
+
+it's also
+它也是
+
+_
+
+learn how
+学习如何
+
+_
+
+that most
+這大多數
+
+_
+
+compose a
+组成 一个
+
+_
+
+still the
+仍然是
+
+_
+
+put their
+把他们的
+
+_
+
+your mind
+你的心
+
+_
+
+master of
+主持人
+
+_
+
+to master
+到大师
+
+_
+
+you doing
+你做
+
+_
+
+can write
+可以写
+
+_
+
+more love
+更多爱情
+
+_
+
+our brain
+我们的大脑
+
+_
+
+have them
+他们有
+
+_
+
+feel good
+感觉好
+
+_
+
+good when
+好当
+
+_
+
+means you
+意思是你
+
+_
+
+to record
+要记录
+
+_
+
+also just
+也只是
+
+_
+
+spent two
+花了两
+
+_
+
+about one
+關於一
+
+_
+
+one night
+一个夜晚
+
+_
+
+could see
+可以看到
+
+_
+
+never too
+也从未
+
+_
+
+may think
+可能想
+
+_
+
+of boring
+无聊的
+
+_
+
+few hours
+几个小时
+
+_
+
+is indeed
+真的是
+
+_
+
+problem I
+问题 I
+
+_
+
+is always
+总是是
+
+_
+
+in Python
+在Python
+
+_
+
+very well
+非常好
+
+_
+
+who don't
+谁不
+
+_
+
+live with
+生活与
+
+_
+
+Google is
+Google 是
+
+_
+
+like what
+像什么
+
+_
+
+a product
+一个产品
+
+_
+
+The thing
+事物
+
+_
+
+how would
+怎样会
+
+_
+
+can never
+永远不能
+
+_
+
+the truth
+真相
+
+_
+
+the later
+以后的
+
+_
+
+feel more
+感觉更多
+
+_
+
+feel that
+感觉到这
+
+_
+
+It's hard
+它是硬
+
+_
+
+just need
+只需要
+
+_
+
+you gonna
+你会
+
+_
+
+long term
+长期
+
+_
+
+long as I
+只要我
+
+_
+
+living in
+生活在
+
+_
+
+that kind
+这种类型
+
+_
+
+But after
+但之后
+
+_
+
+never use
+永远不要使用
+
+_
+
+you speak
+你说话
+
+_
+
+by others
+由其他人
+
+_
+
+won't get
+不会得到
+
+_
+
+is that I
+这就是我
+
+_
+
+time goes
+时间走
+
+_
+
+It's easy
+它很容易
+
+_
+
+As far as
+至于
+
+_
+
+break the
+打破的
+
+_
+
+also need
+也需要
+
+_
+
+make good
+做好事
+
+_
+
+I give up
+我放弃
+
+_
+
+on my own
+在我自己的
+
+_
+
+if people
+如果人
+
+_
+
+this soon
+这个很快
+
+_
+
+have done
+已完成
+
+_
+
+this rule
+这个规则
+
+_
+
+this with
+这与
+
+_
+
+are those
+是那些
+
+_
+
+better in
+最好在
+
+_
+
+simple to
+简单的
+
+_
+
+one would
+一个会
+
+_
+
+to remote
+远程
+
+_
+
+do better
+做得更好
+
+_
+
+sleep now
+现在睡觉
+
+_
+
+like they
+像他们一样
+
+_
+
+a general
+一将军
+
+_
+
+would get
+会得到
+
+_
+
+can build
+可以建造
+
+_
+
+to open a
+打开 一个
+
+_
+
+should at
+应该在
+
+_
+
+next step
+下一步
+
+_
+
+It's more
+它是更多
+
+_
+
+just find
+只是找到
+
+_
+
+that good
+那好
+
+_
+
+we should
+我们应该
+
+_
+
+need some
+需要一些
+
+_
+
+who never
+谁从来没有
+
+_
+
+that hard
+那硬
+
+_
+
+have real
+有真实的
+
+_
+
+is enough
+足够了
+
+_
+
+can do it
+可以做
+
+_
+
+can be as
+可以像
+
+_
+
+a virtual
+一个虚拟
+
+_
+
+have this
+有此
+
+_
+
+it's more
+它是更多
+
+_
+
+will help
+會幫助
+
+_
+
+very hard
+非常硬
+
+_
+
+while you
+當你
+
+_
+
+it is not
+它不是
+
+_
+
+be enough
+足够的
+
+_
+
+use short
+使用短
+
+_
+
+that much
+这么多
+
+_
+
+the power
+权力
+
+_
+
+person to
+人为
+
+_
+
+object in
+对象在
+
+_
+
+so little
+如此小
+
+_
+
+don't let
+不要让
+
+_
+
+I look at
+我看
+
+_
+
+very good
+非常好
+
+_
+
+only live
+只活着
+
+_
+
+happen if
+如果发生
+
+_
+
+will work
+将工作
+
+_
+
+have that
+有那
+
+_
+
+that many
+那很多
+
+_
+
+make them
+让他们
+
+_
+
+are still
+仍然是
+
+_
+
+work with
+与工作
+
+_
+
+those big
+这些大
+
+_
+
+write the
+写下 The
+
+_
+
+have some
+有一些
+
+_
+
+that page
+此页面
+
+_
+
+to try it
+尝试它
+
+_
+
+is gabage
+是GABAGE
+
+_
+
+I got the
+我得到了
+
+_
+
+better at
+最好在
+
+_
+
+came from
+來自
+
+_
+
+hidden in
+隐藏在
+
+_
+
+also good
+也好
+
+_
+
+than ever
+比以往
+
+_
+
+enjoy the
+享受的
+
+_
+
+until you
+直到你
+
+_
+
+use it on
+使用它在
+
+_
+
+need more
+需要更多
+
+_
+
+play some
+玩一些
+
+_
+
+more time
+更多时间
+
+_
+
+will come
+会来
+
+_
+
+better to
+最好是
+
+_
+
+you reach
+你到达
+
+_
+
+get every
+得到每一个
+
+_
+
+once they
+一旦他们
+
+_
+
+so stupid
+如此愚蠢
+
+_
+
+more hard
+更硬
+
+_
+
+clear way
+清晰的方式
+
+_
+
+just stay
+只留下
+
+_
+
+need this
+需要此
+
+_
+
+know this
+知道这一点
+
+_
+
+I'll keep
+我将保持
+
+_
+
+they must
+他们必须
+
+_
+
+more test
+更多测试
+
+_
+
+in Ubuntu
+在Ubuntu
+
+_
+
+into that
+在这
+
+_
+
+This must
+这必须
+
+_
+
+better if
+最好如果
+
+_
+
+see those
+看这些
+
+_
+
+know more
+知道更多
+
+_
+
+to import
+要进口
+
+_
+
+those who
+那些谁
+
+_
+
+how to be
+怎样才能
+
+_
+
+these are
+这些是
+
+_
+
+very very
+非常
+
+_
+
+can start
+可以开始
+
+_
+
+But now I
+但是现在我
+
+_
+
+there's a
+有一个一个
+
+_
+
+that line
+那条线
+
+_
+
+I found a
+我找到了一个
+
+_
+
+very fast
+非常快
+
+_
+
+look more
+看更多
+
+_
+
+listen to
+听到
+
+_
+
+why don't
+為什麼不
+
+_
+
+don't you
+不要你
+
+_
+
+only care
+只照顾
+
+_
+
+change my
+改变我的
+
+_
+
+then need
+然后需要
+
+_
+
+come easy
+快来
+
+_
+
+number to
+号 到
+
+_
+
+it better
+它更好
+
+_
+
+first day
+第一天
+
+_
+
+come from
+來自
+
+_
+
+more hour
+更多 小时
+
+_
+
+with both
+与两者
+
+_
+
+I'm night
+我是夜晚
+
+_
+
+just add
+只添加
+
+_
+
+back the
+回到The
+
+_
+
+for each
+对于每一个
+
+_
+
+in range
+在范围内
+
+_
+
+the code
+代码
+
+_
+
+model to
+模型为
+
+_
+
+to image
+以图像
+
+_
+
+will use
+将使用
+
+_
+
+you want
+你要
+
+_
+
+None and
+没有一个和
+
+_
+
+needs to
+需要
+
+_
+
+record a
+记录 一个
+
+_
+
+create a
+创建 一个
+
+_
+
+a simple
+一个简单
+
+_
+
+add more
+添加更多
+
+_
+
+by using
+通过使用
+
+_
+
+could do
+可以做
+
+_
+
+it could
+它可以
+
+_
+
+you feel
+你感觉
+
+_
+
+you hear
+你听
+
+_
+
+if it is
+如果它是
+
+_
+
+treat it
+处理它
+
+_
+
+make you
+让你
+
+_
+
+move the
+移动的
+
+_
+
+only use
+只使用
+
+_
+
+sure the
+肯定是
+
+_
+
+the base
+基地
+
+_
+
+then use
+然后使用
+
+_
+
+to those
+对于那些
+
+_
+
+to speak
+要说话
+
+_
+
+will not
+不会
+
+_
+
+my first
+我的第一
+
+_
+
+from the
+從The
+
+_
+
+the last
+最后的
+
+_
+
+the most
+最多
+
+_
+
+the name
+姓名
+
+_
+
+the list
+列表
+
+_
+
+if value
+如果价值
+
+_
+
+the user
+用户
+
+_
+
+check if
+检查如果
+
+_
+
+if board
+如果船
+
+_
+
+value in
+价值在
+
+_
+
+and node
+和NODE
+
+_
+
+from two
+从二
+
+_
+
+a Binary
+二进制
+
+_
+
+a binary
+二进制
+
+_
+
+left and
+左和
+
+_
+
+to a new
+到一个新
+
+_
+
+move all
+移动所有
+
+_
+
+all your
+所有你的
+
+_
+
+an array
+一个 Array
+
+_
+
+and then
+然后
+
+_
+
+list and
+列表和
+
+_
+
+and your
+和你的
+
+_
+
+and have
+并且有
+
+_
+
+be found
+被发现
+
+_
+
+that can
+这可以
+
+_
+
+to do is
+要做的是
+
+_
+
+you have
+你有
+
+_
+
+You have
+你有
+
+_
+
+in there
+在那里
+
+_
+
+which is
+什么是
+
+_
+
+it needs
+它需要
+
+_
+
+you need
+你需要
+
+_
+
+the next
+下一篇
+
+_
+
+The next
+下一篇
+
+_
+
+bunch of
+集合的
+
+_
+
+place to
+地点为
+
+_
+
+that you
+那你
+
+_
+
+with the
+与The
+
+_
+
+to store
+商店
+
+_
+
+going to
+去去
+
+_
+
+You want
+你要
+
+_
+
+But what
+但是什么
+
+_
+
+Then you
+然后你
+
+_
+
+for word
+用字
+
+_
+
+java has
+Java 有
+
+_
+
+a better
+一个更好的
+
+_
+
+give you
+给你
+
+_
+
+see what
+看什么
+
+_
+
+the test
+测试
+
+_
+
+if index
+如果指数
+
+_
+
+in value
+在价值
+
+_
+
+What you
+什么你
+
+_
+
+When you
+当你
+
+_
+
+it takes
+需要
+
+_
+
+will get
+将得到
+
+_
+
+that for
+这为
+
+_
+
+a string
+一条绳子
+
+_
+
+are just
+只是
+
+_
+
+they are
+他们是
+
+_
+
+at first
+首先,
+
+_
+
+would be
+会是
+
+_
+
+can read
+可以阅读
+
+_
+
+help you
+帮助你
+
+_
+
+it would
+它会
+
+_
+
+it might
+它可能
+
+_
+
+to learn
+要学习
+
+_
+
+see more
+看更多
+
+_
+
+Based on
+基于
+
+_
+
+with one
+与一
+
+_
+
+show you
+展示你
+
+_
+
+that the
+这就是
+
+_
+
+the word
+这个词
+
+_
+
+regex to
+雷格斯 到
+
+_
+
+a module
+一个模块
+
+_
+
+that are
+這些是
+
+_
+
+can only
+只能
+
+_
+
+value is
+价值是
+
+_
+
+value of
+价值的
+
+_
+
+when the
+當The
+
+_
+
+two days
+两天
+
+_
+
+in right
+右边
+
+_
+
+a single
+一个单身
+
+_
+
+can also
+也可以
+
+_
+
+and over
+和超越
+
+_
+
+over and
+超越和
+
+_
+
+the area
+該地區
+
+_
+
+We could
+我们可以
+
+_
+
+we could
+我们可以
+
+_
+
+we found
+我们发现
+
+_
+
+get more
+得到更多
+
+_
+
+to get a
+要得到一
+
+_
+
+are in a
+他们在一个
+
+_
+
+where it
+在哪里它
+
+_
+
+how much
+多少
+
+_
+
+focus on
+专注于
+
+_
+
+them all
+他们所有
+
+_
+
+to train
+列车
+
+_
+
+as input
+作为入口
+
+_
+
+numpy as
+NUMPY 如
+
+_
+
+in order
+在顺序
+
+_
+
+order of
+命令的
+
+_
+
+input to
+入口到
+
+_
+
+you send
+你发送
+
+_
+
+codes to
+代码为
+
+_
+
+an error
+一个错误
+
+_
+
+and what
+和什么
+
+_
+
+but they
+但他们
+
+_
+
+the line
+线路
+
+_
+
+the same
+相同的
+
+_
+
+show the
+展示 The
+
+_
+
+the time
+时间的
+
+_
+
+you what
+你什么
+
+_
+
+the Year
+年度
+
+_
+
+you find
+你找到了
+
+_
+
+is where
+是在哪里
+
+_
+
+it makes
+它使
+
+_
+
+you read
+你读了
+
+_
+
+you that
+你那
+
+_
+
+and word
+和字
+
+_
+
+and left
+和左
+
+_
+
+but with
+但与
+
+_
+
+too much
+太多了
+
+_
+
+in which
+在哪个
+
+_
+
+of using
+使用的
+
+_
+
+order to
+命令到
+
+_
+
+what the
+什么是
+
+_
+
+value to
+价值为
+
+_
+
+Don't be
+不要是
+
+_
+
+by doing
+通过做
+
+_
+
+can have
+可以有
+
+_
+
+can't do
+不能做
+
+_
+
+get paid
+得到付费
+
+_
+
+is right
+是正确的
+
+_
+
+once you
+一旦你
+
+_
+
+the only
+唯一的
+
+_
+
+The only
+唯一的
+
+_
+
+the part
+该部分
+
+_
+
+the real
+真实的
+
+_
+
+than you
+比你
+
+_
+
+This was
+這是
+
+_
+
+Once you
+一旦你
+
+_
+
+define a
+定义 一个
+
+_
+
+use from
+从使用
+
+_
+
+it using
+使用它
+
+_
+
+just for
+只是为了
+
+_
+
+you made
+你做了
+
+_
+
+how many
+多少人
+
+_
+
+time you
+时间你
+
+_
+
+when you
+当你
+
+_
+
+to split
+要分
+
+_
+
+know how
+知道如何
+
+_
+
+you know
+你知道
+
+_
+
+Find the
+寻找的
+
+_
+
+a socket
+一个 Socket
+
+_
+
+that get
+那得
+
+_
+
+you just
+你只是
+
+_
+
+you like
+你喜欢
+
+_
+
+index in
+指数在
+
+_
+
+think my
+想想我
+
+_
+
+than the
+比以
+
+_
+
+and when
+而当
+
+_
+
+There is
+有
+
+_
+
+there is
+这里有
+
+_
+
+think of
+想想
+
+_
+
+them the
+他们是
+
+_
+
+to think
+想想
+
+_
+
+this one
+这个一个
+
+_
+
+use your
+使用你的
+
+_
+
+from Two
+从二
+
+_
+
+for true
+為真實
+
+_
+
+Keys and
+钥匙和
+
+_
+
+a number
+一个数字
+
+_
+
+Here are
+这里是
+
+_
+
+are many
+有很多
+
+_
+
+kinds of
+种类的
+
+_
+
+found an
+找到了一个
+
+_
+
+over all
+超越一切
+
+_
+
+it won't
+它不会
+
+_
+
+over the
+超越的
+
+_
+
+the rest
+其余的
+
+_
+
+If there
+如果有
+
+_
+
+a choice
+一种选择
+
+_
+
+choose a
+选择 一个
+
+_
+
+and they
+而他们
+
+_
+
+find out
+找出
+
+_
+
+have the
+有你的
+
+_
+
+You need
+你需要
+
+_
+
+range of
+范围为
+
+_
+
+also has
+也有
+
+_
+
+and time
+和时间
+
+_
+
+both the
+两者都是
+
+_
+
+one that
+其中一个
+
+_
+
+a search
+一个搜索
+
+_
+
+They all
+他们都是
+
+_
+
+the main
+主要的
+
+_
+
+to write
+要写
+
+_
+
+data you
+数据你
+
+_
+
+solve it
+解決它
+
+_
+
+if times
+如果时间
+
+_
+
+return a
+返回 一个
+
+_
+
+can just
+可以只是
+
+_
+
+just use
+只用
+
+_
+
+does not
+不做
+
+_
+
+and more
+而且更多
+
+_
+
+has bugs
+有BUG
+
+_
+
+you guys
+你们小伙子
+
+_
+
+and make
+和做
+
+_
+
+the page
+页面
+
+_
+
+the file
+文件
+
+_
+
+in every
+在每一个
+
+_
+
+to every
+到每一个
+
+_
+
+found in
+发现在
+
+_
+
+who gave
+谁给了
+
+_
+
+not just
+不只是
+
+_
+
+not only
+不只是
+
+_
+
+right to
+正确的
+
+_
+
+use some
+使用一些
+
+_
+
+I'll try
+我会尝试
+
+_
+
+of words
+关于词语
+
+_
+
+a String
+一条线
+
+_
+
+Words in
+字在
+
+_
+
+I did it
+我做了
+
+_
+
+if first
+如果首先
+
+_
+
+Check if
+查看如果
+
+_
+
+the text
+文本
+
+_
+
+a mobile
+一个移动
+
+_
+
+about to
+關於
+
+_
+
+more and
+更多和
+
+_
+
+might be
+可能是
+
+_
+
+could be
+可以是
+
+_
+
+to build
+要建造
+
+_
+
+not have
+没有
+
+_
+
+like the
+如同The
+
+_
+
+the core
+核心
+
+_
+
+you will
+你会
+
+_
+
+name and
+名字和
+
+_
+
+use that
+使用此
+
+_
+
+to local
+到本地
+
+_
+
+based on
+基于
+
+_
+
+let temp
+放下 temp
+
+_
+
+In other
+在其他
+
+_
+
+run this
+运行此
+
+_
+
+in words
+在言语中
+
+_
+
+a random
+偶然的
+
+_
+
+they can
+他们可以
+
+_
+
+you help
+你帮忙
+
+_
+
+until it
+直到它
+
+_
+
+then you
+然后你
+
+_
+
+email to
+电子邮件到
+
+_
+
+wants to
+想要的
+
+_
+
+a Sorted
+一种分类
+
+_
+
+for more
+为了更多
+
+_
+
+out this
+出此
+
+_
+
+the best
+最好的
+
+_
+
+Nodes in
+诺德在
+
+_
+
+in Pairs
+在夫妻中
+
+_
+
+this map
+此地图
+
+_
+
+to which
+到哪个
+
+_
+
+the back
+背部
+
+_
+
+front of
+面向前
+
+_
+
+in front
+在前面
+
+_
+
+is about
+是关于
+
+_
+
+data and
+数据和
+
+_
+
+has some
+有某些
+
+_
+
+to reach
+到达
+
+_
+
+take too
+也带
+
+_
+
+will try
+将尝试
+
+_
+
+at least
+至少
+
+_
+
+I'm just
+我只是
+
+_
+
+never be
+永远不会
+
+_
+
+that our
+那是我们的
+
+_
+
+and some
+和一些
+
+_
+
+words in
+词在
+
+_
+
+in their
+在他们的
+
+_
+
+tell you
+告诉你
+
+_
+
+you lose
+你失去
+
+_
+
+a genius
+天才
+
+_
+
+I'm such
+我是这样的
+
+_
+
+the home
+房子
+
+_
+
+For this
+为此
+
+_
+
+a moment
+一瞬间
+
+_
+
+and just
+只是
+
+_
+
+on earth
+在地球上
+
+_
+
+put into
+放入
+
+_
+
+out that
+出那
+
+_
+
+ready to
+准备好
+
+_
+
+the past
+過去的
+
+_
+
+I didn't
+我没有
+
+_
+
+You just
+你只是
+
+_
+
+like you
+像你一样
+
+_
+
+money or
+金钱或
+
+_
+
+start to
+开始到
+
+_
+
+by their
+由他们的
+
+_
+
+a sorted
+一种分类
+
+_
+
+all over
+全部上
+
+_
+
+and find
+寻找
+
+_
+
+For each
+对于每一个
+
+_
+
+find the
+找到 The
+
+_
+
+you face
+你面对面
+
+_
+
+in touch
+在触摸中
+
+_
+
+say it's
+说它是
+
+_
+
+Why this
+為什麼這
+
+_
+
+Maybe we
+也许我们
+
+_
+
+code and
+代码和
+
+_
+
+what you
+什么你
+
+_
+
+Search a
+搜索 一个
+
+_
+
+has been
+已有
+
+_
+
+only has
+只有有
+
+_
+
+thing in
+事物在
+
+_
+
+to start
+要开始
+
+_
+
+only one
+只有一
+
+_
+
+a client
+一位客户
+
+_
+
+a report
+一份报告
+
+_
+
+will ask
+要问
+
+_
+
+have one
+有一个
+
+_
+
+will let
+将允许
+
+_
+
+one open
+1 開放
+
+_
+
+the hash
+哈希
+
+_
+
+then the
+然后,The
+
+_
+
+be right
+是正确的
+
+_
+
+has more
+有更多
+
+_
+
+than one
+比一
+
+_
+
+an Image
+一张图像
+
+_
+
+in first
+首先,
+
+_
+
+get used
+使用
+
+_
+
+into one
+在一个
+
+_
+
+new data
+新数据
+
+_
+
+also get
+也得
+
+_
+
+It's all
+它都是
+
+_
+
+try more
+尝试更多
+
+_
+
+can give
+可以给
+
+_
+
+give too
+给也
+
+_
+
+split it
+分裂它
+
+_
+
+too many
+太多的
+
+_
+
+this way
+以此方式
+
+_
+
+a secret
+一个秘密
+
+_
+
+work for
+工作为
+
+_
+
+you ever
+你曾经
+
+_
+
+this set
+这个集
+
+_
+
+in local
+在本地
+
+_
+
+a Stream
+一流
+
+_
+
+of their
+他們的
+
+_
+
+to their
+到他们的
+
+_
+
+in other
+在其他
+
+_
+
+it seems
+似乎
+
+_
+
+need for
+需要的
+
+_
+
+point of
+点 点
+
+_
+
+why they
+為什麼他們
+
+_
+
+it to do
+它要做
+
+_
+
+an Array
+一个 Array
+
+_
+
+thing as
+事如
+
+_
+
+laugh at
+笑在
+
+_
+
+make the
+让它
+
+_
+
+you used
+你使用
+
+_
+
+in place
+在地点
+
+_
+
+you must
+你必须
+
+_
+
+to merge
+合并
+
+_
+
+than two
+比二
+
+_
+
+you only
+只有你
+
+_
+
+only run
+只跑
+
+_
+
+delete a
+删除 一个
+
+_
+
+that's a
+这就是一个
+
+_
+
+about we
+关于我们
+
+_
+
+that has
+这有
+
+_
+
+let them
+让他们
+
+_
+
+to watch
+要观看
+
+_
+
+image to
+图像为
+
+_
+
+See what
+看什么
+
+_
+
+Define a
+定义 一个
+
+_
+
+has only
+只有有
+
+_
+
+of these
+这些人的
+
+_
+
+can send
+可以发送
+
+_
+
+it works
+它工作
+
+_
+
+I can do
+我可以做
+
+_
+
+with you
+与你
+
+_
+
+Given an
+考虑到一
+
+_
+
+to go to
+要去到
+
+_
+
+in China
+在中国
+
+_
+
+to sleep
+睡觉
+
+_
+
+wanna be
+希望是
+
+_
+
+And more
+而且更多
+
+_
+
+equal to
+相同的
+
+_
+
+In these
+在这些
+
+_
+
+if there
+如果有
+
+_
+
+the left
+左边
+
+_
+
+the data
+数据的
+
+_
+
+read and
+阅读和
+
+_
+
+shape of
+形状的
+
+_
+
+point to
+点到
+
+_
+
+lines to
+线路到
+
+_
+
+can even
+甚至可以
+
+_
+
+The more
+越多
+
+_
+
+piece of
+零件的
+
+_
+
+only see
+只看
+
+_
+
+me think
+我想
+
+_
+
+may also
+也可能
+
+_
+
+tech and
+技术和
+
+_
+
+and real
+和真实
+
+_
+
+into the
+进入的
+
+_
+
+world is
+世界是
+
+_
+
+time and
+时间和
+
+_
+
+can make
+可以做
+
+_
+
+group of
+团体的
+
+_
+
+is worth
+值得
+
+_
+
+you make
+你做
+
+_
+
+sure you
+确保你
+
+_
+
+you this
+你这个
+
+_
+
+making a
+做 一个
+
+_
+
+You must
+你必须
+
+_
+
+build an
+建造一
+
+_
+
+you from
+你从
+
+_
+
+and will
+又要
+
+_
+
+be happy
+快乐的
+
+_
+
+let your
+让你的
+
+_
+
+keep the
+保持 The
+
+_
+
+to set a
+要设置 一个
+
+_
+
+a folder
+一张文件夹
+
+_
+
+the game
+游戏
+
+_
+
+Why they
+為什麼他們
+
+_
+
+it can't
+它不能
+
+_
+
+just put
+只是把
+
+_
+
+know you
+知道你
+
+_
+
+make one
+做一个
+
+_
+
+my brain
+我的大脑
+
+_
+
+For some
+对于某些
+
+_
+
+within a
+在 A 中
+
+_
+
+but more
+但更多
+
+_
+
+they say
+他们说
+
+_
+
+if found
+如果发现
+
+_
+
+say that
+说这
+
+_
+
+and play
+和玩
+
+_
+
+to human
+到人
+
+_
+
+a little
+一点点
+
+_
+
+thing is
+事物是
+
+_
+
+you open
+你打开
+
+_
+
+you were
+你是
+
+_
+
+even use
+甚至使用
+
+_
+
+after we
+我們之後
+
+_
+
+is money
+是金钱
+
+_
+
+money to
+金钱到
+
+_
+
+but that
+但这
+
+_
+
+do is to
+做就是做
+
+_
+
+we don't
+我们不
+
+_
+
+only got
+只有得到
+
+_
+
+using it
+使用它
+
+_
+
+from one
+从一个
+
+_
+
+only way
+唯一的方式
+
+_
+
+is to do
+是要做
+
+_
+
+the book
+该书
+
+_
+
+order by
+命令由
+
+_
+
+space to
+空间到
+
+_
+
+a server
+一个服务器
+
+_
+
+to share
+分享
+
+_
+
+about it
+关于它
+
+_
+
+it comes
+它来了
+
+_
+
+see this
+看这
+
+_
+
+add this
+添加此
+
+_
+
+TTS hard
+TTS 硬
+
+_
+
+need you
+需要你
+
+_
+
+array of
+随之而来
+
+_
+
+wait for
+等待
+
+_
+
+wanna do
+想做
+
+_
+
+for most
+对于大多数
+
+_
+
+thing we
+我们所做的事情
+
+_
+
+each one
+每一个
+
+_
+
+you give
+你给了
+
+_
+
+of three
+三个
+
+_
+
+add them
+添加他们
+
+_
+
+at night
+夜晚
+
+_
+
+can be a
+可以是一个
+
+_
+
+I always
+我总是
+
+_
+
+can feel
+能感觉到
+
+_
+
+where is
+哪里是
+
+_
+
+for this
+为此
+
+_
+
+They say
+他们说
+
+_
+
+Let them
+让他们
+
+_
+
+a higher
+一个更高
+
+_
+
+still in
+仍然在
+
+_
+
+is still
+仍然是
+
+_
+
+A simple
+一个简单
+
+_
+
+the link
+链接
+
+_
+
+who send
+谁发送
+
+_
+
+on their
+在他们的
+
+_
+
+just the
+只有The
+
+_
+
+and take
+并采取
+
+_
+
+can help
+可以帮助
+
+_
+
+have any
+有任何
+
+_
+
+won't do
+不会做
+
+_
+
+are used
+被用
+
+_
+
+user can
+用户可以
+
+_
+
+a Python
+一个Python
+
+_
+
+world as
+世界如
+
+_
+
+get some
+得到一些
+
+_
+
+and call
+和呼叫
+
+_
+
+an email
+一封电子邮件
+
+_
+
+short to
+短到
+
+_
+
+you talk
+你说话
+
+_
+
+Create a
+创建 一个
+
+_
+
+of those
+这些人的
+
+_
+
+They are
+他们是
+
+_
+
+I should
+我应该
+
+_
+
+they use
+他们使用
+
+_
+
+this bug
+这个BUG
+
+_
+
+use this
+使用此
+
+_
+
+step you
+步行你
+
+_
+
+stop you
+停止你
+
+_
+
+the fear
+恐惧
+
+_
+
+the kind
+类型
+
+_
+
+mean the
+意思是
+
+_
+
+model is
+模型是
+
+_
+
+steps to
+步骤到
+
+_
+
+What are
+什么是
+
+_
+
+I do not
+我不
+
+_
+
+want you
+希望你
+
+_
+
+hours to
+时间到
+
+_
+
+would do
+会做
+
+_
+
+is short
+短短
+
+_
+
+going on
+走向
+
+_
+
+not that
+不是那
+
+_
+
+you love
+爱你
+
+_
+
+card and
+卡片和
+
+_
+
+tried to
+试图
+
+_
+
+years of
+岁月的
+
+_
+
+one year
+一年
+
+_
+
+it every
+每个人都
+
+_
+
+are very
+是非常
+
+_
+
+you look
+你看
+
+_
+
+to solve
+要解决
+
+_
+
+a remote
+一个远程
+
+_
+
+won't go
+不会去
+
+_
+
+it wrong
+错了
+
+_
+
+for that
+為此
+
+_
+
+why this
+為什麼這
+
+_
+
+change a
+改变一个
+
+_
+
+a person
+一个人
+
+_
+
+a speech
+一个演讲
+
+_
+
+they may
+他们可以
+
+_
+
+old home
+老家
+
+_
+
+my guess
+我的猜测
+
+_
+
+only two
+只有两
+
+_
+
+Even the
+即使是
+
+_
+
+of shape
+以形状
+
+_
+
+That's a
+这就是一个
+
+_
+
+after it
+之后,
+
+_
+
+I have a
+我有一个
+
+_
+
+of money
+金钱
+
+_
+
+but it's
+但它是
+
+_
+
+to do it
+要做它
+
+_
+
+stuff to
+物品到
+
+_
+
+This one
+这个一个
+
+_
+
+world of
+世界的
+
+_
+
+get less
+得到少
+
+_
+
+get into
+进入
+
+_
+
+way that
+那种方式
+
+_
+
+answer a
+答案 一个
+
+_
+
+color of
+色彩的
+
+_
+
+to use a
+使用 一个
+
+_
+
+to serve
+为了服务
+
+_
+
+with all
+与所有
+
+_
+
+But just
+但只是
+
+_
+
+too hard
+太硬
+
+_
+
+and this
+而这
+
+_
+
+also use
+也使用
+
+_
+
+When the
+當當的
+
+_
+
+become a
+变成一个
+
+_
+
+a chance
+一个机会
+
+_
+
+ask them
+问他们
+
+_
+
+may seem
+可能看起来
+
+_
+
+see your
+看你的
+
+_
+
+just get
+只需得到
+
+_
+
+the fuck
+该 他妈的
+
+_
+
+the hard
+硬的
+
+_
+
+files in
+文件在
+
+_
+
+human to
+人为
+
+_
+
+comes to
+來到
+
+_
+
+built in
+建在
+
+_
+
+found it
+找到了它
+
+_
+
+will run
+会跑
+
+_
+
+money is
+金钱是
+
+_
+
+can keep
+可以保持
+
+_
+
+to begin
+要开始
+
+_
+
+it again
+又一次
+
+_
+
+check it
+检查它
+
+_
+
+to check
+要检查
+
+_
+
+think it
+想想
+
+_
+
+know why
+知道為什麼
+
+_
+
+and open
+和开放
+
+_
+
+best way
+最好的方式
+
+_
+
+test you
+测试你
+
+_
+
+be wrong
+错了
+
+_
+
+only the
+只有The
+
+_
+
+me to do
+我要做
+
+_
+
+a way to
+一种方式
+
+_
+
+The good
+善良的
+
+_
+
+to money
+金钱
+
+_
+
+a native
+一个原住民
+
+_
+
+a global
+一全球
+
+_
+
+not good
+不好
+
+_
+
+app that
+该应用
+
+_
+
+a normal
+一个正常
+
+_
+
+both are
+两者都是
+
+_
+
+got some
+得到一些
+
+_
+
+it means
+意思是
+
+_
+
+power is
+权力是
+
+_
+
+what are
+什么是
+
+_
+
+new line
+新线
+
+_
+
+won't be
+不会有
+
+_
+
+was more
+是更多
+
+_
+
+will you
+要你
+
+_
+
+Fuck the
+他妈的
+
+_
+
+what can
+什么可以
+
+_
+
+they ask
+他们问
+
+_
+
+users to
+用户为
+
+_
+
+power of
+力量的
+
+_
+
+learn to
+学习到
+
+_
+
+But if I
+但如果我
+
+_
+
+it right
+是正确的
+
+_
+
+And this
+而这
+
+_
+
+a master
+一位大师
+
+_
+
+who does
+谁做
+
+_
+
+too late
+太晚
+
+_
+
+make any
+做任何
+
+_
+
+we learn
+我们学习
+
+_
+
+the help
+援助
+
+_
+
+hours of
+几个小时
+
+_
+
+the need
+需要
+
+_
+
+always a
+总是 一个
+
+_
+
+girl who
+女孩谁
+
+_
+
+you more
+你更多
+
+_
+
+it's the
+它是The
+
+_
+
+the more
+越多
+
+_
+
+They got
+他们得到了
+
+_
+
+Money is
+金钱是
+
+_
+
+it later
+后来它
+
+_
+
+speak to
+说话
+
+_
+
+each day
+每一天
+
+_
+
+about my
+关于我
+
+_
+
+more you
+更多你
+
+_
+
+need one
+需要一个
+
+_
+
+no doubt
+毫无疑问
+
+_
+
+was good
+是好
+
+_
+
+can take
+可以采取
+
+_
+
+I'd like
+我会喜欢
+
+_
+
+And also
+而且
+
+_
+
+learn it
+学习它
+
+_
+
+thing to
+事為
+
+_
+
+do it in
+做它在
+
+_
+
+learn so
+学习这样
+
+_
+
+could go
+可以去
+
+_
+
+it'll be
+它将是
+
+_
+
+seems to
+似乎
+
+_
+
+know the
+知道的
+
+_
+
+lines of
+线路的
+
+_
+
+and test
+和测试
+
+_
+
+with any
+与任何
+
+_
+
+are kind
+可爱的
+
+_
+
+I got it
+我得到了
+
+_
+
+we can't
+我们不能
+
+_
+
+a system
+一个系统
+
+_
+
+one hand
+一只手
+
+_
+
+to clear
+要清晰
+
+_
+
+It's the
+它是The
+
+_
+
+are more
+有更多
+
+_
+
+don't do
+不要做
+
+_
+
+The real
+真实的
+
+_
+
+feel the
+感觉到
+
+_
+
+may take
+可以采取
+
+_
+
+said you
+说你
+
+_
+
+you said
+你说
+
+_
+
+two ways
+两种方式
+
+_
+
+good for
+好为
+
+_
+
+the less
+最少的
+
+_
+
+say this
+说这
+
+_
+
+is quite
+足够
+
+_
+
+What the
+什么是
+
+_
+
+the hell
+地狱
+
+_
+
+check on
+检查一下
+
+_
+
+get from
+從來
+
+_
+
+are shit
+是屁股
+
+_
+
+can't be
+不能是
+
+_
+
+using my
+使用我的
+
+_
+
+from now
+从现在开始
+
+_
+
+has less
+有更少的
+
+_
+
+a stupid
+一个傻瓜
+
+_
+
+put your
+把你的
+
+_
+
+would it
+如果它
+
+_
+
+who want
+谁想要
+
+_
+
+who have
+谁有
+
+_
+
+stuck in
+被困在
+
+_
+
+level of
+水平的
+
+_
+
+that was
+那是
+
+_
+
+should I
+如果我
+
+_
+
+the true
+真實的
+
+_
+
+It could
+它可以
+
+_
+
+see if I
+看看我
+
+_
+
+I made a
+我做了一个
+
+_
+
+in linux
+在Linux
+
+_
+
+that one
+那一
+
+_
+
+far as I
+直到我
+
+_
+
+has side
+有侧面
+
+_
+
+This guy
+这个男人
+
+_
+
+proud of
+骄傲的
+
+_
+
+it still
+它仍然
+
+_
+
+you mean
+你意思
+
+_
+
+call you
+打电话给你
+
+_
+
+I'm very
+我很
+
+_
+
+do after
+做后
+
+_
+
+tried it
+尝试了
+
+_
+
+you live
+你活着
+
+_
+
+are good
+是好
+
+_
+
+a stream
+一流
+
+_
+
+may need
+可能需要
+
+_
+
+and easy
+而且容易
+
+_
+
+since my
+因为我
+
+_
+
+can stop
+可以停止
+
+_
+
+use bash
+使用 bash
+
+_
+
+in Linux
+在Linux
+
+_
+
+to other
+到其他
+
+_
+
+We don't
+我们不
+
+_
+
+power to
+权力为
+
+_
+
+is great
+是伟大的
+
+_
+
+know one
+知道一
+
+_
+
+the near
+接近
+
+_
+
+speed of
+速度的
+
+_
+
+the idea
+这个想法
+
+_
+
+must say
+必须说
+
+_
+
+close to
+接近
+
+_
+
+did some
+做了一些
+
+_
+
+got more
+得到更多
+
+_
+
+our life
+我们的生活
+
+_
+
+show all
+展示所有
+
+_
+
+out from
+从外出
+
+_
+
+love you
+爱你
+
+_
+
+and show
+和展示
+
+_
+
+they get
+他们得到
+
+_
+
+doing it
+做它
+
+_
+
+easy for
+易于为
+
+_
+
+you good
+你好
+
+_
+
+the week
+这个星期
+
+_
+
+you care
+你关心
+
+_
+
+Here you
+这里你
+
+_
+
+a minute
+一分钟
+
+_
+
+did more
+做了更多
+
+_
+
+later at
+后来在
+
+_
+
+I'll get
+我会得到
+
+_
+
+you down
+你下
+
+_
+
+try this
+试试这
+
+_
+
+just try
+只是尝试
+
+_
+
+did that
+做了这
+
+_
+
+more new
+更多新
+
+_
+
+see that
+看这
+
+_
+
+this guy
+这个男人
+
+_
+
+to waste
+去浪费
+
+_
+
+Find all
+找到所有
+
+_
+
+the life
+生命的
+
+_
+
+feels so
+感觉这样
+
+_
+
+very few
+非常少数
+
+_
+
+a hacker
+一个黑客
+
+_
+
+sleep at
+睡在
+
+_
+
+this for
+這為
+
+_
+
+learn by
+学习通过
+
+_
+
+to study
+要学习
+
+_
+
+the rule
+规则
+
+_
+
+big city
+大城市
+
+_
+
+can find
+可以找到
+
+_
+
+voice to
+声音到
+
+_
+
+get this
+获取此
+
+_
+
+they got
+他们得到了
+
+_
+
+in voice
+在声音中
+
+_
+
+at those
+在这些
+
+_
+
+one just
+一只
+
+_
+
+better a
+更好的一个
+
+_
+
+knew how
+知道如何
+
+_
+
+word and
+词和
+
+_
+
+it a try
+这是一个尝试
+
+_
+
+often as
+经常如
+
+_
+
+way more
+更多方式
+
+_
+
+good way
+好路
+
+_
+
+can tell
+可以说
+
+_
+
+group is
+团体是
+
+_
+
+you come
+你来了
+
+_
+
+one less
+1 更少
+
+_
+
+one more
+1 更多
+
+_
+
+does the
+是的,你
+
+_
+
+have got
+得到了
+
+_
+
+you stop
+你停止
+
+_
+
+got this
+得到此
+
+_
+
+one with
+一个与
+
+_
+
+name in
+名字在
+
+_
+
+This is
+這是
+
+_
+
+that is
+这就是
+
+_
+
+is used
+被用
+
+_
+
+is only
+只有
+
+_
+
+to test
+要测试
+
+_
+
+For the
+对于
+
+_
+
+for the
+对于The
+
+_
+
+path to
+路到
+
+_
+
+used to
+习惯于
+
+_
+
+want to
+想要的
+
+_
+
+we will
+我们将
+
+_
+
+in list
+在列表中
+
+_
+
+cell in
+细胞在
+
+_
+
+if self
+如果自己
+
+_
+
+page is
+页面是
+
+_
+
+size is
+尺寸是
+
+_
+
+is None
+没有人
+
+_
+
+list of
+列出
+
+_
+
+if name
+如果名字
+
+_
+
+Need to
+需要
+
+_
+
+true to
+真實的
+
+_
+
+a never
+一个从未
+
+_
+
+write a
+写 一个
+
+_
+
+and get
+和得到
+
+_
+
+and can
+可以
+
+_
+
+and you
+和你
+
+_
+
+and run
+和跑
+
+_
+
+and the
+和The
+
+_
+
+it as a
+它作为一个
+
+_
+
+can ask
+可以问
+
+_
+
+page at
+页面在
+
+_
+
+will be
+将是
+
+_
+
+can use
+可以使用
+
+_
+
+how can
+如何能
+
+_
+
+you can
+你可以
+
+_
+
+I could
+我可以
+
+_
+
+to find
+要找到
+
+_
+
+even if
+即使
+
+_
+
+in that
+在那
+
+_
+
+is just
+只是
+
+_
+
+goal is
+目标是
+
+_
+
+it will
+它将
+
+_
+
+make it
+做它
+
+_
+
+send it
+发送它
+
+_
+
+let the
+让它
+
+_
+
+to move
+要移动
+
+_
+
+make my
+做我的
+
+_
+
+with my
+与我
+
+_
+
+my name
+我的名字
+
+_
+
+need to
+需要
+
+_
+
+out how
+外出如何
+
+_
+
+so that
+這樣的
+
+_
+
+So that
+所以那
+
+_
+
+use the
+使用 The
+
+_
+
+to copy
+要复制
+
+_
+
+in nums
+在NUMS
+
+_
+
+item in
+项目在
+
+_
+
+a child
+一个孩子
+
+_
+
+What is
+什么是
+
+_
+
+name of
+名字的
+
+_
+
+was the
+是那
+
+_
+
+must be
+必须是
+
+_
+
+in self
+在自己
+
+_
+
+if char
+如果卡车
+
+_
+
+in word
+在言语中
+
+_
+
+char in
+卡车在
+
+_
+
+if node
+如果NODE
+
+_
+
+a clear
+一个清晰
+
+_
+
+and not
+而不是
+
+_
+
+two and
+二和
+
+_
+
+and two
+和二
+
+_
+
+one and
+一和
+
+_
+
+else if
+另一方面,如果
+
+_
+
+a place
+一个地方
+
+_
+
+a movie
+一部电影
+
+_
+
+can add
+可以添加
+
+_
+
+have an
+有一个
+
+_
+
+from an
+从一个
+
+_
+
+you and
+你和
+
+_
+
+you are
+你是
+
+_
+
+ask the
+问答
+
+_
+
+but you
+但是你
+
+_
+
+but the
+但The
+
+_
+
+have to
+要有
+
+_
+
+what if
+什么如果
+
+_
+
+just in
+只是在
+
+_
+
+in your
+在你的
+
+_
+
+is like
+如同
+
+_
+
+list is
+名单是
+
+_
+
+is easy
+很容易
+
+_
+
+it only
+只有它
+
+_
+
+it says
+它说
+
+_
+
+You may
+你可能
+
+_
+
+may not
+可能不
+
+_
+
+move to
+移动到
+
+_
+
+of your
+你的
+
+_
+
+you saw
+你看到了
+
+_
+
+say you
+告诉你
+
+_
+
+to that
+到那
+
+_
+
+to this
+为此
+
+_
+
+In this
+在此
+
+_
+
+to your
+到你的
+
+_
+
+you use
+你使用
+
+_
+
+All you
+所有你
+
+_
+
+word in
+字在
+
+_
+
+of Java
+关于 Java
+
+_
+
+to give
+要给
+
+_
+
+what it
+什么是
+
+_
+
+node is
+诺德是
+
+_
+
+it from
+它从
+
+_
+
+file in
+文件在
+
+_
+
+the end
+结局
+
+_
+
+not use
+不要使用
+
+_
+
+a small
+一个小
+
+_
+
+and see
+看见
+
+_
+
+are not
+不是
+
+_
+
+at this
+在此
+
+_
+
+You can
+你可以
+
+_
+
+what do
+做什么
+
+_
+
+to help
+為了幫助
+
+_
+
+name is
+名字是
+
+_
+
+Here is
+这里是
+
+_
+
+know it
+知道它
+
+_
+
+just to
+只为
+
+_
+
+part of
+部分的
+
+_
+
+you see
+你看
+
+_
+
+a value
+一个价值
+
+_
+
+used as
+被用作
+
+_
+
+as part
+作为一部分
+
+_
+
+only be
+只是要
+
+_
+
+be used
+被用
+
+_
+
+list in
+列入
+
+_
+
+line of
+线路的
+
+_
+
+if high
+如果高
+
+_
+
+in left
+左边
+
+_
+
+then it
+然后它
+
+_
+
+split a
+分裂一个
+
+_
+
+give up
+放弃
+
+_
+
+got the
+得到了
+
+_
+
+if they
+如果他们
+
+_
+
+it in a
+它在一个
+
+_
+
+part is
+部分是
+
+_
+
+it over
+它超越
+
+_
+
+it like
+如同
+
+_
+
+no more
+不再
+
+_
+
+that we
+那我们
+
+_
+
+then we
+然后我们
+
+_
+
+we want
+我们要
+
+_
+
+Then we
+然后我们
+
+_
+
+I don't
+我不
+
+_
+
+data as
+数据如
+
+_
+
+to show
+要展示
+
+_
+
+of next
+下一篇
+
+_
+
+to http
+到HTTP
+
+_
+
+to make
+要做
+
+_
+
+for one
+对于一个
+
+_
+
+if text
+如果文本
+
+_
+
+to read
+要阅读
+
+_
+
+all the
+所有的
+
+_
+
+It also
+它也
+
+_
+
+same as
+相同的
+
+_
+
+back to
+回到
+
+_
+
+to draw
+要绘制
+
+_
+
+of each
+每一个
+
+_
+
+you get
+你得到
+
+_
+
+has the
+有它
+
+_
+
+of code
+代码
+
+_
+
+the way
+路的
+
+_
+
+you try
+你尝试
+
+_
+
+a Phone
+一个电话
+
+_
+
+where a
+哪里 一个
+
+_
+
+a while
+一段时间
+
+_
+
+in this
+在此
+
+_
+
+when it
+当它
+
+_
+
+to look
+要看
+
+_
+
+the key
+关键
+
+_
+
+if root
+如果根
+
+_
+
+if left
+如果留下
+
+_
+
+do what
+做什么
+
+_
+
+we have
+我们有
+
+_
+
+in Each
+在每一个
+
+_
+
+is also
+也是
+
+_
+
+are the
+他们是
+
+_
+
+only by
+只有通过
+
+_
+
+can you
+你可以
+
+_
+
+hard to
+难以
+
+_
+
+this is
+這是
+
+_
+
+time is
+时间是
+
+_
+
+is that
+是那
+
+_
+
+the man
+男子
+
+_
+
+my only
+唯一的我
+
+_
+
+of them
+他们中的
+
+_
+
+not the
+不是The
+
+_
+
+But the
+但The
+
+_
+
+I'm the
+我是The
+
+_
+
+I think
+我想
+
+_
+
+to work
+要工作
+
+_
+
+to deal
+要处理
+
+_
+
+was not
+不是
+
+_
+
+with it
+与它
+
+_
+
+build a
+建造一个
+
+_
+
+can not
+不能
+
+_
+
+user to
+使用者为
+
+_
+
+you may
+你可能
+
+_
+
+node in
+Node 在
+
+_
+
+to pass
+穿越
+
+_
+
+a right
+一个正确
+
+_
+
+is very
+是非常
+
+_
+
+start a
+开始 一个
+
+_
+
+to call
+要打电话
+
+_
+
+hide in
+隐藏在
+
+_
+
+life is
+生命是
+
+_
+
+and len
+和Len
+
+_
+
+to be a
+要成为一
+
+_
+
+the big
+大大
+
+_
+
+it is a
+它是一个
+
+_
+
+to take
+要采取
+
+_
+
+to them
+为他们
+
+_
+
+ways to
+途径为
+
+_
+
+if head
+如果头
+
+_
+
+let mut
+放松
+
+_
+
+of Rust
+安静的
+
+_
+
+an open
+一个开放
+
+_
+
+able to
+能够
+
+_
+
+I found
+我找到了
+
+_
+
+rest of
+休息的
+
+_
+
+of both
+两者
+
+_
+
+in both
+在两者
+
+_
+
+with no
+与不
+
+_
+
+to Keep
+要保持
+
+_
+
+such as
+如如
+
+_
+
+can get
+可以得到
+
+_
+
+get the
+得到的
+
+_
+
+the one
+其中一
+
+_
+
+put all
+把所有
+
+_
+
+to do a
+要做一
+
+_
+
+code is
+代码是
+
+_
+
+of that
+從那
+
+_
+
+put the
+把它
+
+_
+
+you put
+你把
+
+_
+
+and Its
+和其
+
+_
+
+you got
+你得到了
+
+_
+
+each in
+每个人在
+
+_
+
+ask you
+问你
+
+_
+
+How can
+如何能
+
+_
+
+do that
+做这
+
+_
+
+I got a
+我得到了一个
+
+_
+
+if that
+如果这
+
+_
+
+I write
+我写
+
+_
+
+add the
+添加到
+
+_
+
+can see
+可以看到
+
+_
+
+it with
+它与
+
+_
+
+to send
+发送
+
+_
+
+a human
+一个人
+
+_
+
+give me
+给我
+
+_
+
+that he
+那他
+
+_
+
+if this
+如果这
+
+_
+
+so I'll
+所以我会
+
+_
+
+new Map
+新地图
+
+_
+
+word of
+说话的
+
+_
+
+it down
+它下
+
+_
+
+down to
+下到
+
+_
+
+We need
+我们需要
+
+_
+
+see the
+看 The
+
+_
+
+be able
+能够
+
+_
+
+they do
+他们做
+
+_
+
+to have
+要有
+
+_
+
+let you
+让你
+
+_
+
+to kill
+要杀
+
+_
+
+code to
+代码为
+
+_
+
+file to
+文件到
+
+_
+
+dict to
+迪克为
+
+_
+
+the top
+顶部
+
+_
+
+all day
+一整天
+
+_
+
+can run
+可以跑
+
+_
+
+of this
+此之
+
+_
+
+in text
+在文本中
+
+_
+
+Root to
+根到
+
+_
+
+to Leaf
+到 Leaf
+
+_
+
+do this
+做这
+
+_
+
+is make
+正在做
+
+_
+
+size of
+尺寸的
+
+_
+
+send to
+发送到
+
+_
+
+one you
+一个你
+
+_
+
+is done
+已完成
+
+_
+
+It's so
+它是这样
+
+_
+
+reach a
+到达一个
+
+_
+
+is good
+是好
+
+_
+
+good or
+好或
+
+_
+
+that it
+那是
+
+_
+
+it uses
+它使用
+
+_
+
+or list
+或列表
+
+_
+
+data to
+数据到
+
+_
+
+if word
+如果字
+
+_
+
+a whole
+一整
+
+_
+
+if nums
+如果NUMS
+
+_
+
+the day
+那一天
+
+_
+
+used in
+使用在
+
+_
+
+you for
+你为
+
+_
+
+Given a
+考虑到一个
+
+_
+
+some of
+其中一些
+
+_
+
+is hard
+是硬的
+
+_
+
+know if
+知道如果
+
+_
+
+check a
+查看 一个
+
+_
+
+will do
+会做
+
+_
+
+at that
+在那
+
+_
+
+time in
+时间在
+
+_
+
+is when
+是当
+
+_
+
+I did a
+我做了一个
+
+_
+
+grow up
+成长
+
+_
+
+so much
+这么多
+
+_
+
+time or
+时间或
+
+_
+
+I start
+我开始
+
+_
+
+to talk
+要说话
+
+_
+
+talk to
+谈谈
+
+_
+
+for you
+為你
+
+_
+
+And you
+和你
+
+_
+
+a bunch
+一群人
+
+_
+
+and one
+和一个
+
+_
+
+to each
+每一个
+
+_
+
+next to
+旁边的
+
+_
+
+on your
+在你的
+
+_
+
+up with
+上与
+
+_
+
+what we
+我们什么
+
+_
+
+look at
+看见
+
+_
+
+face to
+面对面
+
+_
+
+most of
+大多数的
+
+_
+
+time to
+时间为
+
+_
+
+to face
+面对面
+
+_
+
+I would
+我会
+
+_
+
+into an
+进入一个
+
+_
+
+easy to
+易于
+
+_
+
+has two
+有两
+
+_
+
+to stop
+要停止
+
+_
+
+to tell
+要说
+
+_
+
+all you
+所有你
+
+_
+
+good at
+好在
+
+_
+
+be good
+善良的
+
+_
+
+do many
+做很多
+
+_
+
+one way
+一种方式
+
+_
+
+how you
+如何你
+
+_
+
+out the
+出去的
+
+_
+
+For all
+為所有人
+
+_
+
+need at
+需要在
+
+_
+
+It only
+只有它
+
+_
+
+word is
+这个词是
+
+_
+
+word to
+说话到
+
+_
+
+list or
+列表或
+
+_
+
+means a
+意思 一个
+
+_
+
+a video
+一张视频
+
+_
+
+here is
+这里是
+
+_
+
+it into
+它进入
+
+_
+
+it hear
+听到
+
+_
+
+When it
+当它
+
+_
+
+why you
+為什麼你
+
+_
+
+You got
+你得到了
+
+_
+
+we need
+我们需要
+
+_
+
+at once
+一瞬间
+
+_
+
+give it
+给它
+
+_
+
+part in
+部分在
+
+_
+
+list to
+列出到
+
+_
+
+But you
+但是你
+
+_
+
+Can you
+你可以
+
+_
+
+as fast
+如快
+
+_
+
+fast as
+快速如
+
+_
+
+have in
+有在
+
+_
+
+mind is
+心是
+
+_
+
+is your
+是你的
+
+_
+
+want it
+想要它
+
+_
+
+true if
+真相如果
+
+_
+
+You are
+你是
+
+_
+
+each of
+每一个
+
+_
+
+the two
+兩個
+
+_
+
+as well
+也
+
+_
+
+kind of
+类似的
+
+_
+
+no need
+不需要
+
+_
+
+Why you
+為什麼你
+
+_
+
+no such
+没有这样的
+
+_
+
+if your
+如果你的
+
+_
+
+need is
+需要是
+
+_
+
+is what
+是什么
+
+_
+
+it's in
+它在
+
+_
+
+must do
+必须做
+
+_
+
+this in
+这在
+
+_
+
+the new
+新的一
+
+_
+
+text to
+文本到
+
+_
+
+Did you
+你做了
+
+_
+
+or more
+或更多
+
+_
+
+Write a
+写一
+
+_
+
+love to
+爱上
+
+_
+
+do some
+做一些
+
+_
+
+a great
+一个伟大的
+
+_
+
+be made
+要做
+
+_
+
+best to
+最好是
+
+_
+
+then do
+然后做
+
+_
+
+Only in
+只有在
+
+_
+
+me tell
+告诉我
+
+_
+
+way you
+怎样你
+
+_
+
+in game
+在游戏中
+
+_
+
+Most of
+大多数的
+
+_
+
+and add
+并添加
+
+_
+
+add new
+添加新
+
+_
+
+chat in
+聊天在
+
+_
+
+new one
+新一
+
+_
+
+who can
+谁能
+
+_
+
+my home
+我的家
+
+_
+
+where I
+我在哪里
+
+_
+
+and all
+和所有
+
+_
+
+also be
+也要
+
+_
+
+it gets
+它得到
+
+_
+
+a group
+一组
+
+_
+
+from my
+从我
+
+_
+
+to sell
+出售
+
+_
+
+Now you
+现在你
+
+_
+
+is they
+是他们
+
+_
+
+the use
+使用
+
+_
+
+the app
+应用程序
+
+_
+
+copy of
+复制的
+
+_
+
+a Linux
+一个 Linux
+
+_
+
+a fully
+一 全
+
+_
+
+to keep
+要保持
+
+_
+
+long to
+长到
+
+_
+
+free to
+自由到
+
+_
+
+we know
+我们知道
+
+_
+
+we talk
+我们谈话
+
+_
+
+get all
+得到所有
+
+_
+
+link to
+链接到
+
+_
+
+tech is
+技术是
+
+_
+
+and use
+和使用
+
+_
+
+full of
+满满的
+
+_
+
+than me
+比我
+
+_
+
+with me
+与我
+
+_
+
+in real
+在现实中
+
+_
+
+data is
+数据是
+
+_
+
+the sum
+金额
+
+_
+
+What do
+做什么
+
+_
+
+did not
+没有做
+
+_
+
+to know
+要知道
+
+_
+
+as soon
+很快就
+
+_
+
+soon as
+很快就
+
+_
+
+work as
+工作如
+
+_
+
+in love
+在爱情中
+
+_
+
+wake up
+起床
+
+_
+
+after I
+之后我
+
+_
+
+to hire
+出租
+
+_
+
+to save
+为了拯救
+
+_
+
+of data
+数据的
+
+_
+
+be fine
+好吧
+
+_
+
+we only
+我们只
+
+_
+
+have is
+要有
+
+_
+
+help me
+帮助我
+
+_
+
+only in
+只有在
+
+_
+
+the old
+老的
+
+_
+
+Use the
+使用 The
+
+_
+
+like me
+像我一样
+
+_
+
+to stay
+要留
+
+_
+
+share a
+分享 一个
+
+_
+
+it even
+即使是
+
+_
+
+this to
+此为
+
+_
+
+are you
+是你
+
+_
+
+And the
+而且,
+
+_
+
+add all
+添加所有
+
+_
+
+this by
+這是由
+
+_
+
+he said
+他说
+
+_
+
+a local
+一个地方
+
+_
+
+see how
+看如何
+
+_
+
+be more
+再做更多
+
+_
+
+to here
+到这里
+
+_
+
+to meet
+相遇
+
+_
+
+went to
+去了
+
+_
+
+me with
+我与
+
+_
+
+you how
+你如何
+
+_
+
+a bytes
+一比特
+
+_
+
+a fixed
+固定一
+
+_
+
+that do
+这是做
+
+_
+
+have no
+有没有
+
+_
+
+They do
+他们做
+
+_
+
+be busy
+忙碌
+
+_
+
+tool to
+工具到
+
+_
+
+one who
+一个谁
+
+_
+
+but not
+但不是
+
+_
+
+are all
+是所有
+
+_
+
+After a
+之后一个
+
+_
+
+our own
+我們自己的
+
+_
+
+think I
+想我
+
+_
+
+like to
+喜欢的
+
+_
+
+do open
+打开
+
+_
+
+a class
+一课
+
+_
+
+train a
+火车一个
+
+_
+
+a model
+一种模型
+
+_
+
+you say
+你说
+
+_
+
+Life is
+生命是
+
+_
+
+the art
+艺术
+
+_
+
+like in
+如同在
+
+_
+
+life if
+生命如果
+
+_
+
+in life
+在生命中
+
+_
+
+fear of
+恐惧的
+
+_
+
+what to
+什么要
+
+_
+
+be work
+做工作
+
+_
+
+of time
+时间的
+
+_
+
+is part
+是部分
+
+_
+
+a field
+一个田野
+
+_
+
+that if
+这个如果
+
+_
+
+book in
+书在
+
+_
+
+as they
+如他们
+
+_
+
+of what
+关于什么
+
+_
+
+made it
+做它
+
+_
+
+read an
+阅读一
+
+_
+
+long as
+只要
+
+_
+
+as long
+只要长久
+
+_
+
+that my
+那是我的
+
+_
+
+file or
+文件或
+
+_
+
+It will
+它将
+
+_
+
+you did
+你做了
+
+_
+
+talk in
+谈话在
+
+_
+
+so they
+因此,他们
+
+_
+
+by only
+只为
+
+_
+
+who got
+谁得到了
+
+_
+
+use two
+使用2
+
+_
+
+be much
+要多
+
+_
+
+I'll do
+我会做
+
+_
+
+work on
+工作在
+
+_
+
+to text
+到文本
+
+_
+
+made by
+由
+
+_
+
+into it
+进入它
+
+_
+
+what is
+什么是
+
+_
+
+post to
+邮件到
+
+_
+
+see two
+看二
+
+_
+
+them to
+他们为
+
+_
+
+or move
+或移动
+
+_
+
+a dream
+一个梦
+
+_
+
+to live
+要活
+
+_
+
+end the
+终结的
+
+_
+
+you ask
+你问
+
+_
+
+So they
+因此,他们
+
+_
+
+game or
+游戏或
+
+_
+
+we just
+我们只是
+
+_
+
+to play
+要玩
+
+_
+
+so hard
+如此硬
+
+_
+
+does is
+是的
+
+_
+
+Even if
+即使
+
+_
+
+is more
+是更多
+
+_
+
+to love
+要爱
+
+_
+
+be done
+已完成
+
+_
+
+man who
+男子谁
+
+_
+
+say the
+告訴你
+
+_
+
+a short
+一个短
+
+_
+
+one can
+一个可以
+
+_
+
+find it
+找到它
+
+_
+
+when we
+当我们
+
+_
+
+who are
+谁是谁
+
+_
+
+my life
+我的生活
+
+_
+
+if it's
+如果它是
+
+_
+
+a black
+一个黑色
+
+_
+
+told me
+告诉我
+
+_
+
+it does
+它做
+
+_
+
+get out
+走出去
+
+_
+
+see any
+看任何
+
+_
+
+my code
+我的代码
+
+_
+
+line to
+线到
+
+_
+
+more in
+更多在
+
+_
+
+I learn
+我学习
+
+_
+
+does it
+做它
+
+_
+
+so does
+这样做
+
+_
+
+it make
+它使
+
+_
+
+work in
+工作在
+
+_
+
+in rust
+在ROS
+
+_
+
+that be
+那是
+
+_
+
+mind to
+注意到
+
+_
+
+life by
+生活 由
+
+_
+
+As long
+只要长久
+
+_
+
+test of
+测试的
+
+_
+
+dare to
+勇敢的
+
+_
+
+a thing
+一件事
+
+_
+
+run and
+跑和
+
+_
+
+this or
+这或
+
+_
+
+by step
+按步骤
+
+_
+
+step by
+步骤为
+
+_
+
+a quiet
+一个安静
+
+_
+
+well at
+好在
+
+_
+
+If they
+如果他们
+
+_
+
+it good
+是好
+
+_
+
+one day
+有一天
+
+_
+
+good to
+好到
+
+_
+
+I'll be
+我将是
+
+_
+
+more to
+更多到
+
+_
+
+learn a
+学习 一个
+
+_
+
+after a
+之后一个
+
+_
+
+help of
+幫助的
+
+_
+
+go back
+回去
+
+_
+
+do your
+做你的
+
+_
+
+need an
+需要一
+
+_
+
+to wait
+等待
+
+_
+
+rely on
+依靠
+
+_
+
+but now
+但现在
+
+_
+
+now I'm
+现在我
+
+_
+
+it work
+它工作
+
+_
+
+on with
+在与
+
+_
+
+so many
+这么多
+
+_
+
+solve a
+解決 一个
+
+_
+
+we must
+我们必须
+
+_
+
+type of
+类型
+
+_
+
+to grow
+要成长
+
+_
+
+call it
+呼叫它
+
+_
+
+go home
+去家
+
+_
+
+the job
+工作
+
+_
+
+good as
+好如
+
+_
+
+I go to
+我去
+
+_
+
+as time
+作为时间
+
+_
+
+In that
+在那
+
+_
+
+to just
+只是为了
+
+_
+
+name to
+名称 到
+
+_
+
+of work
+关于工作
+
+_
+
+from it
+从它
+
+_
+
+a young
+一个年轻
+
+_
+
+but for
+但为了
+
+_
+
+pay the
+支付的
+
+_
+
+stay on
+留在
+
+_
+
+be very
+要非常
+
+_
+
+thing I
+事 I
+
+_
+
+world a
+世界 一个
+
+_
+
+only if
+只有当
+
+_
+
+life in
+生活在
+
+_
+
+set the
+设置 The
+
+_
+
+such an
+这样的一个
+
+_
+
+less we
+更少我们
+
+_
+
+be your
+是你的
+
+_
+
+as many
+那么多
+
+_
+
+to open
+要打开
+
+_
+
+how the
+怎样的
+
+_
+
+step is
+步骤是
+
+_
+
+a check
+一支检查
+
+_
+
+I never
+我从来没有
+
+_
+
+be cool
+保持冷
+
+_
+
+can put
+可以放
+
+_
+
+next in
+下一篇 在
+
+_
+
+see and
+看和
+
+_
+
+live in
+生活在
+
+_
+
+make me
+让我
+
+_
+
+So what
+所以什么
+
+_
+
+think a
+想一想一个
+
+_
+
+and say
+和说
+
+_
+
+in here
+在这里
+
+_
+
+on what
+关于什么
+
+_
+
+can try
+可以尝试
+
+_
+
+also in
+也在
+
+_
+
+is less
+更少
+
+_
+
+try new
+尝试新
+
+_
+
+but use
+但是使用
+
+_
+
+spent a
+花费 一个
+
+_
+
+that in
+这在
+
+_
+
+ask for
+请求
+
+_
+
+who has
+谁有
+
+_
+
+is kind
+可爱的
+
+_
+
+old one
+老一
+
+_
+
+just as
+就像
+
+_
+
+be rich
+要富有
+
+_
+
+on this
+在此
+
+_
+
+my mind
+我的心
+
+_
+
+them is
+他们是
+
+_
+
+make an
+做一个
+
+_
+
+found a
+找到了一个
+
+_
+
+too low
+太低
+
+_
+
+or just
+或者只是
+
+_
+
+to feel
+要感受
+
+_
+
+for all
+為所有人
+
+_
+
+be love
+是爱情
+
+_
+
+love if
+爱情如果
+
+_
+
+rule is
+规则是
+
+_
+
+hour of
+一小时的
+
+_
+
+did the
+做了
+
+_
+
+page to
+页面为
+
+_
+
+and how
+和如何
+
+_
+
+of some
+其中一些
+
+_
+
+Make it
+做它
+
+_
+
+at some
+在某些
+
+_
+
+may use
+可以使用
+
+_
+
+a woman
+一个女人
+
+_
+
+said is
+說是
+
+_
+
+time on
+时间在
+
+_
+
+Text to
+文本到
+
+_
+
+keep in
+保持在
+
+_
+
+tell us
+告诉我们
+
+_
+
+use old
+使用旧
+
+_
+
+idea of
+想法的
+
+_
+
+got its
+得到它的
+
+_
+
+down on
+下下
+
+_
+
+a wrong
+一个错误
+
+_
+
+may got
+可能得到
+
+_
+
+to code
+到代码
+
+_
+
+even in
+即使在
+
+_
+
+I do it
+我做
+
+_
+
+it well
+它好
+
+_
+
+old are
+老是
+
+_
+
+them in
+他们在
+
+_
+
+do more
+做更多
+
+_
+
+one man
+一个男人
+
+_
+
+life as
+生活如
+
+_
+
+my time
+我的时间
+
+_
+
+of life
+生命的
+
+_
+
+my eyes
+我的眼睛
+
+_
+
+way for
+途径为
+
+_
+
+of more
+更多 →
+
+_
+
+more at
+更多在
+
+_
+
+fact is
+事实是
+
+_
+
+work at
+工作在
+
+_
+
+more on
+更多在
+
+_
+
+is open
+已开放
+
+_
+
+to next
+到下一个
+
+_
+
+Look at
+看见
+
+_
+
+who you
+谁你
+
+_
+
+has its
+有它的
+
+_
+
+But now
+但现在
+
+_
+
+side of
+旁边的
+
+_
+
+of date
+日期
+
+_
+
+girl is
+女孩是
+
+_
+
+we feel
+我们感觉
+
+_
+
+Here we
+这里我们
+
+_
+
+what my
+我的什么
+
+_
+
+got one
+得到一
+
+_
+
+Are you
+是你
+
+_
+
+less on
+更少的
+
+_
+
+so good
+那么好
+
+_
+
+Do what
+做什么
+
+_
+
+gave it
+给了它
+
+_
+
+like an
+如同一
+
+_
+
+down my
+下我的
+
+_
+
+show me
+展示我
+
+_
+
+like it
+像它
+
+_
+
+find my
+找我的
+
+_
+
+turn to
+转向
+
+_
+
+did you
+你做了
+
+_
+
+In fact
+事实上
+
+_
+
+How you
+怎样你
+
+_
+
+it more
+它更多
+
+_
+
+to add
+要添加
+
+_
+
+key in
+关键在
+
+_
+
+in all
+在所有
+
+_
+
+in the
+在
+
+_
+
+is the
+是的
+
+_
+
+of the
+关于The
+
+_
+
+to the
+到The
+
+_
+
+If you
+如果你
+
+_
+
+if len
+如果Len
+
+_
+
+if one
+如果一个
+
+_
+
+if two
+如果两
+
+_
+
+not in
+不是在
+
+_
+
+row in
+序列在
+
+_
+
+or two
+或两
+
+_
+
+if not
+如果不
+
+_
+
+a list
+一份名单
+
+_
+
+a dict
+一位迪克
+
+_
+
+set as
+设置如
+
+_
+
+be set
+要设置
+
+_
+
+is not
+不是
+
+_
+
+form a
+形式 一个
+
+_
+
+a real
+一个真实的
+
+_
+
+into a
+到 一个
+
+_
+
+make a
+做一个
+
+_
+
+make love
+做爱
+
+_
+
+find a
+找 一个
+
+_
+
+all of
+所有的
+
+_
+
+to all
+对所有人
+
+_
+
+has an
+有一个
+
+_
+
+and so
+和这样
+
+_
+
+and it
+和它
+
+_
+
+as the
+如同The
+
+_
+
+can we
+我们可以
+
+_
+
+we can
+我们可以
+
+_
+
+do not
+不要
+
+_
+
+you do
+你做
+
+_
+
+do the
+做 The
+
+_
+
+go out
+走出去
+
+_
+
+it has
+它有
+
+_
+
+I have
+我有
+
+_
+
+see if
+看如果
+
+_
+
+use it
+使用它
+
+_
+
+to let
+要让
+
+_
+
+my own
+我自己的
+
+_
+
+to set
+要设置
+
+_
+
+set up
+设置
+
+_
+
+that I
+那我
+
+_
+
+up the
+向上
+
+_
+
+to you
+為你
+
+_
+
+try to
+尝试
+
+_
+
+how to
+怎样才能
+
+_
+
+to buy
+要买
+
+_
+
+to use
+要使用
+
+_
+
+in num
+在NUM
+
+_
+
+num in
+我們在
+
+_
+
+for my
+為我
+
+_
+
+in row
+顺序
+
+_
+
+by the
+由The
+
+_
+
+If the
+如果是
+
+_
+
+if abs
+如果 abs
+
+_
+
+have a
+有 一个
+
+_
+
+if max
+如果 max
+
+_
+
+a good
+一个好
+
+_
+
+like a
+像一个
+
+_
+
+for an
+為一
+
+_
+
+use an
+使用一
+
+_
+
+up and
+上和
+
+_
+
+to ask
+要问
+
+_
+
+can be
+可以是
+
+_
+
+but no
+但是不
+
+_
+
+but it
+但它
+
+_
+
+you go
+你去
+
+_
+
+if the
+如果是
+
+_
+
+if you
+如果你
+
+_
+
+no one
+没有人
+
+_
+
+of you
+你的
+
+_
+
+So you
+所以你
+
+_
+
+has to
+要有
+
+_
+
+if sum
+如果 sum
+
+_
+
+to say
+要说
+
+_
+
+end of
+结束的
+
+_
+
+of its
+他的
+
+_
+
+a very
+一个非常
+
+_
+
+with a
+与一个
+
+_
+
+what a
+什么 一个
+
+_
+
+or all
+或全部
+
+_
+
+do you
+做你
+
+_
+
+I know
+我知道
+
+_
+
+on the
+在The
+
+_
+
+one or
+一或
+
+_
+
+So the
+因此,The
+
+_
+
+we use
+我们使用
+
+_
+
+why we
+為什麼我們
+
+_
+
+I will
+我要
+
+_
+
+may or
+可能或
+
+_
+
+or may
+或可能
+
+_
+
+run in
+跑在
+
+_
+
+it can
+它可以
+
+_
+
+if new
+如果新
+
+_
+
+it's a
+它是一个
+
+_
+
+from a
+从一个
+
+_
+
+get an
+得到一
+
+_
+
+and do
+和做
+
+_
+
+are in
+他们在
+
+_
+
+by two
+由二
+
+_
+
+We can
+我们可以
+
+_
+
+to get
+要得到
+
+_
+
+we got
+我们得到了
+
+_
+
+one of
+其中一个
+
+_
+
+or not
+或不
+
+_
+
+if end
+如果结局
+
+_
+
+one in
+一个在
+
+_
+
+in new
+在新
+
+_
+
+or len
+或Len
+
+_
+
+if key
+如果钥匙
+
+_
+
+it and
+它和
+
+_
+
+at the
+在The
+
+_
+
+Day of
+那一天的
+
+_
+
+Make a
+做一
+
+_
+
+way in
+路在
+
+_
+
+if num
+如果NM
+
+_
+
+a file
+一份文件
+
+_
+
+has no
+有没有
+
+_
+
+set of
+设置的
+
+_
+
+One of
+其中一个
+
+_
+
+way of
+路由
+
+_
+
+run it
+运行它
+
+_
+
+in old
+在老
+
+_
+
+just a
+只有一
+
+_
+
+know a
+知道一个
+
+_
+
+be the
+要是
+
+_
+
+man in
+男子在
+
+_
+
+is how
+是如何
+
+_
+
+lot of
+很多的
+
+_
+
+a more
+一 更多
+
+_
+
+Do you
+做你
+
+_
+
+at all
+总的来说
+
+_
+
+if int
+如果 int
+
+_
+
+a loop
+一圈
+
+_
+
+if all
+如果所有
+
+_
+
+c in s
+c 在 s
+
+_
+
+job is
+工作是
+
+_
+
+At the
+在
+
+_
+
+in set
+在 Set
+
+_
+
+a full
+一个满
+
+_
+
+of Two
+兩個
+
+_
+
+Sum of
+总数
+
+_
+
+to its
+到其
+
+_
+
+val in
+瓦尔在
+
+_
+
+a time
+一段时间
+
+_
+
+is for
+是为了
+
+_
+
+How to
+怎样才能
+
+_
+
+it may
+它可能
+
+_
+
+let me
+让我
+
+_
+
+as our
+如我们的
+
+_
+
+so you
+所以你
+
+_
+
+a tool
+一种工具
+
+_
+
+also a
+也是一个
+
+_
+
+as you
+如你
+
+_
+
+How do
+如何做
+
+_
+
+In the
+在
+
+_
+
+and to
+和
+
+_
+
+on his
+在他的
+
+_
+
+of his
+他的
+
+_
+
+to his
+到他的
+
+_
+
+of our
+我們的
+
+_
+
+or the
+或 The
+
+_
+
+due to
+由于
+
+_
+
+may be
+可能是
+
+_
+
+did it
+做了
+
+_
+
+an apk
+一个APK
+
+_
+
+can do
+可以做
+
+_
+
+to cut
+要切割
+
+_
+
+I want
+我要
+
+_
+
+to run
+要跑
+
+_
+
+and no
+和不
+
+_
+
+top of
+顶部的
+
+_
+
+on top
+在顶部
+
+_
+
+so the
+因此,The
+
+_
+
+I work
+我工作
+
+_
+
+As you
+像你一样
+
+_
+
+send a
+发送 一个
+
+_
+
+let it
+让它
+
+_
+
+need a
+需要 一个
+
+_
+
+a long
+长久
+
+_
+
+a goal
+一个目标
+
+_
+
+is all
+是所有
+
+_
+
+But if
+但是如果
+
+_
+
+if his
+如果他的
+
+_
+
+or bad
+或坏
+
+_
+
+We are
+我们是
+
+_
+
+in our
+在我们的
+
+_
+
+we are
+我们是
+
+_
+
+But we
+但我们
+
+_
+
+such a
+这样的一个
+
+_
+
+give a
+给一
+
+_
+
+a chat
+一个聊天
+
+_
+
+a home
+一家家
+
+_
+
+get to
+得到
+
+_
+
+I just
+我只是
+
+_
+
+on you
+在你
+
+_
+
+to put
+要放
+
+_
+
+from '
+从“
+
+_
+
+out by
+外出
+
+_
+
+But it
+但它
+
+_
+
+or you
+或你
+
+_
+
+By the
+由The
+
+_
+
+you to
+你要
+
+_
+
+to pay
+要付出
+
+_
+
+way is
+路是
+
+_
+
+a poor
+一个穷人
+
+_
+
+I feel
+我感觉
+
+_
+
+get in
+进入
+
+_
+
+was so
+是这样
+
+_
+
+a base
+一个基地
+
+_
+
+do one
+做一个
+
+_
+
+On the
+在The
+
+_
+
+if val
+如果瓦尔
+
+_
+
+open a
+开放 一个
+
+_
+
+When a
+当一个
+
+_
+
+I mean
+我指的是
+
+_
+
+a word
+一句话
+
+_
+
+call a
+呼叫一个
+
+_
+
+got it
+得到它
+
+_
+
+is bad
+是坏
+
+_
+
+in zip
+在ZIP
+
+_
+
+as plt
+如 plt
+
+_
+
+out of
+外出
+
+_
+
+a fake
+虚假的
+
+_
+
+But in
+但在
+
+_
+
+spy on
+间谍在
+
+_
+
+to spy
+去间谍
+
+_
+
+we get
+我们得到
+
+_
+
+go and
+去和
+
+_
+
+of two
+兩個
+
+_
+
+by one
+由一
+
+_
+
+one by
+一位由
+
+_
+
+what I
+什么我
+
+_
+
+Have a
+有 一个
+
+_
+
+to win
+要赢
+
+_
+
+got to
+得到了
+
+_
+
+are no
+是不
+
+_
+
+I need
+我需要
+
+_
+
+to see
+要看
+
+_
+
+And it
+而它
+
+_
+
+use to
+用到
+
+_
+
+I made
+我做了
+
+_
+
+of how
+关于如何
+
+_
+
+so far
+到目前为止
+
+_
+
+not be
+不要
+
+_
+
+in one
+在一个
+
+_
+
+why it
+為什麼它
+
+_
+
+It may
+可能
+
+_
+
+move a
+移动一个
+
+_
+
+we add
+我们添加
+
+_
+
+a http
+一 HTTP
+
+_
+
+use of
+使用的
+
+_
+
+a copy
+一张副本
+
+_
+
+let us
+让我们
+
+_
+
+see it
+看它
+
+_
+
+It has
+它有
+
+_
+
+to one
+到一个
+
+_
+
+a tech
+一个技术
+
+_
+
+but in
+但在
+
+_
+
+I must
+我必须
+
+_
+
+It can
+它可以
+
+_
+
+sum of
+总数
+
+_
+
+take a
+拿一
+
+_
+
+a data
+一份数据
+
+_
+
+for us
+为我们
+
+_
+
+way to
+途径到
+
+_
+
+and go
+和去
+
+_
+
+we say
+我们说
+
+_
+
+low to
+低到
+
+_
+
+than I
+比我
+
+_
+
+do all
+做所有
+
+_
+
+wait a
+等待一个
+
+_
+
+you as
+你如
+
+_
+
+I love
+我爱
+
+_
+
+use in
+使用在
+
+_
+
+it for
+它为
+
+_
+
+I also
+我也
+
+_
+
+I'm an
+我是一个
+
+_
+
+go map
+去地图
+
+_
+
+in vim
+在VIM
+
+_
+
+go run
+走跑
+
+_
+
+this a
+此 一个
+
+_
+
+time I
+时间 I
+
+_
+
+a post
+一封邮件
+
+_
+
+I make
+我做
+
+_
+
+a talk
+一个谈话
+
+_
+
+a well
+一个好
+
+_
+
+a Post
+一封邮件
+
+_
+
+is too
+也是
+
+_
+
+a high
+一个高
+
+_
+
+Try to
+尝试
+
+_
+
+I'm in
+我在
+
+_
+
+to our
+到我们的
+
+_
+
+a note
+一张笔记
+
+_
+
+or any
+或任何
+
+_
+
+use AI
+使用 AI
+
+_
+
+at one
+在一个
+
+_
+
+one as
+一如
+
+_
+
+I live
+我活着
+
+_
+
+was on
+曾在
+
+_
+
+a page
+一页
+
+_
+
+map to
+地图 到
+
+_
+
+it out
+它出去
+
+_
+
+key to
+关键 到
+
+_
+
+What a
+什么 一个
+
+_
+
+txt to
+txt 到
+
+_
+
+How it
+如何它
+
+_
+
+now we
+现在我们
+
+_
+
+by our
+由我们的
+
+_
+
+And if
+如果
+
+_
+
+get it
+得到它
+
+_
+
+a self
+一个自我
+
+_
+
+who do
+谁
+
+_
+
+on one
+在一个
+
+_
+
+on all
+在所有
+
+_
+
+Why do
+為什麼要
+
+_
+
+can go
+可以去
+
+_
+
+a fool
+一个傻瓜
+
+_
+
+you in
+你在
+
+_
+
+a look
+一眼看
+
+_
+
+than a
+比 一个
+
+_
+
+a nice
+可爱的
+
+_
+
+to act
+要行动
+
+_
+
+now it
+现在它
+
+_
+
+I only
+我只
+
+_
+
+we all
+我们所有
+
+_
+
+Can we
+我们可以
+
+_
+
+a test
+一个测试
+
+_
+
+me why
+我為什麼
+
+_
+
+a game
+一场游戏
+
+_
+
+an app
+一个应用
+
+_
+
+day to
+日到
+
+_
+
+is you
+是你
+
+_
+
+We may
+我们可以
+
+_
+
+Now we
+现在我们
+
+_
+
+get my
+得到我的
+
+_
+
+a girl
+一个女孩
+
+_
+
+more I
+更多 I
+
+_
+
+all my
+所有我的
+
+_
+
+made a
+做 一个
+
+_
+
+got an
+得到一
+
+_
+
+it got
+得到了
+
+_
+
+I'm so
+我就是这样
+
+_
+
+but we
+但我们
+
+_
+
+he was
+他是
+
+_
+
+it one
+这是一个
+
+_
+
+in any
+在任何
+
+_
+
+buy it
+購買它
+
+_
+
+far as
+直到
+
+_
+
+As far
+到目前为
+
+_
+
+out to
+出到
+
+_
+
+you is
+你是
+
+_
+
+are so
+是这样的
+
+_
+
+I give
+我给
+
+_
+
+I knew
+我知道
+
+_
+
+ask if
+问如果
+
+_
+
+on our
+在我们的
+
+_
+
+now is
+现在是
+
+_
+
+the AI
+该 AI
+
+_
+
+It's a
+它是一个
+
+_
+
+that a
+这个一个
+
+_
+
+So now
+如今
+
+_
+
+Due to
+由于
+
+_
+
+put my
+把我的
+
+_
+
+now on
+现在在
+
+_
+
+a part
+一部分
+
+_
+
+to try
+要尝试
+
+_
+
+a same
+同一
+
+_
+
+then I
+然后我
+
+_
+
+like I
+如我
+
+_
+
+try it
+试试
+
+_
+
+with C
+与C
+
+_
+
+Not at
+不是在
+
+_
+
+one is
+一个是
+
+_
+
+Now it
+现在它
+
+_
+
+who is
+谁是谁
+
+_
+
+it was
+它是
+
+_
+
+a fact
+一个事实
+
+_
+
+guy is
+男孩是
+
+_
+
+I told
+我说
+
+_
+
+got so
+得如此
+
+_
+
+at his
+在他的
+
+_
+
+I look
+我看
+
+_
+
+do now
+现在做
+
+_
+
+say if
+说如果
+
+_
+
+use at
+使用在
+
+_
+
+you be
+你是
+
+_
+
+is our
+是我们的
+
+_
+
+it all
+这一切
+
+_
+
+got my
+得到我的
+
+_
+
+my new
+我的新
+
+_
+
+use my
+使用我的
+
+_
+
+a line
+一条线
+
+_
+
+put an
+把一
+
+_
+
+but if
+但是如果
+
+_
+
+and in
+而在
+
+_
+
+day in
+日内
+
+_
+
+me the
+我的The
+
+_
+
+be one
+成为一个
+
+_
+
+can he
+可以他
+
+_
+
+day of
+那一天的
+
+_
+
+a hard
+一个硬
+
+_
+
+a huge
+一个巨大的
+
+_
+
+Wait a
+等待一个
+
+_
+
+a blog
+一个博客
+
+_
+
+a song
+一首歌
+
+_
+
+in big
+在大
+
+_
+
+read a
+阅读 一个
+
+_
+
+no way
+没有路
+
+_
+
+on bed
+床上
+
+_
+
+I like
+我喜欢
+
+_
+
+I'm on
+我在
+
+_
+
+as far
+到达
+
+_
+
+and y
+和Y
+
+_
+
+if ok
+如果OK
+
+_
+
+as an
+作为一个
+
+_
+
+to be
+要是
+
+_
+
+try a
+尝试 一个
+
+_
+
+a new
+一个新
+
+_
+
+a job
+一份工作
+
+_
+
+add a
+添加一个
+
+_
+
+it as
+它如
+
+_
+
+to go
+去去
+
+_
+
+we go
+我们去
+
+_
+
+go to
+去去
+
+_
+
+I got
+我得到了
+
+_
+
+if it
+如果它
+
+_
+
+if we
+如果我们
+
+_
+
+me in
+我在
+
+_
+
+in my
+在我
+
+_
+
+is to
+是为了
+
+_
+
+it is
+它是
+
+_
+
+it to
+它为
+
+_
+
+of my
+我的
+
+_
+
+so on
+如上
+
+_
+
+and b
+和B
+
+_
+
+id in
+ID 在
+
+_
+
+for a
+為 一个
+
+_
+
+up by
+向上
+
+_
+
+do is
+Do 是
+
+_
+
+to do
+要做
+
+_
+
+to it
+到它
+
+_
+
+you a
+你 一个
+
+_
+
+the '
+“The”
+
+_
+
+I was
+我是
+
+_
+
+of Go
+去的
+
+_
+
+and i
+和我
+
+_
+
+see a
+看 一个
+
+_
+
+a and
+A和
+
+_
+
+are a
+是一个
+
+_
+
+is an
+是一个
+
+_
+
+us to
+我们为
+
+_
+
+get a
+得到一个
+
+_
+
+a few
+一些
+
+_
+
+has a
+有 一个
+
+_
+
+do it
+做它
+
+_
+
+We do
+我们做
+
+_
+
+it in
+它在
+
+_
+
+on it
+在它上
+
+_
+
+If we
+如果我们
+
+_
+
+on my
+在我
+
+_
+
+as tf
+如 tf
+
+_
+
+as np
+如NP
+
+_
+
+a bug
+一个BUG
+
+_
+
+a box
+一盒子
+
+_
+
+is at
+是在
+
+_
+
+a key
+一个钥匙
+
+_
+
+of an
+其中一
+
+_
+
+is in
+是在
+
+_
+
+to me
+為我
+
+_
+
+and c
+和C
+
+_
+
+run a
+跑 一个
+
+_
+
+a set
+一套
+
+_
+
+it do
+它做
+
+_
+
+in os
+在 OS
+
+_
+
+a lot
+很多
+
+_
+
+is OK
+是OK
+
+_
+
+we do
+我们做
+
+_
+
+if no
+如果不
+
+_
+
+and a
+和一个
+
+_
+
+as if
+就像如果
+
+_
+
+in an
+在一
+
+_
+
+It is
+它是
+
+_
+
+if re
+如果R
+
+_
+
+be in
+要在
+
+_
+
+a URL
+一个URL
+
+_
+
+N and
+N 和
+
+_
+
+got a
+得到一个
+
+_
+
+in it
+在它
+
+_
+
+I'm a
+我是一个
+
+_
+
+can I
+我可以
+
+_
+
+a man
+一个男人
+
+_
+
+or in
+或在
+
+_
+
+I did
+我做了
+
+_
+
+I see
+我看到
+
+_
+
+a one
+一一
+
+_
+
+is so
+是这样的
+
+_
+
+int a
+以 一个
+
+_
+
+and I
+和我
+
+_
+
+as it
+如它
+
+_
+
+a bad
+一个坏
+
+_
+
+a non
+一不
+
+_
+
+let r
+让R
+
+_
+
+be as
+要像
+
+_
+
+it at
+它在
+
+_
+
+did a
+做了一个
+
+_
+
+all I
+所有我
+
+_
+
+so it
+因此它
+
+_
+
+it be
+它是
+
+_
+
+do we
+我们做
+
+_
+
+is no
+是不
+
+_
+
+I can
+我可以
+
+_
+
+up to
+上到
+
+_
+
+To do
+要做
+
+_
+
+to my
+到我
+
+_
+
+I say
+我说
+
+_
+
+I use
+我使用
+
+_
+
+set a
+设置 一个
+
+_
+
+of it
+其中的
+
+_
+
+so we
+所以我们
+
+_
+
+put a
+把一个
+
+_
+
+I saw
+我看到了
+
+_
+
+use a
+使用 一个
+
+_
+
+it if
+如果它
+
+_
+
+me to
+我为
+
+_
+
+me is
+我是
+
+_
+
+a web
+一网
+
+_
+
+Go to
+去去
+
+_
+
+to an
+到一
+
+_
+
+of us
+我們的
+
+_
+
+so to
+這樣的
+
+_
+
+Do it
+做它
+
+_
+
+as we
+如我们
+
+_
+
+why I
+為什麼我
+
+_
+
+is my
+是我的
+
+_
+
+Is it
+是它
+
+_
+
+go on
+走上
+
+_
+
+at it
+在它
+
+_
+
+do in
+做在
+
+_
+
+or an
+或一
+
+_
+
+AI to
+谁为
+
+_
+
+Add a
+添加 一个
+
+_
+
+and C
+和C
+
+_
+
+but a
+但是一个
+
+_
+
+but I
+但我
+
+_
+
+how a
+如何一个
+
+_
+
+to us
+为我们
+
+_
+
+I get
+我得到
+
+_
+
+a big
+一大
+
+_
+
+do to
+做到
+
+_
+
+it up
+它上
+
+_
+
+it by
+它由
+
+_
+
+is it
+是它
+
+_
+
+had a
+有 一个
+
+_
+
+To be
+要是
+
+_
+
+a way
+一条路
+
+_
+
+So in
+所以在
+
+_
+
+do an
+做一个
+
+_
+
+buy a
+購買 一个
+
+_
+
+he do
+他做
+
+_
+
+way I
+方式 I
+
+_
+
+If it
+如果它
+
+_
+
+not a
+不是一个
+
+_
+
+up on
+登上
+
+_
+
+now I
+现在我
+
+_
+
+be no
+是不
+
+_
+
+be an
+成为一个
+
+_
+
+it on
+它在
+
+_
+
+do so
+这样做
+
+_
+
+in IT
+在 IT
+
+_
+
+So if
+所以如果
+
+_
+
+I may
+我可能
+
+_
+
+So we
+所以我们
+
+_
+
+or be
+或是
+
+_
+
+to re
+到 Re
+
+_
+
+go in
+走进
+
+_
+
+saw a
+看见一个
+
+_
+
+He is
+他是
+
+_
+
+as my
+如我
+
+_
+
+or to
+或为
+
+_
+
+to AI
+到 AI
+
+_
+
+be so
+要这样
+
+_
+
+do at
+做在
+
+_
+
+go up
+去上
+
+_
+
+id of
+ID 的
+
+_
+
+a try
+一个尝试
+
+_
+
+i in
+我在
+
+_
+
+if a
+如果 一个
+
+_
+
+if x
+如果X
+
+_
+
+y in
+和在
+
+_
+
+x in
+x 在
+
+_
+
+as a
+如 一个
+
+_
+
+do a
+做 一个
+
+_
+
+I go
+我去
+
+_
+
+j in
+J在
+
+_
+
+be a
+是一个
+
+_
+
+if i
+如果我
+
+_
+
+if y
+如果 Y
+
+_
+
+of C
+C 的
+
+_
+
+is a
+是一个
+
+_
+
+or a
+或一个
+
+_
+
+to a
+到 一个
+
+_
+
+if s
+如果 s
+
+_
+
+l in
+L 在
+
+_
+
+n in
+n 在
+
+_
+
+if v
+如果 v
+
+_
+
+if n
+如果 n
+
+_
+
+if j
+如果J
+
+_
+
+v in
+V 在
+
+_
+
+by a
+由 一个
+
+_
+
+in a
+在一个
+
+_
+
+of a
+由 一个
+
+_
+
+If a
+如果 一个
+
+_
+
+if e
+如果 e
+
+_
+
+e in
+E 在
+
+_
+
+in c
+在C
+
+_
+
+as f
+如f
+
+_
+
+as e
+如 e
+
+_
+
+if l
+如果L
+
+_
+
+if c
+如果 c
+
+_
+
+c in
+C 在
+
+_
+
+as I
+如我
+
+_
+
+if k
+如果 k
+
+_
+
+in s
+在 s
+
+_
+
+in l
+在L
+
+_
+
+on a
+在一个
+
+_
+
+it a
+它 一个
+
+_
+
+if I
+如果我
+
+_
+
+in d
+在D
+
+_
+
+a in
+A 在
+
+_
+
+in A
+在一个
+
+_
+
+b in
+B 在
+
+_
+
+in b
+在B
+
+_
+
+as i
+如我
+
+_
+
+if A
+如果 一个
+
+_
+
+I do
+我做
+
+_
+
+in S
+在S
+
+_
+
+in r
+在r
+
+_
+
+me a
+我 一个
+
+_
+
+at a
+在一个
+
+_
+
+s in
+s 在
+
+_
+
+I am
+我是
+
+_
+
+up a
+升 一个
+
+_
+
+so I
+所以我
+
+_
+
+So a
+如 一个
+
+_
+
+a US
+一米
+
+_
+
+As a
+如 一个
+
+_
+
+is I
+是我
+
+_
+
+am a
+我是一个
+
+_
+
+' to
+“到
+
+_
+
+a go
+一去
+
+_
+
+Be a
+是一个
+
+_
