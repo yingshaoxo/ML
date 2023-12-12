@@ -9,9 +9,17 @@ python3.10 -m pip install -r requirements.txt
 ```
 
 ## Run it
-```bash
-python3.10 main.py
-```
+
+I use hard coding method to play mario.
+
+For `yingshaoxo_method.py`
+
+Press number 6 to let AI to play mario
+
+Press number 0, 1, 2 to manually play and add data for mario
+
+Press q to quit
+
 
 ## Advanced Solution 1
 
