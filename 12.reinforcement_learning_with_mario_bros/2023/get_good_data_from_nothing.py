@@ -34,6 +34,7 @@ from nes_py.wrappers import JoypadSpace
 import gym_super_mario_bros
 env = gym_super_mario_bros.make('SuperMarioBros-v2', apply_api_compatibility=True, render_mode="human")
 MY_MARIO_MOVEMENT = [
+    ['NOOP'],
     ['right', 'B'],
     #['right'],
     ['A'],
@@ -120,7 +121,7 @@ def get_image_feature_vector_data(image) -> str:
     text = str(image.tolist())
     #hash_code = string_.get_fuzz_hash(text, level=512)
     #hash_code = string_.get_fuzz_hash(text, level=sequence_length)
-    hash_code = string_.get_fuzz_hash(text, level=1024, seperator="")
+    hash_code = string_.get_fuzz_hash(text, level=5, seperator="")
     return hash_code
 
 def get_merged_feature(image, other_data) -> str:
@@ -256,9 +257,10 @@ processed_data_id_set = set()
 while True:
     last_state = get_last_state()
     #additional_data = {"speed": speed, "y_position": "".join(y_position_list)} #, "x_position": "".join([str(one) for one in x_position_list])
-    str_speed = str(speed)[:3].rjust(3, '0') # padding for the right string
-    str_y_position = str(y_position_list[-1]).rjust(3, '0')
-    additional_data = str_speed + "+" + str_y_position
+    #str_speed = str(speed)[:3].rjust(3, '0') # padding for the right string
+    #str_y_position = str(y_position_list[-1]).rjust(3, '0')
+    #additional_data = str_speed + "+" + str_y_position
+    additional_data = ""
     action = None
 
     """
