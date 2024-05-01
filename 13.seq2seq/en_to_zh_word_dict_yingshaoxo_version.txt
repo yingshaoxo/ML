@@ -1,3 +1,138 @@
+diying
+快死
+
+_
+
+earlier
+更早
+
+_
+
+made
+做了
+
+_
+
+met
+见
+
+_
+
+had
+[]
+
+_
+
+don't
+不
+
+_
+
+took
+拿
+
+_
+
+speaking
+讲
+
+_
+
+giving
+给
+
+_
+
+getting
+得到
+
+_
+
+ways
+方法
+
+_
+
+having
+有
+
+_
+
+worries
+忧虑
+
+_
+
+Forbidden
+被禁止的
+
+_
+
+difficulties
+困难
+
+_
+
+was
+是
+
+_
+
+taught
+教授
+
+_
+
+largest
+最大的
+
+_
+
+has
+有
+
+_
+
+Hong Kong
+香港
+
+_
+
+known
+知道
+
+_
+
+reconsider
+重新考虑
+
+_
+
+America
+美国
+
+_
+
+i
+我
+
+_
+
+ms.
+女士
+
+_
+
+mr.
+先生
+
+_
+
+I'm
+我是
+
+_
+
 The Dragon Boat Festival
 《龙船节》
 
@@ -1379,7 +1514,7 @@ authoritative
 _
 
 pronunciation
-发言
+发音
 
 _
 
@@ -2093,8 +2228,8 @@ manipulation
 
 _
 
-Beijing Duck
-北京公爵
+Beijing
+北京
 
 _
 
@@ -5058,8 +5193,8 @@ orderliness
 
 _
 
-traffic jam
-交通 Jam
+traffic
+交通
 
 _
 
@@ -10919,7 +11054,7 @@ precisely
 _
 
 overnight
-过夜
+一夜之间
 
 _
 
@@ -15339,7 +15474,7 @@ wherever
 _
 
 position
-立场
+位置
 
 _
 
@@ -15854,7 +15989,7 @@ Canadian
 _
 
 sentence
-判决
+句子
 
 _
 
@@ -16159,7 +16294,7 @@ futility
 _
 
 possible
-可能
+可能的
 
 _
 
@@ -16384,7 +16519,7 @@ original
 _
 
 question
-问答
+问题
 
 _
 
@@ -16829,7 +16964,7 @@ analogue
 _
 
 lifetime
-寿命
+生命
 
 _
 
@@ -19723,10 +19858,6 @@ converse
 
 _
 
-duckling
-杜克林
-
-_
 
 epidemic
 流行病
@@ -21484,7 +21615,7 @@ dolphin
 _
 
 granted
-授予
+被允许
 
 _
 
@@ -25074,7 +25205,7 @@ steward
 _
 
 realize
-實現
+意识到
 
 _
 
@@ -25724,7 +25855,7 @@ product
 _
 
 crowded
-繁忙
+拥挤
 
 _
 
@@ -25983,7 +26114,7 @@ pattern
 
 _
 
-English
+english
 英语
 
 _
@@ -27329,7 +27460,7 @@ acting
 _
 
 expect
-等待
+期待
 
 _
 
@@ -28499,7 +28630,7 @@ banner
 _
 
 others
-其他人
+其他的
 
 _
 
@@ -28614,7 +28745,7 @@ peanut
 _
 
 slowly
-慢慢的
+慢慢地
 
 _
 
@@ -30534,7 +30665,7 @@ broken
 _
 
 happen
-發生
+发生
 
 _
 
@@ -32514,7 +32645,7 @@ appeal
 _
 
 matter
-物质
+重要
 
 _
 
@@ -33754,7 +33885,7 @@ insist
 _
 
 custom
-卡斯特
+习惯
 
 _
 
@@ -33995,11 +34126,6 @@ _
 
 sauce
 酱油
-
-_
-
-or so
-或如
 
 _
 
@@ -34494,7 +34620,7 @@ flood
 _
 
 waste
-废物
+浪费
 
 _
 
@@ -34639,7 +34765,7 @@ never
 _
 
 wrong
-错误
+错的
 
 _
 
@@ -35169,7 +35295,7 @@ worry
 _
 
 there
-在那里
+那里
 
 _
 
@@ -36669,7 +36795,7 @@ skull
 _
 
 write
-写作
+写
 
 _
 
@@ -37279,7 +37405,7 @@ cruel
 _
 
 about
-關於
+关于
 
 _
 
@@ -37849,7 +37975,7 @@ hardy
 _
 
 those
-这些人
+那些人
 
 _
 
@@ -39204,7 +39330,7 @@ shove
 _
 
 speak
-说话
+说
 
 _
 
@@ -39304,7 +39430,7 @@ snack
 _
 
 first
-首先
+第一个
 
 _
 
@@ -40249,7 +40375,7 @@ upon
 _
 
 come
-来吧
+来
 
 _
 
@@ -41749,7 +41875,7 @@ poem
 _
 
 duck
-杜克
+鸭
 
 _
 
@@ -41959,7 +42085,7 @@ axis
 _
 
 love
-爱情
+爱
 
 _
 
@@ -42054,7 +42180,7 @@ walk
 _
 
 mind
-心智
+[心智|在意]
 
 _
 
@@ -42129,7 +42255,7 @@ over
 _
 
 care
-照顾
+[照顾|关心]
 
 _
 
@@ -42139,7 +42265,7 @@ want
 _
 
 than
-如
+比起
 
 _
 
@@ -43119,8 +43245,7 @@ skin
 _
 
 were
-他们是
-
+[]
 _
 
 noon
@@ -43539,7 +43664,7 @@ aide
 _
 
 like
-如同
+喜欢
 
 _
 
@@ -43774,7 +43899,7 @@ idly
 _
 
 that
-这
+[那]
 
 _
 
@@ -43934,7 +44059,7 @@ Flip
 _
 
 stay
-留下
+留
 
 _
 
@@ -44164,7 +44289,7 @@ wife
 _
 
 hate
-仇恨
+恨
 
 _
 
@@ -44174,7 +44299,7 @@ cent
 _
 
 face
-面孔
+[面对|面孔]
 
 _
 
@@ -44454,7 +44579,7 @@ sky
 _
 
 the
-其它
+[那个]
 
 _
 
@@ -44789,7 +44914,7 @@ ear
 _
 
 may
-可
+可能
 
 _
 
@@ -44994,7 +45119,7 @@ out
 _
 
 for
-為
+[为|对于]
 
 _
 
@@ -45239,7 +45364,7 @@ rag
 _
 
 too
-也
+[太]
 
 _
 
@@ -45348,13 +45473,18 @@ jog
 
 _
 
+won
+赢
+
+_
+
 win
-获胜
+赢
 
 _
 
 pay
-付款
+付出
 
 _
 
@@ -45474,7 +45604,7 @@ hay
 _
 
 kid
-男孩
+孩子
 
 _
 
@@ -45809,7 +45939,7 @@ leg
 _
 
 tin
-泰因
+锡
 
 _
 
@@ -45938,6 +46068,11 @@ joy
 
 _
 
+jam
+堵塞
+
+_
+
 act
 行动
 
@@ -45994,7 +46129,7 @@ PS
 _
 
 am
-我是
+是
 
 _
 
@@ -46024,7 +46159,7 @@ in
 _
 
 to
-到
+[到|去|对于]
 
 _
 
@@ -46059,12 +46194,12 @@ he
 _
 
 be
-是的
+是
 
 _
 
 by
-由
+通过
 
 _
 
@@ -46154,14 +46289,7 @@ ax
 _
 
 of
-由
+[对于|从]
 
 _
 
-a
-A
-
-_
-
-I
-I
