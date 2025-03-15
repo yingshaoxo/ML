@@ -8,6 +8,18 @@ sudo apt install pip -y
 python3.10 -m pip install -r requirements.txt
 ```
 
+## Install
+```
+pip install gym-super-mario-bros=7.4.0
+
+pip install gym==0.17.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install numpy==1.26 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+conda install -c conda-forge gcc
+```
+
 ## Run it
 
 I use hard coding method to play mario.
