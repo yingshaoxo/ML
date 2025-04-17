@@ -8,7 +8,7 @@
         "test": "python crazy_yingshaoxo_test.py",
         "train": "python crazy_yingshaoxo_traning.py",
         "translate": "python translation_test.py",
-        "audio_chat": "python audio_chat_test.py"
+        "audio_chat": "python audio_chat_test_cn.py"
     },
     "dependencies": [
         "git+https://github.com/yingshaoxo/auto_everything.git@dev",
