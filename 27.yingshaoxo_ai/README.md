@@ -9,3 +9,5 @@
 感觉就是为了减少重复劳动搞的这种东西，用于代码补全真的很爽
 
 但主要的价值，在于100GB的代码数据库，而不是我这个程序。我这个程序只是在更精准的查阅数据库
+
+Well, the main problem is relay on the human resources. If I have enough people who can code, I could write 10MB of if-else stuff to handle input_sentence, so that it could generate output_sentence in a reasonable way. If-else to handle meaning group and also use recursive function to do the divide and conquer.
