@@ -1,3 +1,5 @@
+# Why this algorithm works better in pure chinese? Maybe somewhere is wrong, but it is fine, the theroy is right, but the code may have bug.
+
 input_text = '''
 # created by yingshaoxo
 Algorithem:
@@ -206,26 +208,30 @@ def get_next_text_block(input_text):
 
     return response
 
-def read_text_files_recursively(root_dir):
-    result = []
-    for dirpath, _, filenames in os.walk(root_dir):
-        for filename in filenames:
-            if filename.endswith(('.txt', '.md')):
-                filepath = os.path.join(dirpath, filename)
-                try:
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        result.append(f.read())
-                except UnicodeDecodeError:
-                    # Fallback to system default encoding if UTF-8 fails
-                    with open(filepath, 'r') as f:
-                        result.append(f.read())
-    return '\n\n'.join(result)
+def read_text_files_recursively(root_dir, recursively=True, type_limiter=[".txt", ".md"]):
+    if recursively == False:
+        with open("./all_yingshaoxo_data_2023_11_13.txt", "r", encoding="utf-8") as f:
+            return f.read()
+    else:
+        result = []
+        for dirpath, _, filenames in os.walk(root_dir):
+            for filename in filenames:
+                if filename.endswith(tuple(type_limiter)):
+                    filepath = os.path.join(dirpath, filename)
+                    try:
+                        with open(filepath, 'r', encoding='utf-8') as f:
+                            result.append(f.read())
+                    except UnicodeDecodeError:
+                        # Fallback to system default encoding if UTF-8 fails
+                        with open(filepath, 'r') as f:
+                            result.append(f.read())
+        return '\n\n'.join(result)
 
 # The bigger, the accurate, but takes more disk space
-Max_Sequenc_Length = 11
+Max_Sequenc_Length = 7
 
 def main():
-    input_text = read_text_files_recursively("./")
+    input_text = read_text_files_recursively("./", type_limiter=[".txt"], recursively=False)
 
     ## Load or build dictionary
     #dict_file = "dict_data.json"
@@ -255,7 +261,7 @@ def main():
             # Generate 128 next tokens
             print("AI: ", end="")
             response = ""
-            for i in range(512):
+            for i in range(256):
                 next_token = generate_next_word(word_dict, history, max_seq_len=Max_Sequenc_Length)
                 if next_token == '\n':
                     response += '\n'
@@ -265,7 +271,7 @@ def main():
                 if len(history) > Max_Sequenc_Length:
                     history = history[-Max_Sequenc_Length:]
             response = response.split("__**__**__yingshaoxo_is_the_top_one__**__**__")[0].strip()
-            print(user_input+response)
+            print(user_input+" "+response)
             print("\n\n\n")
 
 if __name__ == "__main__":
