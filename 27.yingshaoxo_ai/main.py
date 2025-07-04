@@ -206,25 +206,39 @@ def get_next_text_block(input_text):
 
     return response
 
+def read_text_files_recursively(root_dir):
+    result = []
+    for dirpath, _, filenames in os.walk(root_dir):
+        for filename in filenames:
+            if filename.endswith(('.txt', '.md')):
+                filepath = os.path.join(dirpath, filename)
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        result.append(f.read())
+                except UnicodeDecodeError:
+                    # Fallback to system default encoding if UTF-8 fails
+                    with open(filepath, 'r') as f:
+                        result.append(f.read())
+    return '\n\n'.join(result)
+
 # The bigger, the accurate, but takes more disk space
 Max_Sequenc_Length = 11
 
 def main():
-    try:
-        with open("all_yingshaoxo_data_2023_11_13.txt", "r", encoding="utf-8") as f:
-            input_text = f.read()
-    except Exception as e:
-        pass
+    input_text = read_text_files_recursively("./")
 
-    # Load or build dictionary
-    dict_file = "dict_data.json"
-    word_dict = load_dict_from_json(dict_file)
-    if word_dict is None:
-        print("Building dictionary from input text...")
-        word_dict = build_word_sequences(input_text, max_seq_len=Max_Sequenc_Length)
-        save_dict_to_json(word_dict, dict_file)
-    else:
-        print(f"Loaded dictionary from {dict_file}")
+    ## Load or build dictionary
+    #dict_file = "dict_data.json"
+    #word_dict = load_dict_from_json(dict_file)
+    #if word_dict is None:
+    #    print("Building dictionary from input text...")
+    #    word_dict = build_word_sequences(input_text, max_seq_len=Max_Sequenc_Length)
+    #    save_dict_to_json(word_dict, dict_file)
+    #else:
+    #    print(f"Loaded dictionary from {dict_file}")
+
+    print("Building dictionary from input text...")
+    word_dict = build_word_sequences(input_text, max_seq_len=Max_Sequenc_Length)
 
     # Chatbot interface
     print("\nWelcome to the AI Chatbot! Type 'quit' to exit.")
@@ -241,7 +255,7 @@ def main():
             # Generate 128 next tokens
             print("AI: ", end="")
             response = ""
-            for i in range(1024):
+            for i in range(512):
                 next_token = generate_next_word(word_dict, history, max_seq_len=Max_Sequenc_Length)
                 if next_token == '\n':
                     response += '\n'
@@ -251,7 +265,8 @@ def main():
                 if len(history) > Max_Sequenc_Length:
                     history = history[-Max_Sequenc_Length:]
             response = response.split("__**__**__yingshaoxo_is_the_top_one__**__**__")[0].strip()
-            print(response)
+            print(user_input+response)
+            print("\n\n\n")
 
 if __name__ == "__main__":
     main()
